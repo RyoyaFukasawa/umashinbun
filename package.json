@@ -13,8 +13,9 @@
     "ingest": "node --experimental-strip-types scripts/ingest.ts",
     "build-races": "node --experimental-strip-types scripts/build-races.ts",
     "build-horses-sires": "node --experimental-strip-types scripts/build-horses-sires.ts",
+    "build-entities": "node --experimental-strip-types scripts/build-entities.ts",
     "build-md": "node --experimental-strip-types scripts/build-markdown.ts",
-    "build": "npm run build-races && npm run build-horses-sires && npm run build-md",
+    "build": "npm run build-races && npm run build-horses-sires && npm run build-entities && npm run build-md",
     "query": "node --experimental-strip-types scripts/query.ts"
   }
 }

@@ -16,6 +16,7 @@ export const DB_PATH = join(__dirname, "..", "digest.db");
  */
 export const ARTICLES_JSON = join(__dirname, "..", "articles.json");
 export const RACES_JSON = join(__dirname, "..", "races.json");
+export const HORSES_PROFILE_JSON = join(__dirname, "..", "horses-profile.json");
 
 /**
  * 馬名・種牡馬名 → ファイル名/URLセーフな文字列。
@@ -49,6 +50,16 @@ export interface ArticleRow {
    * この記事に登場する種牡馬名（要約Claudeが抽出）。同上のタブ区切り。
    */
   sires: string;
+  /**
+   * この記事に登場する騎手名（要約Claudeが抽出）。同上のタブ区切り。
+   * 「○○が騎乗予定」「○○が騎乗した」のように騎乗の文脈で言及された人だけ拾う。
+   */
+  jockeys: string;
+  /**
+   * この記事に登場する調教師名（要約Claudeが抽出）。同上のタブ区切り。
+   * 厩舎・調教師としての文脈で言及された人。
+   */
+  trainers: string;
   created_at: string;
 }
 
@@ -96,6 +107,74 @@ export function readRaces(path: string = RACES_JSON): Race[] {
   return raw as Race[];
 }
 
+// ---- 馬の事典メタ（horses-profile.json） -------------------------------------
+// 「この馬は何者か」を持つストック情報。RSS記事(フロー)とは別に蓄積する。
+// 父・母・母父・生産者・馬主・調教師は「他の馬と共有される人物・組織」なので
+// それぞれ専用ページにリンクさせる前提で名前(文字列)のまま持つ。
+
+export interface MajorWin {
+  /** "G1" / "G2" / "G3" / "OP" など */
+  grade: string;
+  /** レース名（races.json の name と揃える必要は無い。物語の語彙でよい） */
+  name: string;
+  /** YYYY または YYYY-MM-DD */
+  year: string;
+}
+
+export interface HorseProfile {
+  /** YYYY-MM-DD。不明なら空文字 */
+  born: string;
+  /** "牡" / "牝" / "セ" */
+  sex: string;
+  /** 任意。"鹿毛" など */
+  coat?: string;
+  /** 父（種牡馬名） */
+  sire: string;
+  /** 母（繁殖牝馬名） */
+  dam: string;
+  /** 母父（種牡馬名）。"BMS" とも */
+  damsire: string;
+  /** 生産者・牧場名 */
+  breeder: string;
+  /** 馬主名 */
+  owner: string;
+  /** 調教師名 */
+  trainer: string;
+  /**
+   * よく組む(組んだ)主戦騎手。1〜2人だけ。多すぎたら最近の人だけにする。
+   * "主戦" は明確に定義しづらいので、Wikipedia 等で言及されている人を入れる。
+   */
+  main_jockeys: string[];
+  /** 通算成績の自由文。"16戦8勝(中央13戦8勝、海外3戦0勝)" のような形式 */
+  record: string;
+  /** 主要勝利レース。新しい順に並べる */
+  major_wins: MajorWin[];
+  /** 「得意・特徴」を箇条書きで何項目か。"差し脚 / 中距離向き" など */
+  strengths: string[];
+  /** 1〜2文の物語的記述（任意） */
+  story?: string;
+  /** 出典URL（Wikipedia の馬個別ページ等） */
+  source_url?: string;
+}
+
+export type HorseProfileMap = Record<string, HorseProfile>;
+
+export function readHorseProfiles(path: string = HORSES_PROFILE_JSON): HorseProfileMap {
+  if (!existsSync(path)) return {};
+  const raw = JSON.parse(readFileSync(path, "utf-8"));
+  if (typeof raw !== "object" || raw === null || Array.isArray(raw)) {
+    throw new Error("horses-profile.json はオブジェクト（馬名→プロフィール）である必要があります");
+  }
+  return raw as HorseProfileMap;
+}
+
+export function writeHorseProfiles(map: HorseProfileMap, path: string = HORSES_PROFILE_JSON): void {
+  // 馬名(キー)で安定ソート
+  const sorted: HorseProfileMap = {};
+  for (const k of Object.keys(map).sort()) sorted[k] = map[k];
+  writeFileSync(path, JSON.stringify(sorted, null, 2) + "\n", "utf-8");
+}
+
 /** races.json を書く。id 昇順で安定ソート（git 差分の安定化）。 */
 export function writeRaces(races: Race[], path: string = RACES_JSON): void {
   const sorted = [...races].sort((a, b) => a.id.localeCompare(b.id));
@@ -111,7 +190,7 @@ export function readArticles(path: string = ARTICLES_JSON): StoredArticle[] {
   if (!existsSync(path)) return [];
   const raw = JSON.parse(readFileSync(path, "utf-8"));
   if (!Array.isArray(raw)) throw new Error("articles.json は配列である必要があります");
-  // 旧スキーマ（race_id / horses / sires を持たない）との後方互換
+  // 旧スキーマとの後方互換（jockeys/trainers は後から追加されたフィールド）
   return (raw as Partial<StoredArticle>[]).map((a) => ({
     date: a.date ?? "",
     category: a.category ?? "",
@@ -123,6 +202,8 @@ export function readArticles(path: string = ARTICLES_JSON): StoredArticle[] {
     race_id: a.race_id ?? null,
     horses: a.horses ?? "",
     sires: a.sires ?? "",
+    jockeys: a.jockeys ?? "",
+    trainers: a.trainers ?? "",
     created_at: a.created_at ?? "",
   }));
 }
@@ -186,6 +267,8 @@ export function openDb(path: string = ":memory:"): DatabaseSync {
       race_id     TEXT,
       horses      TEXT    NOT NULL DEFAULT '',
       sires       TEXT    NOT NULL DEFAULT '',
+      jockeys     TEXT    NOT NULL DEFAULT '',
+      trainers    TEXT    NOT NULL DEFAULT '',
       created_at  TEXT    DEFAULT (datetime('now'))
     );
     CREATE INDEX idx_articles_date     ON articles(date);
@@ -207,8 +290,9 @@ export function openDb(path: string = ":memory:"): DatabaseSync {
   // articles を投入
   const articleStmt = db.prepare(`
     INSERT OR IGNORE INTO articles
-      (date, category, source, title_ja, title_en, url, summary, race_id, horses, sires, created_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      (date, category, source, title_ja, title_en, url, summary,
+       race_id, horses, sires, jockeys, trainers, created_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const articles = [...readArticles()].sort(
     (a, b) =>
@@ -219,7 +303,7 @@ export function openDb(path: string = ":memory:"): DatabaseSync {
   for (const a of articles) {
     articleStmt.run(
       a.date, a.category, a.source, a.title_ja, a.title_en, a.url, a.summary,
-      a.race_id, a.horses, a.sires, a.created_at,
+      a.race_id, a.horses, a.sires, a.jockeys, a.trainers, a.created_at,
     );
   }
 
@@ -315,14 +399,59 @@ export function horseCounts(db: DatabaseSync): Array<{ name: string; count: numb
 }
 
 export function sireCounts(db: DatabaseSync): Array<{ name: string; count: number }> {
-  const rows = db.prepare(`SELECT sires FROM articles WHERE sires != ''`).all() as { sires: string }[];
+  return tabColumnCounts(db, "sires");
+}
+
+export function jockeyCounts(db: DatabaseSync): Array<{ name: string; count: number }> {
+  return tabColumnCounts(db, "jockeys");
+}
+
+export function trainerCounts(db: DatabaseSync): Array<{ name: string; count: number }> {
+  return tabColumnCounts(db, "trainers");
+}
+
+export function articlesByJockey(db: DatabaseSync, name: string): ArticleRow[] {
+  return articlesByTabColumn(db, "jockeys", name);
+}
+
+export function articlesByTrainer(db: DatabaseSync, name: string): ArticleRow[] {
+  return articlesByTabColumn(db, "trainers", name);
+}
+
+/**
+ * タブ区切り文字列カラム（horses/sires/jockeys/trainers）の汎用集計。
+ * SQL でカラム名をパラメタライズ出来ないので、ホワイトリスト経由でビルド時に決める。
+ */
+function tabColumnCounts(
+  db: DatabaseSync,
+  column: "horses" | "sires" | "jockeys" | "trainers",
+): Array<{ name: string; count: number }> {
+  const rows = db.prepare(`SELECT ${column} AS v FROM articles WHERE ${column} != ''`).all() as { v: string }[];
   const tally = new Map<string, number>();
   for (const r of rows) {
-    for (const name of r.sires.split("\t").filter(Boolean)) {
+    for (const name of r.v.split("\t").filter(Boolean)) {
       tally.set(name, (tally.get(name) ?? 0) + 1);
     }
   }
   return [...tally.entries()]
     .map(([name, count]) => ({ name, count }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+}
+
+function articlesByTabColumn(
+  db: DatabaseSync,
+  column: "horses" | "sires" | "jockeys" | "trainers",
+  name: string,
+): ArticleRow[] {
+  const pattern = `%${name}%`;
+  const rows = db
+    .prepare(`SELECT * FROM articles WHERE ${column} LIKE ? ORDER BY date DESC, id DESC`)
+    .all(pattern) as ArticleRow[];
+  return rows.filter((r) => {
+    const v = column === "horses" ? r.horses
+            : column === "sires" ? r.sires
+            : column === "jockeys" ? r.jockeys
+            : r.trainers;
+    return v.split("\t").includes(name);
+  });
 }

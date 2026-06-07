@@ -10,9 +10,11 @@
 //     "title_en": "原題（日本語ソースなら同じでよい）",
 //     "url": "https://...",
 //     "summary": "8〜10行の日本語要約（改行は \\n で表現）",
-//     "race_id": "2026-takarazuka-kinen",  // 紐づくレースの id、無ければ null/省略可
-//     "horses": ["ドウデュース", "イクイノックス"],  // 登場馬名（無ければ [] / 省略可）
-//     "sires":  ["ハーツクライ", "キタサンブラック"]  // 登場種牡馬（無ければ [] / 省略可）
+//     "race_id":  "2026-takarazuka-kinen",  // 紐づくレースの id、無ければ null/省略可
+//     "horses":   ["ドウデュース", "イクイノックス"],  // 登場馬名（無ければ [] / 省略可）
+//     "sires":    ["ハーツクライ", "キタサンブラック"],  // 登場種牡馬
+//     "jockeys":  ["武豊", "ルメール"],                  // 登場騎手
+//     "trainers": ["友道康夫", "石橋守"]                 // 登場調教師
 //   }, ...
 // ]
 
@@ -63,6 +65,8 @@ function validate(items: unknown): NewArticle[] {
       race_id: typeof a.race_id === "string" && a.race_id.trim() !== "" ? a.race_id : null,
       horses: asStringArray(a.horses).join("\t"),
       sires: asStringArray(a.sires).join("\t"),
+      jockeys: asStringArray(a.jockeys).join("\t"),
+      trainers: asStringArray(a.trainers).join("\t"),
     });
   }
   return out;

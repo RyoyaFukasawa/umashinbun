@@ -91,8 +91,13 @@ function renderReadme(db: ReturnType<typeof openDb>): string {
   lines.push("## 入口");
   lines.push("");
   lines.push("- 🏆 **レース別**: [races/](races/README.md) — 各レースの展望と出走予定馬の関連記事が1ページに集約");
-  lines.push("- 🐎 **馬別**: [horses/](horses/README.md) — 3記事以上で言及された馬の専用ページ");
-  lines.push("- 🌱 **種牡馬別**: [sires/](sires/README.md) — 3記事以上で言及された種牡馬の専用ページ");
+  lines.push("- 🐎 **馬別**: [horses/](horses/README.md) — 各馬の事典(プロフィール+血統+主要勝利)と関連記事");
+  lines.push("- 🌱 **種牡馬別**: [sires/](sires/README.md) — 産駒の話題が集まる種牡馬ページ");
+  lines.push("- 🎓 **調教師別**: [trainers/](trainers/README.md) — 厩舎ごとの管理馬と関連記事");
+  lines.push("- 🏇 **騎手別**: [jockeys/](jockeys/README.md) — 騎手ごとの騎乗馬と関連記事");
+  lines.push("- 🏡 **生産者別**: [breeders/](breeders/README.md) — 牧場ごとの生産馬");
+  lines.push("- 👤 **馬主別**: [owners/](owners/README.md) — 馬主ごとの所有馬");
+  lines.push("- 🐴 **繁殖牝馬別**: [dams/](dams/README.md) — 母系のページ");
   lines.push("- 📰 **業界ニュース**: [views/news.md](views/news.md) — レースに紐づかない業界ニュースのアーカイブ");
   lines.push("");
   lines.push("## 直近のレース");

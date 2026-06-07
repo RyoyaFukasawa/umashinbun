@@ -24,9 +24,43 @@ npm run build
 個別に走らせたい場合:
 ```bash
 npm run build-races          # races/YYYY/MM/<id>.md
-npm run build-horses-sires   # horses/<name>.md, sires/<name>.md
+npm run build-horses-sires   # horses/<name>.md, sires/<name>.md（プロフィール付き）
+npm run build-entities       # trainers/, jockeys/, breeders/, owners/, dams/
 npm run build-md             # views/news.md, views/unfiled.md, README.md
 ```
+
+## 馬の事典データ (`horses-profile.json`)
+
+各馬の「ストック情報」(生年・血統・主要勝利・特徴など)を `horses-profile.json` に持つ。
+RSS で日々入ってくる「フロー情報」とは独立に管理。
+
+形式:
+```json
+{
+  "メイショウタバル": {
+    "born": "2021-04-20",
+    "sex": "牡",
+    "sire": "ゴールドシップ",
+    "dam": "メイショウツバクロ",
+    "damsire": "フレンチデピュティ",
+    "breeder": "三嶋牧場",
+    "owner": "松本好隆",
+    "trainer": "石橋守",
+    "main_jockeys": ["武豊"],
+    "record": "14戦5勝（中央13戦5勝、海外1戦0勝）",
+    "major_wins": [
+      { "grade": "G1", "name": "宝塚記念", "year": "2025" }
+    ],
+    "strengths": ["逃げ脚質", "父ゴールドシップは宝塚記念連覇"],
+    "story": "父子で宝塚記念を制覇した珍しい血脈。",
+    "source_url": "https://ja.wikipedia.org/wiki/..."
+  }
+}
+```
+
+`build-horses-sires` がこれを読んで馬ページ上部にプロフィール表を差し込み、
+父・母・母父・生産者・馬主・調教師・主戦騎手は各 sires/dams/breeders/owners/trainers/jockeys
+の専用ページにリンクされる。`build-entities` がそのリンク先のページを生成する。
 
 ## 3. 検索
 

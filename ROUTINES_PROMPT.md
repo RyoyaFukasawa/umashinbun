@@ -97,6 +97,14 @@
      - 種牡馬入りした馬の話題（「○○、種牡馬入り」など）の対象馬。
      - 単に過去のG1勝ち馬として言及されただけ（例: 「ディープインパクトが勝った2005年のダービー」）は
        含めなくてよい。「血統・産駒の文脈」がある場合のみ拾う。
+   - **`jockeys`** (★今版で追加): その記事に登場する騎手名の配列。判断基準:
+     - 「○○騎手が騎乗」「○○の手綱で」のように騎乗の文脈で言及された人物。
+     - 単に過去の話題で名前が出ただけ（例: 「武豊が乗ったあのダービー」）は除外。
+     - 主戦騎手の発表・乗り替わりの話題は積極的に拾う。
+   - **`trainers`** (★今版で追加): その記事に登場する調教師名の配列。判断基準:
+     - 「○○調教師」「○○厩舎」「○○師」として言及された人物。
+     - コメントの発言主や、ローテーション/管理馬を語る文脈で出てくる調教師。
+     - 厩舎としての存在感がある言及だけ拾い、過去の話題で名前が出ただけは除外。
    - 本文が取れなかった記事は、RSSの記載範囲から書ける範囲で。情報が薄いソースは
      `horses` `sires` が空配列でも構わない。**`race_id` の取りこぼしは避ける**（次の宝塚記念の
      話なら必ず `2026-takarazuka-kinen` を付ける）。
@@ -112,9 +120,11 @@
        "title_en": "Takarazuka Kinen preview: Do Deuce suits Hanshin 2200m",
        "url": "https://...",
        "summary": "1行目\n2行目\n...",
-       "race_id": "2026-takarazuka-kinen",
-       "horses": ["ドウデュース"],
-       "sires":  ["ハーツクライ"]
+       "race_id":  "2026-takarazuka-kinen",
+       "horses":   ["ドウデュース"],
+       "sires":    ["ハーツクライ"],
+       "jockeys":  ["武豊"],
+       "trainers": ["友道康夫"]
      },
      {
        "date": "YYYY-MM-DD",
@@ -124,9 +134,11 @@
        "title_en": "...",
        "url": "https://...",
        "summary": "...",
-       "race_id": null,
-       "horses": [],
-       "sires": []
+       "race_id":  null,
+       "horses":   [],
+       "sires":    [],
+       "jockeys":  [],
+       "trainers": []
      }
    ]
    ```
@@ -137,10 +149,12 @@
    - 既存レースの `planned_horses` に新出の馬名が自動追記される。
    - 検索用 `digest.db` が再生成される（git管理外）。
 
-7. `npm run build` を実行（= build-races + build-horses-sires + build-md）：
+7. `npm run build` を実行（= build-races + build-horses-sires + build-entities + build-md）：
    - `races/YYYY/MM/<race-id>.md` 各レースのページ。
-   - `horses/<馬名>.md` 3記事以上で言及された馬の個別ページ。
-   - `sires/<種牡馬名>.md` 3記事以上で言及された種牡馬の個別ページ。
+   - `horses/<馬名>.md` 登場馬の個別ページ。`horses-profile.json` があればプロフィール表も付く。
+   - `sires/<種牡馬名>.md` 登場種牡馬の個別ページ。
+   - `trainers/<調教師名>.md` `jockeys/<騎手名>.md` `breeders/<牧場名>.md`
+     `owners/<馬主名>.md` `dams/<繁殖牝馬名>.md` 各種人物・組織のページ。
    - `views/news.md` レースに紐づかない業界ニュースのアーカイブ。
    - `views/unfiled.md` race_id が無い記事の置き場（拾いこぼしの可視化）。
    - `README.md` 索引（直近のレース + 最新記事5件）。
@@ -158,8 +172,11 @@
 9. 変更をコミットして、**`main` ブランチに push する**。コミットメッセージ：
    `chore(digest): add YYYY-MM-DD digest`
    - 追加・変更されるのは: `articles.json` / `races.json`（馬名が追加された場合） /
-     `races/**` / `horses/**` / `sires/**` / `views/news.md` / `views/unfiled.md` /
-     `README.md` / `ops-log/YYYY-MM-DD.md`。
+     `races/**` / `horses/**` / `sires/**` / `trainers/**` / `jockeys/**` /
+     `breeders/**` / `owners/**` / `dams/**` / `views/news.md` /
+     `views/unfiled.md` / `README.md` / `ops-log/YYYY-MM-DD.md`。
+   - **`horses-profile.json`** は手動メンテ。この日次タスクでは変更しない。
+     (週次の改善 routine が、初出の馬を Wikipedia 等から事典化して PR で提案する)
    - `digest.db` は git 管理外。`raw-items.json` は GitHub Actions が管理（この routine ではコミットしない）。
 
 ### 注意
