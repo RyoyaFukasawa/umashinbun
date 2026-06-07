@@ -996,5 +996,245 @@
     ],
     "story": "2024年桜花賞馬。オークス2着・秋華賞3着と牝馬3冠路線を席巻。国枝栄厩舎解散後に宮田敬介厩舎へ転厩。5歳の現在も復活を目指す。安田記念は10着で復調途上。",
     "source_url": "https://ja.wikipedia.org/wiki/ステレンボッシュ_(競走馬)"
+  },
+  "シェイクユアハート": {
+    "born": "2020-03-30",
+    "sex": "牡",
+    "coat": "栗毛",
+    "sire": "ハーツクライ",
+    "dam": "ルンバロッカ",
+    "damsire": "Sri Pekan",
+    "breeder": "社台ファーム",
+    "owner": "吉田千津",
+    "trainer": "宮徹",
+    "main_jockeys": ["古川吉洋"],
+    "record": "29戦6勝、獲得賞金2億7706万2000円",
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "金鯱賞", "grade": "G2", "course": "中京", "distance": "芝2000m" },
+      { "place": 1, "year": "2025", "name": "中日新聞杯", "grade": "G3", "course": "中京", "distance": "芝2000m" },
+      { "place": 2, "year": "2025", "name": "小倉記念", "grade": "G3", "course": "小倉", "distance": "芝2000m" }
+    ],
+    "strengths": [
+      "メンバー最速の上がり3ハロン33秒5で金鯱賞を制するほどの末脚の切れ",
+      "芝2000m前後の中距離路線で実力を発揮"
+    ],
+    "story": "馬名は「心を揺さぶる」を意味。金鯱賞で最速上がりを記録し重賞2勝目。6歳牡馬として宝塚記念に挑戦。",
+    "source_url": "https://ja.wikipedia.org/wiki/シェイクユアハート"
+  },
+  "シュガークン": {
+    "born": "2021-03-05",
+    "sex": "牡",
+    "coat": "黒鹿毛",
+    "sire": "ドゥラメンテ",
+    "dam": "シュガーハート",
+    "damsire": "サクラバクシンオー",
+    "breeder": "ヤナガワ牧場",
+    "owner": "辻子依旦",
+    "trainer": "清水久詞",
+    "main_jockeys": ["武豊"],
+    "record": "6戦3勝、獲得賞金7414万2000円",
+    "major_results": [
+      { "place": 1, "year": "2024", "name": "青葉賞", "grade": "G2", "course": "東京", "distance": "芝2400m" },
+      { "place": 2, "year": "2024", "name": "東京優駿", "grade": "G1", "course": "東京", "distance": "芝2400m" }
+    ],
+    "strengths": [
+      "半兄にキタサンブラックを持つ超良血。中距離後半の追い込み力が武器",
+      "2024年ダービー2着の実績を持つ世代上位の実力馬"
+    ],
+    "story": "母はシュガーハート、半兄はキタサンブラックという名血。青葉賞を制してダービー2着と旋風を起こすも左前浅屈腱炎で長期離脱。2026年に復帰して宝塚記念へ。",
+    "source_url": "https://ja.wikipedia.org/wiki/シュガークン"
+  },
+  "ジューンテイク": {
+    "born": "2021-03-27",
+    "sex": "牡",
+    "coat": "黒鹿毛",
+    "sire": "キズナ",
+    "dam": "アドマイヤサブリナ",
+    "damsire": "シンボリクリスエス",
+    "breeder": "ヒダカファーム",
+    "owner": "吉川潤",
+    "trainer": "武英智",
+    "main_jockeys": ["藤岡佑介"],
+    "record": "19戦4勝",
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "京都記念", "grade": "G2", "course": "京都", "distance": "芝2200m" },
+      { "place": 1, "year": "2024", "name": "京都新聞杯", "grade": "G2", "course": "京都", "distance": "芝2200m" },
+      { "place": 2, "year": "2024", "name": "神戸新聞杯", "grade": "G2", "course": "中京", "distance": "芝2200m" }
+    ],
+    "strengths": [
+      "好位追走から直線で鋭く脚を伸ばす走法",
+      "芝2200m前後の中長距離路線に適性が高い"
+    ],
+    "story": "2024年京都新聞杯で重賞初制覇。その後左前脚屈腱炎で9か月以上の長期離脱を余儀なくされたが、2026年2月の京都記念で見事復活し重賞2勝目を達成して宝塚記念へ。",
+    "source_url": "https://ja.wikipedia.org/wiki/ジューンテイク"
+  },
+  "スティンガーグラス": {
+    "born": "2021-03-12",
+    "sex": "牡",
+    "coat": "鹿毛",
+    "sire": "キズナ",
+    "dam": "ライフフォーセール",
+    "damsire": "Not For Sale",
+    "breeder": "ノーザンファーム",
+    "owner": "エムズレーシング",
+    "trainer": "友道康夫",
+    "main_jockeys": ["C.ルメール"],
+    "record": "11戦6勝",
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "ダイヤモンドステークス", "grade": "G3", "course": "東京", "distance": "芝3400m" },
+      { "place": 2, "year": "2025", "name": "アルゼンチン共和国杯", "grade": "G2", "course": "東京", "distance": "芝2500m" }
+    ],
+    "strengths": [
+      "スタミナに優れ、長距離戦に最大の適性を誇る",
+      "ルメール騎手が「心臓が大きい」と高評価。転厩後に開花"
+    ],
+    "story": "木村哲也厩舎から友道康夫厩舎に転厩後、2026年ダイヤモンドSで重賞初制覇。長距離型だが宝塚記念の芝2200mでどこまで距離短縮に対応できるか注目。",
+    "source_url": "https://ja.wikipedia.org/wiki/スティンガーグラス"
+  },
+  "タガノデュード": {
+    "born": "2021-04-18",
+    "sex": "牡",
+    "coat": "鹿毛",
+    "sire": "ヤマカツエース",
+    "dam": "タガノミューチャン",
+    "damsire": "ハーツクライ",
+    "breeder": "新冠タガノファーム",
+    "owner": "八木良司",
+    "trainer": "宮徹",
+    "main_jockeys": ["古川吉洋"],
+    "record": "28戦5勝、獲得賞金1億9445万3000円",
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "小倉大賞典", "grade": "G3", "course": "小倉", "distance": "芝1800m" }
+    ],
+    "strengths": [
+      "後方から大外を強襲する追い込み型",
+      "大阪杯・天皇賞春でも掲示板に食い込む底力"
+    ],
+    "story": "ヤマカツエース産駒の5歳牡馬。小倉大賞典での重賞制覇は古川吉洋騎手のJRA通算600勝目にして同騎手の重賞最終騎乗となった特別な一戦。大阪杯・天皇賞春にも挑戦する上昇一途の実力馬。",
+    "source_url": "https://ja.wikipedia.org/wiki/タガノデュード"
+  },
+  "ビザンチンドリーム": {
+    "born": "2021-01-28",
+    "sex": "牡",
+    "coat": "栗毛",
+    "sire": "エピファネイア",
+    "dam": "ジャポニカーラ",
+    "damsire": "ジャングルポケット",
+    "breeder": "ノーザンファーム",
+    "owner": "吉田和美",
+    "trainer": "坂口智康",
+    "main_jockeys": [],
+    "record": "12戦4勝（中央8戦2勝、海外4戦2勝）",
+    "major_results": [
+      { "place": 1, "year": "2025", "name": "フォワ賞", "grade": "G2", "course": "パリロンシャン", "distance": "芝2400m" },
+      { "place": 1, "year": "2025", "name": "レッドシーターフハンデキャップ", "grade": "G2", "course": "キングアブドゥルアジーズ", "distance": "芝2000m" },
+      { "place": 1, "year": "2024", "name": "きさらぎ賞", "grade": "G3", "course": "中京", "distance": "芝2000m" },
+      { "place": 2, "year": "2025", "name": "天皇賞・春", "grade": "G1", "course": "京都", "distance": "芝3200m" }
+    ],
+    "strengths": [
+      "欧州遠征でサウジアラビア・フランスのG2を制した国際派",
+      "凱旋門賞（2025年）で日本馬最先着を記録"
+    ],
+    "story": "2024年きさらぎ賞で坂口智康調教師のJRA平地重賞初勝利馬に。欧州遠征でG2複数制覇を達成し、2025年凱旋門賞では日本馬最先着と世界の舞台で実力を証明した注目の国際派。",
+    "source_url": "https://ja.wikipedia.org/wiki/ビザンチンドリーム"
+  },
+  "ファミリータイム": {
+    "born": "2021-03-07",
+    "sex": "牡",
+    "sire": "リアルスティール",
+    "dam": null,
+    "damsire": null,
+    "breeder": null,
+    "owner": "東豊物産",
+    "trainer": "石坂公一",
+    "main_jockeys": [],
+    "record": "15戦4勝、獲得賞金8997万5000円",
+    "major_results": [],
+    "strengths": [],
+    "story": "",
+    "source_url": ""
+  },
+  "マイユニバース": {
+    "born": "2022-02-03",
+    "sex": "牡",
+    "coat": "鹿毛",
+    "sire": "レイデオロ",
+    "dam": "チャーチクワイア",
+    "damsire": "ネオユニヴァース",
+    "breeder": "ノーザンファーム",
+    "owner": "寺田寿男",
+    "trainer": "武幸四郎",
+    "main_jockeys": ["横山典弘"],
+    "record": "14戦5勝、獲得賞金1億4032万7000円",
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "日経賞", "grade": "G2", "course": "中山", "distance": "芝2500m" }
+    ],
+    "strengths": [
+      "中盤からの末脚が強み。外に出しての追い込みを得意とする",
+      "横山典弘騎手のJRA通算3000勝達成を演出した縁起の良い相棒"
+    ],
+    "story": "2026年3月の湾岸Sで横山典弘騎手がJRA通算3000勝（武豊に次ぐ2人目）を達成した相棒馬。日経賞を制して宝塚記念へ挑む上り馬。",
+    "source_url": "https://ja.wikipedia.org/wiki/マイユニバース"
+  },
+  "ミクニインスパイア": {
+    "born": "2022-04-26",
+    "sex": "牡",
+    "sire": "アドマイヤマーズ",
+    "dam": null,
+    "damsire": "ティンバーカントリー",
+    "breeder": "オリエント牧場",
+    "owner": "(株)ミクニ",
+    "trainer": "林徹",
+    "main_jockeys": [],
+    "record": "8戦4勝（国内）",
+    "major_results": [],
+    "strengths": [],
+    "story": "",
+    "source_url": ""
+  },
+  "ミステリーウェイ": {
+    "born": "2018-03-12",
+    "sex": "騸",
+    "coat": "黒鹿毛",
+    "sire": "ジャスタウェイ",
+    "dam": "ジプシーハイウェイ",
+    "damsire": "ハイシャパラル",
+    "breeder": "社台ファーム",
+    "owner": "社台レースホース",
+    "trainer": "小林真也",
+    "main_jockeys": ["松本大輝"],
+    "record": "39戦6勝、獲得賞金1億9066万8000円",
+    "major_results": [
+      { "place": 1, "year": "2025", "name": "アルゼンチン共和国杯", "grade": "G2", "course": "東京", "distance": "芝2500m" }
+    ],
+    "strengths": [
+      "大逃げからの二枚腰が持ち味のユニークな逃げ馬",
+      "8歳騸馬という異色の経歴でファンを魅了"
+    ],
+    "story": "ジャスタウェイ産駒の8歳騸馬。2025年アルゼンチン共和国杯では騸馬・7歳優勝がともに史上初の快挙。元厩舎の安田隆行師から小林真也師に転厩後も「大逃げ」スタイルを貫く個性派。宝塚記念でも大逃げを打つか注目。",
+    "source_url": "https://ja.wikipedia.org/wiki/ミステリーウェイ"
+  },
+  "ミュージアムマイル": {
+    "born": "2022-01-10",
+    "sex": "牡",
+    "sire": "リオンディーズ",
+    "dam": "ミュージアムヒル",
+    "damsire": "ハーツクライ",
+    "breeder": null,
+    "owner": null,
+    "trainer": "高柳大輔",
+    "main_jockeys": [],
+    "record": "10戦5勝",
+    "major_results": [
+      { "place": 1, "year": "2025", "name": "有馬記念", "grade": "G1", "course": "中山", "distance": "芝2500m" },
+      { "place": 1, "year": "2025", "name": "皐月賞", "grade": "G1", "course": "中山", "distance": "芝2000m" },
+      { "place": 1, "year": "2025", "name": "セントライト記念", "grade": "G2", "course": "中山", "distance": "芝2200m" }
+    ],
+    "strengths": [
+      "3歳時に皐月賞・有馬記念を制した世代を超えた実力者",
+      "中山コースの適性が高く、内回りで底力を発揮"
+    ],
+    "story": "2025年皐月賞・有馬記念の二冠馬。有馬記念での3歳馬制覇はレガレイラに続く23頭目で、同年皐月賞馬の有馬記念勝利は2021年エフフォーリア以来4年ぶりの快挙。4歳となった2026年は宝塚記念（阪神芝2200m）に挑む。",
+    "source_url": "https://ja.wikipedia.org/wiki/ミュージアムマイル_(競走馬)"
   }
 }

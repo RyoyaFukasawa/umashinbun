@@ -54,7 +54,7 @@
 - **2026-06-07** [エフフォーリア産駒JRA初勝利 ジョドレルバンクが東京芝1800m新馬を快勝](https://news.yahoo.co.jp/articles/c47d1c56a559b6ccd633a80b43556b6c314038da) *(競馬のおはなし)*
 - **2026-06-07** [ビスケットサンドが阪神新馬戦デビューV、姉はモリアーナ](https://news.yahoo.co.jp/articles/95efb1ec456bd321f910b5d730e0f4eb33a8f210?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
 - **2026-06-07** [ビスケットサンドが阪神芝1400m新馬戦快勝 姉はモリアーナの良血牝馬](https://news.yahoo.co.jp/articles/95efb1ec456bd321f910b5d730e0f4eb33a8f210) *(競馬のおはなし)*
-- **2026-06-07** [ナイソスがメトロポリタンHを制覇、Baffert師は"最も賢い馬"と称賛](https://www.bloodmgmt.bloodhorse.com/horse-racing/articles/292314/nysos-rolls-to-victory-in-met-mile) *(BloodHorse All News)*
+- **2026-06-07** [新種牡馬エフフォーリア産駒がデビュー戦で初勝利 ジョドレルバンク（東京5R・芝1800m）](https://news.yahoo.co.jp/articles/586d31a7513a6ebae7f6489ef273f0b08192788f?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
 
 ## 仕組み
 
