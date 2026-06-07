@@ -26,7 +26,21 @@ function linkFromHorse(kind: "sires" | "dams" | "breeders" | "owners" | "trainer
   return `[${name}](../${kind}/${safeFilename(name)}.md)`;
 }
 
-function renderProfileSection(profile: HorseProfile): string {
+/**
+ * major_results の各エントリのレース名を、可能ならレースページへのリンクにする。
+ * race_id が指定されていて、races.json に該当レースがあればリンクを張る。
+ * 無ければプレーンテキスト。
+ */
+function makeRaceLabelFromHorse(race_id: string | undefined, name: string, raceById: Map<string, Race>): string {
+  if (!race_id) return name;
+  const race = raceById.get(race_id);
+  if (!race) return name;
+  // horses/<name>.md (1階層) → races/.../<file>.md なので "../" + dir/file
+  const { dir, file } = raceFilePath(race);
+  return `[${name}](../${dir}/${file})`;
+}
+
+function renderProfileSection(profile: HorseProfile, raceById: Map<string, Race>): string {
   const rows: Array<[string, string]> = [];
   if (profile.born) rows.push(["生年月日", profile.born]);
   if (profile.sex) rows.push(["性別" + (profile.coat ? "・毛色" : ""), profile.sex + (profile.coat ? ` ・ ${profile.coat}` : "")]);
@@ -58,11 +72,13 @@ function renderProfileSection(profile: HorseProfile): string {
     for (const r of results) {
       // 1着=🥇 / 2着=🥈 / 3着=🥉。place が無い旧データは🥇に倒れる(後方互換)。
       const medal = r.place === 2 ? "🥈" : r.place === 3 ? "🥉" : "🥇";
+      // race_id があってraces.jsonに該当レースがあればレース名をリンク化
+      const raceLabel = makeRaceLabelFromHorse(r.race_id, r.name, raceById);
       // コース/距離が両方ある場合は ` — 阪神 芝2200m` で末尾に併記、
       // どちらかしか無ければそれだけ、両方無ければ表記なし。
       const venue = [r.course, r.distance].filter(Boolean).join(" ");
       const venueLabel = venue ? ` — ${venue}` : "";
-      lines.push(`- ${medal} **${r.year}年 ${r.name} (${r.grade})**${venueLabel}`);
+      lines.push(`- ${medal} **${r.year}年 ${raceLabel} (${r.grade})**${venueLabel}`);
     }
     lines.push("");
   }
@@ -94,7 +110,8 @@ function renderEntityPage(
   kind: "horse" | "sire",
   articles: ArticleRow[],
   relatedRaces: Race[],
-  profile?: HorseProfile,
+  profile: HorseProfile | undefined,
+  raceById: Map<string, Race>,
 ): string {
   const heading = kind === "horse" ? "🐎" : "🌱";
   const indexLink = kind === "horse" ? "[馬索引へ](README.md)" : "[種牡馬索引へ](README.md)";
@@ -113,7 +130,7 @@ function renderEntityPage(
 
   // プロフィール
   if (kind === "horse" && profile) {
-    lines.push(renderProfileSection(profile));
+    lines.push(renderProfileSection(profile, raceById));
   }
 
   // 出走予定/関連レース
@@ -175,6 +192,7 @@ function buildKind(
   fetch: (name: string) => ArticleRow[],
   relatedRaces: (name: string) => Race[],
   profileOf: (name: string) => HorseProfile | undefined,
+  raceById: Map<string, Race>,
 ): number {
   const dir = kind === "horse" ? "horses" : "sires";
   mkdirSync(join(ROOT, dir), { recursive: true });
@@ -187,7 +205,7 @@ function buildKind(
     const f = safeFilename(name);
     writeFileSync(
       join(ROOT, dir, `${f}.md`),
-      renderEntityPage(name, kind, arts, races, profile),
+      renderEntityPage(name, kind, arts, races, profile, raceById),
       "utf-8",
     );
     written++;
@@ -200,6 +218,8 @@ function main() {
   const db = openDb();
   const races = allRaces(db);
   const profiles = readHorseProfiles();
+  // race_id → Race の索引(主要勝利・好走のレース名をリンク化するときに使う)
+  const raceById = new Map<string, Race>(races.map((r) => [r.id, r]));
 
   // 馬 → そのレースに planned_horses として登録されているレース一覧
   const horseRaceIndex = new Map<string, Race[]>();
@@ -229,6 +249,7 @@ function main() {
     (n) => articlesByHorse(db, n),
     (n) => horseRaceIndex.get(n) ?? [],
     (n) => profiles[n],
+    raceById,
   );
 
   const siresTally = sireCounts(db);
@@ -238,6 +259,7 @@ function main() {
     (n) => articlesBySire(db, n),
     () => [],
     () => undefined,
+    raceById,
   );
 
   db.close();

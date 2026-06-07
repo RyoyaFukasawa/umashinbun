@@ -98,6 +98,20 @@ export interface StoredArticle extends NewArticle {
 
 // ---- races.json（レース一覧）の型と読み書き ------------------------------
 
+/** 1レースの結果(1着〜N着の馬と騎手・タイム・人気) */
+export interface RaceResultEntry {
+  /** 着順 (1=1着、2=2着、...) */
+  place: number;
+  /** 馬名 */
+  horse: string;
+  /** 騎手名 (空文字可) */
+  jockey?: string;
+  /** タイム ("2:11.4" など、空文字可) */
+  time?: string;
+  /** 単勝人気 (数値) */
+  popularity?: number;
+}
+
 /**
  * 1レースのメタ情報。races.json に手動で初期登録する G1 と、
  * 記事から動的に追加された地方/海外/未登録重賞の両方を保持する。
@@ -124,6 +138,11 @@ export interface Race {
    * このエントリの出処。"manual" = 手動で初期登録、"article" = 記事から動的追加。
    */
   origin: "manual" | "article";
+  /**
+   * レース結果。レース終了後、 routine か手動でWebFetchから入れる。
+   * 通常は上位5〜18着まで。未開催レースでは undefined or []。
+   */
+  results?: RaceResultEntry[];
 }
 
 export function readRaces(path: string = RACES_JSON): Race[] {
@@ -155,6 +174,11 @@ export interface MajorResult {
   course?: string;
   /** "芝2200m" / "ダ1800m" など。不明なら空文字でも可 */
   distance?: string;
+  /**
+   * races.json にあるレースのid。指定するとレースページへのリンクが張られる。
+   * 過去の歴史的レース・海外G1で races.json に未登録のものは省略可。
+   */
+  race_id?: string;
 }
 
 /** @deprecated MajorResult を使う。旧データ互換のため残してある型エイリアス */
@@ -334,7 +358,8 @@ export function openDb(path: string = ":memory:"): DatabaseSync {
       course          TEXT    NOT NULL,
       distance        TEXT    NOT NULL,
       planned_horses  TEXT    NOT NULL DEFAULT '',
-      origin          TEXT    NOT NULL
+      origin          TEXT    NOT NULL,
+      results_json    TEXT    NOT NULL DEFAULT ''
     );
     CREATE INDEX idx_races_date ON races(date);
   `);
@@ -362,12 +387,16 @@ export function openDb(path: string = ":memory:"): DatabaseSync {
   // races を投入
   const raceStmt = db.prepare(`
     INSERT OR IGNORE INTO races
-      (id, name, grade, date, course, distance, planned_horses, origin)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+      (id, name, grade, date, course, distance, planned_horses, origin, results_json)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const races = readRaces();
   for (const r of races) {
-    raceStmt.run(r.id, r.name, r.grade, r.date, r.course, r.distance, r.planned_horses.join("\t"), r.origin);
+    raceStmt.run(
+      r.id, r.name, r.grade, r.date, r.course, r.distance,
+      r.planned_horses.join("\t"), r.origin,
+      r.results ? JSON.stringify(r.results) : "",
+    );
   }
 
   return db;
@@ -427,11 +456,18 @@ export function allDates(db: DatabaseSync): string[] {
 export function allRaces(db: DatabaseSync): Race[] {
   const rows = db
     .prepare(`SELECT * FROM races ORDER BY date DESC, id`)
-    .all() as Array<Omit<Race, "planned_horses"> & { planned_horses: string }>;
-  return rows.map((r) => ({
-    ...r,
-    planned_horses: r.planned_horses ? r.planned_horses.split("\t").filter(Boolean) : [],
-  }));
+    .all() as Array<Omit<Race, "planned_horses" | "results"> & {
+      planned_horses: string;
+      results_json: string;
+    }>;
+  return rows.map((r) => {
+    const { results_json, ...rest } = r;
+    return {
+      ...rest,
+      planned_horses: r.planned_horses ? r.planned_horses.split("\t").filter(Boolean) : [],
+      results: results_json ? (JSON.parse(results_json) as RaceResultEntry[]) : undefined,
+    };
+  });
 }
 
 /**

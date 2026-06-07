@@ -40,7 +40,7 @@
     "main_jockeys": ["武豊"],
     "record": "13戦6勝（中央12戦6勝、地方1戦0勝）/ 獲得賞金4億2069万円",
     "major_results": [
-      { "place": 1, "year": "2026", "name": "安田記念", "grade": "G1", "course": "東京", "distance": "芝1600m" },
+      { "place": 1, "year": "2026", "name": "安田記念", "grade": "G1", "course": "東京", "distance": "芝1600m", "race_id": "2026-yasuda-kinen" },
       { "place": 1, "year": "2025", "name": "中山記念", "grade": "G2", "course": "中山", "distance": "芝1800m" },
       { "place": 2, "year": "2025", "name": "マイルチャンピオンシップ南部杯", "grade": "JpnI", "course": "盛岡", "distance": "ダ1600m" },
       { "place": 1, "year": "2024", "name": "毎日王冠", "grade": "G2", "course": "東京", "distance": "芝1800m" },
@@ -66,6 +66,7 @@
     "main_jockeys": ["横山武史"],
     "record": "21戦4勝（中央19戦4勝、海外2戦0勝）/ 獲得賞金4億6212万円",
     "major_results": [
+      { "place": 2, "year": "2026", "name": "安田記念", "grade": "G1", "course": "東京", "distance": "芝1600m", "race_id": "2026-yasuda-kinen" },
       { "place": 2, "year": "2025", "name": "マイルチャンピオンシップ", "grade": "G1", "course": "京都", "distance": "芝1600m" },
       { "place": 1, "year": "2025", "name": "富士ステークス", "grade": "G2", "course": "東京", "distance": "芝1600m" },
       { "place": 2, "year": "2025", "name": "安田記念", "grade": "G1", "course": "東京", "distance": "芝1600m" },

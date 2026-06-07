@@ -7,6 +7,7 @@ course:
 distance: 
 planned_horses: 0
 articles: 2
+finished: undefined
 ---
 
 # 2026-hakodate-sprint-s (未分類)

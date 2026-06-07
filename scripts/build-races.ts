@@ -47,6 +47,7 @@ function renderRaceFile(race: Race, raceArticles: ArticleRow[], horseToArticles:
   lines.push(`distance: ${race.distance}`);
   lines.push(`planned_horses: ${race.planned_horses.length}`);
   lines.push(`articles: ${raceArticles.length}`);
+  lines.push(`finished: ${race.results && race.results.length > 0}`);
   lines.push("---");
   lines.push("");
   lines.push(`# ${race.name} (${race.grade})`);
@@ -54,6 +55,35 @@ function renderRaceFile(race: Race, raceArticles: ArticleRow[], horseToArticles:
   if (race.date || race.course || race.distance) {
     const meta = [race.date, race.course, race.distance].filter(Boolean).join(" ・ ");
     lines.push(`**${meta}**`);
+    lines.push("");
+  }
+
+  // 🏁 結果 (results が入っていれば表示。 馬名は horses/<name>.md にリンク)
+  if (race.results && race.results.length > 0) {
+    lines.push(`## 🏁 結果`);
+    lines.push("");
+    lines.push("| 着順 | 馬 | 騎手 | タイム | 人気 |");
+    lines.push("|---|---|---|---|---|");
+    // 上位5着 + 上位人気(1番人気)を必ず含める
+    const top5 = race.results.filter((r) => r.place <= 5);
+    const topPopRow = race.results.find((r) => r.popularity === 1);
+    const extras: typeof race.results = [];
+    if (topPopRow && !top5.some((r) => r.horse === topPopRow.horse)) {
+      extras.push(topPopRow);
+    }
+    const shown = [...top5, ...extras].sort((a, b) => a.place - b.place);
+    for (const r of shown) {
+      const medal = r.place === 1 ? "🥇 1着" : r.place === 2 ? "🥈 2着" : r.place === 3 ? "🥉 3着" : `${r.place}着`;
+      const horseLink = `[${r.horse}](../../../horses/${safeFilename(r.horse)}.md)`;
+      const jockey = r.jockey ?? "";
+      const time = r.time ?? "";
+      const popularity = r.popularity != null ? `${r.popularity}人気` : "";
+      lines.push(`| ${medal} | ${horseLink} | ${jockey} | ${time} | ${popularity} |`);
+    }
+    if (race.results.length > shown.length) {
+      lines.push("");
+      lines.push(`*全${race.results.length}頭中、上位5着 + 1番人気を表示*`);
+    }
     lines.push("");
   }
 
@@ -69,8 +99,10 @@ function renderRaceFile(race: Race, raceArticles: ArticleRow[], horseToArticles:
     }
   }
 
-  // 2. 出走予定馬ごとに、その馬の最近の記事を時系列で
-  lines.push(`## 🐎 出走予定馬と関連記事 (${race.planned_horses.length}頭)`);
+  // 2. 出走馬ごとに、その馬の最近の記事を時系列で
+  // 結果が出ているレースは「出走馬」、まだのレースは「出走予定馬」と表現を変える
+  const horsesLabel = race.results && race.results.length > 0 ? "出走馬" : "出走予定馬";
+  lines.push(`## 🐎 ${horsesLabel}と関連記事 (${race.planned_horses.length}頭)`);
   lines.push("");
   if (race.planned_horses.length === 0) {
     lines.push("*出走予定馬はまだ抽出されていません。記事で名前が拾われ次第ここに並びます。*");

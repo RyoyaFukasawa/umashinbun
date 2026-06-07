@@ -254,8 +254,23 @@
     "date": "2026-06-07",
     "course": "東京",
     "distance": "芝1600m",
-    "planned_horses": [],
-    "origin": "manual"
+    "planned_horses": [
+      "シックスペンス",
+      "ワールズエンド",
+      "ガイアフォース",
+      "セイウンハーデス",
+      "パンジャタワー",
+      "トロヴァトーレ",
+      "レーベンスティール"
+    ],
+    "origin": "manual",
+    "results": [
+      { "place": 1, "horse": "シックスペンス", "jockey": "武豊", "time": "1:32.1", "popularity": 8 },
+      { "place": 2, "horse": "ワールズエンド", "jockey": "津村明秀", "time": "1:32.1", "popularity": 7 },
+      { "place": 2, "horse": "ガイアフォース", "jockey": "横山武史", "time": "1:32.1", "popularity": 1 },
+      { "place": 4, "horse": "セイウンハーデス", "jockey": "幸英明", "time": "1:32.1", "popularity": 6 },
+      { "place": 5, "horse": "パンジャタワー", "jockey": "松山弘平", "time": "1:32.2", "popularity": 4 }
+    ]
   },
   {
     "id": "2026-yushun-himba",
