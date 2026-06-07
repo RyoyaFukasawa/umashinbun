@@ -130,6 +130,28 @@ npm run --silent today-mode
    - レース1週前は20頭以上の特別登録段階。
 4. WebFetch が失敗した場合は既存の `planned_horses` をそのまま残し、ops-log に記録する。
 
+##### B-0-3. planned_horses 全頭の事典化 (記事に出るかどうかに関わらず必ず)
+
+これは race_week モードの **必須ステップ** で、 記事選定 (B-1) より **先** に
+やる。 「記事に出てくる馬だけ事典化する」 だと、 出走予定馬のうち話題に上がら
+ない馬のページが永遠に空っぽになる (実害が出た例: 2026-06-07 routine 直後の
+宝塚記念 17頭中 11頭の事典が抜けていた)。
+
+1. `target_races` の各レースの `planned_horses` を全件取り出し、 重複排除して
+   1つのリストにする。 これが **「今日 profile を埋めるべき馬」 のリスト**。
+2. そのリストを `horses-profile.json` の既存キーと突き合わせ、 **未登録の馬を
+   全部列挙する** (省略禁止)。
+3. 未登録馬を 1頭ずつ Wikipedia で WebFetch して事典化する (分岐A手順2と同じ
+   フォーマット)。 URL は `https://ja.wikipedia.org/wiki/<馬名>` または
+   `https://ja.wikipedia.org/wiki/<馬名>_(競走馬)`。 2歳新馬など Wikipedia に
+   項目がない馬は **スキップしてよい** が、 ops-log に「項目なし」として記録する。
+4. 1頭でも事典化に失敗・スキップした場合、 ops-log の「事典化した馬」 セクション
+   に **試行と結果を全件** 記録する (成功した馬・失敗した馬・スキップした馬の
+   3カテゴリ)。 記録しないと次回 routine が同じ抜けを繰り返す。
+5. **完了条件**: planned_horses のうち未登録だった馬について、 Wikipedia を一度
+   は当たり、 取得できた分は profile に追加し、 取得できなかった分は ops-log に
+   理由を書いた状態。 「忘れた」 で終わらせない。
+
 ##### B-0-2. 終了レースの結果取得
 
 レースが終わった当日または翌日に、対象一覧を `fetch-results` で出して、それぞれを WebFetch で取り込む。
@@ -264,9 +286,13 @@ Wikipedia に項目がない馬は無理に作らない(`horses` には入れる
 - **カテゴリ別 採用状況**: g1 / horse / pog / overseas / news それぞれの 候補数・採用数
 - **構造化抽出率**: 採用記事のうち race_id / horses / sires / jockeys / trainers がそれぞれ非空だった割合
   - これが低いとレースページ・馬ページ・エンティティページが薄くなる。 直接の品質指標
-- **事典化した馬の数** (monthly_prep / race_week モードのみ):
-  - horses-profile.json に追記した馬と Wikipedia URL
-  - 取得失敗 (Wikipedia 項目なし等) の馬
+- **事典化した馬** (monthly_prep / race_week モードのみ):
+  - race_week モードでは **target_races の planned_horses 全頭の未登録分** を
+    対象に Wikipedia を試したかを書く (B-0-3 の完了確認)。「記事に出てきた馬
+    だけ」 では不足。
+  - ✅ 成功: horses-profile.json に追記した馬と Wikipedia URL
+  - ⚠️ スキップ: 「Wikipedia 項目なし」 (2歳新馬等) の馬と理由
+  - ❌ 失敗: WebFetch エラー等で取れなかった馬と次回再試行する旨
 - **出走予定馬 / 結果取得の成否** (race_week モードのみ):
   - B-0 planned_horses 更新の結果 (何頭 → 何頭、 どのレース)
   - B-0-2 結果取得の対象と成否
