@@ -5,6 +5,12 @@
 // POG/育成・血統、海外競馬、業界一般ニュースで補強する構成。
 // フィードURLはサイト改編で変わることがあるため、取得失敗しても他のソースは
 // 止まらない設計（fetch-feeds.ts 側でスキップ）。
+//
+// ★ 初期登録分は 2026-06-07 に curl で生存確認済み（HTTP 200 かつ <item> を含むこと）。
+//    JRA公式 RSS は 2026-03-31 で配信終了したため不採用。サンスポZBAT!・スポニチ・
+//    デイリースポーツ・ラジオNIKKEI・スポーツ報知は公開RSSが見つからず不採用。
+//    その代わり、Yahoo!ニュース経由で東スポ競馬・競馬ラボ・SPAIA・馬トク報知・
+//    競馬のおはなしのフィードを購読する（各社の記事が流れ込んでいる集約フィード）。
 
 export type Category = "g1" | "horse" | "pog" | "overseas" | "news";
 
@@ -29,105 +35,68 @@ export const FEEDS: FeedSource[] = [
   // --- 週末重賞・G1 展望 ---
   // 土日の重賞・特別レースの予想・展望・出馬表に関する記事を厚く拾う。
   {
-    // 競馬最大手の総合メディア。展望コラム・予想印・調教評価が日次更新（無料・本文も無料）。
-    name: "netkeiba ニュース",
-    url: "https://news.netkeiba.com/?pid=rss",
+    // 競馬最大手の総合メディア。ニュース＆コラムの公式RSS。
+    // 重賞展望・予想印・調教評価が日次更新（無料）。
+    name: "netkeiba ニュース＆コラム",
+    url: "https://rss.netkeiba.com/?pid=rss_netkeiba&site=netkeiba",
     category: "g1",
   },
   {
-    // JRA公式のお知らせ・重賞情報。一次情報として強い（無料）。
-    name: "JRA お知らせ",
-    url: "https://www.jra.go.jp/news/rss.xml",
+    // 東スポ競馬のYahoo!ニュース集約フィード。トラックマンの予想・短評・追い切り評価（無料）。
+    name: "東スポ競馬 (Yahoo!ニュース経由)",
+    url: "https://news.yahoo.co.jp/rss/media/tspkeiba/all.xml",
     category: "g1",
   },
   {
-    // サンケイスポーツの競馬専門サイト。重賞展望と予想印が手厚い（無料）。
-    name: "サンスポZBAT!",
-    url: "https://race.sanspo.com/keiba/rss/keiba.rdf",
-    category: "g1",
-  },
-  {
-    // 東京スポーツ競馬。トラックマンの予想・短評・追い切り評価が読める（無料）。
-    name: "東スポ競馬",
-    url: "https://www.tokyo-sports.co.jp/category/race/feed",
-    category: "g1",
-  },
-  {
-    // スポーツ報知の競馬欄。重賞特集・調教・前日オッズ記事（無料）。
-    name: "スポーツ報知 競馬",
-    url: "https://hochi.news/keiba/feed/",
+    // 競馬ラボ。コラム・特集中心、展望記事も多い（Yahoo!ニュース経由・無料）。
+    name: "競馬ラボ (Yahoo!ニュース経由)",
+    url: "https://news.yahoo.co.jp/rss/media/keibalab/all.xml",
     category: "g1",
   },
 
   // --- 注目馬・調教・厩舎情報 ---
   // 「その週末に走る個別馬」のディテール（追い切り・近況・コメント）を拾う層。
   {
-    // ラジオNIKKEIの競馬。専門ラジオ局として現場取材が厚く、トレセン情報・厩舎コメントに強い（無料）。
-    name: "ラジオNIKKEI 競馬",
-    url: "https://www.radionikkei.jp/keiba/rss.xml",
+    // SPAIA競馬。データ分析寄りで、馬個別の戦績・適性・傾向の記事が豊富（Yahoo!ニュース経由・無料）。
+    name: "SPAIA競馬 (Yahoo!ニュース経由)",
+    url: "https://news.yahoo.co.jp/rss/media/spaia/all.xml",
     category: "horse",
   },
   {
-    // デイリースポーツ競馬。一週前・最終追い切りの評価記事が日次で出る（無料）。
-    name: "デイリースポーツ 競馬",
-    url: "https://www.daily.co.jp/horse/rss.rdf",
-    category: "horse",
-  },
-  {
-    // スポニチ競馬。追い切り欄・厩舎の話が手厚い（無料）。
-    name: "スポニチ 競馬",
-    url: "https://www.sponichi.co.jp/gamble/rss/horse.xml",
-    category: "horse",
-  },
-  {
-    // 日刊スポーツ競馬。トラックマンの短評・本紙予想印（無料）。
-    name: "日刊スポーツ 競馬",
-    url: "https://www.nikkansports.com/race/horseracing/rss.xml",
+    // 馬トク報知（スポーツ報知の競馬枠）。追い切り評価・厩舎コメントが厚い（Yahoo!ニュース経由・無料）。
+    name: "馬トク報知 (Yahoo!ニュース経由)",
+    url: "https://news.yahoo.co.jp/rss/media/umatokuh/all.xml",
     category: "horse",
   },
 
   // --- POG・2歳・育成・血統 ---
   // 2歳新馬・社台/ノーザン系の育成情報、種牡馬・血統トピック。
-  // POG読者・血統好きが求めるレイヤー。
   {
-    // netkeiba の POG / 育成 / 2歳特集の更新（無料）。
-    // ※ 専用RSSが無い場合は news.netkeiba.com のタグ別RSSに置き換える前提。
-    name: "netkeiba コラム",
-    url: "https://news.netkeiba.com/?pid=rss_column",
-    category: "pog",
-  },
-  {
-    // JBIS血統情報サービス。種牡馬・繁殖の更新情報（無料）。
-    name: "JBIS-Search お知らせ",
-    url: "https://www.jbis.or.jp/news/rss.xml",
-    category: "pog",
-  },
-  {
-    // 優駿（JRA-VAN/中央競馬PRセンター）の特集。育成・血統コラム（無料）。
-    name: "JRA-VAN 競馬コラム",
-    url: "https://jra-van.jp/fun/rss.xml",
+    // 競馬のおはなし。コラム・読み物寄りで、血統・POG・育成の特集が多い
+    // （Yahoo!ニュース経由・無料）。
+    name: "競馬のおはなし (Yahoo!ニュース経由)",
+    url: "https://news.yahoo.co.jp/rss/media/keibana/all.xml",
     category: "pog",
   },
 
   // --- 海外競馬 ---
-  // 凱旋門賞・ブリーダーズカップ・ドバイ・香港・サウジ等、遠征組や海外G1の動向。
+  // 凱旋門賞・ブリーダーズカップ・ドバイ・香港・サウジ等、海外G1とその関連情報。
   {
-    // 英の競馬専門紙。海外G1・調教・厩舎コメントの一次情報源（無料RSS、本文は一部ペイウォール）。
-    name: "Racing Post",
-    url: "https://www.racingpost.com/rss/news",
-    category: "overseas",
-    paywalled: true,
-  },
-  {
-    // 米のサラブレッド業界紙。BC・米G1・米国産種牡馬情報（無料）。
-    name: "BloodHorse",
-    url: "https://www.bloodhorse.com/horse-racing/rss/news",
+    // 米のサラブレッド業界紙。BC・米G1・米国産種牡馬情報、ニュース全般（無料）。
+    name: "BloodHorse All News",
+    url: "https://www.bloodhorse.com/horse-racing/feeds/news/all-news",
     category: "overseas",
   },
   {
-    // 国際競馬統括機関JAIRSの日本語ニュース。海外G1結果と日本馬遠征情報（無料）。
-    name: "JAIRS 国際競馬情報",
-    url: "https://www.jairs.jp/rss/news.xml",
+    // BloodHorse のサラブレッド競走に特化したフィード。レース・結果寄り（無料）。
+    name: "BloodHorse Thoroughbred Racing",
+    url: "https://www.bloodhorse.com/horse-racing/feeds/news/thoroughbred-racing",
+    category: "overseas",
+  },
+  {
+    // BloodHorse の繁殖・血統に特化したフィード。海外種牡馬・繁殖情報の一次情報（無料）。
+    name: "BloodHorse Thoroughbred Breeding",
+    url: "https://www.bloodhorse.com/horse-racing/feeds/news/thoroughbred-breeding",
     category: "overseas",
   },
   {
@@ -138,26 +107,10 @@ export const FEEDS: FeedSource[] = [
   },
 
   // --- 競馬界一般ニュース ---
-  // JRA・地方競馬の制度変更、賞金・斤量改定、騎手の動向、訃報・人事など、
-  // 直接の予想材料にはならないが業界の地殻変動を捉えるソース。
-  {
-    // 地方競馬全国協会(NAR)公式。地方競馬のレース日程・お知らせ（無料）。
-    name: "NAR 地方競馬",
-    url: "https://www.keiba.go.jp/news/rss.xml",
-    category: "news",
-  },
-  {
-    // Yahoo!ニュース 競馬カテゴリ。各紙の競馬記事が横断的に流れる（無料）。
-    name: "Yahoo!ニュース 競馬",
-    url: "https://news.yahoo.co.jp/rss/categories/horseracing.xml",
-    category: "news",
-  },
-  {
-    // 競馬ラボ。コラム・特集が中心、業界の話題を取り上げる（無料）。
-    name: "競馬ラボ",
-    url: "https://www.keibalab.jp/rss/news.xml",
-    category: "news",
-  },
+  // 業界の地殻変動を捉える層。Yahoo!ニュース集約フィードに専門紙が複数流れ込んでおり、
+  // ここでは別カテゴリで使っていない「東スポ競馬」を news 視点でも拾うため重複登録はせず、
+  // 当面 g1/horse/pog のカテゴリ越境で対応する（候補が増えたら news 専用ソースを追加）。
+  // 暫定的に news 専用は空でスタートし、週次改善ルーチンで穴を埋めていく。
 ];
 
 /** 1カテゴリあたり、ダイジェストに残す最大記事数 */
