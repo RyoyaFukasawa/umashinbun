@@ -1,0 +1,295 @@
+[
+  {
+    "id": "2026-arima-kinen",
+    "name": "有馬記念",
+    "grade": "G1",
+    "date": "2026-12-27",
+    "course": "中山",
+    "distance": "芝2500m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-asahi-hai-futurity-stakes",
+    "name": "朝日杯フューチュリティステークス",
+    "grade": "G1",
+    "date": "2026-12-20",
+    "course": "阪神",
+    "distance": "芝1600m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-breeders-cup-classic",
+    "name": "ブリーダーズカップ・クラシック",
+    "grade": "海外G1",
+    "date": "2026-11-07",
+    "course": "Del Mar",
+    "distance": "ダ2000m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-champions-cup",
+    "name": "チャンピオンズカップ",
+    "grade": "G1",
+    "date": "2026-12-06",
+    "course": "中京",
+    "distance": "ダ1800m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-dubai-world-cup",
+    "name": "ドバイワールドカップ",
+    "grade": "海外G1",
+    "date": "2026-03-28",
+    "course": "メイダン",
+    "distance": "ダ2000m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-february-stakes",
+    "name": "フェブラリーステークス",
+    "grade": "G1",
+    "date": "2026-02-22",
+    "course": "東京",
+    "distance": "ダ1600m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-hanshin-juvenile-fillies",
+    "name": "阪神ジュベナイルフィリーズ",
+    "grade": "G1",
+    "date": "2026-12-13",
+    "course": "阪神",
+    "distance": "芝1600m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-hong-kong-cup",
+    "name": "香港カップ",
+    "grade": "海外G1",
+    "date": "2026-12-13",
+    "course": "シャティン",
+    "distance": "芝2000m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-hopeful-stakes",
+    "name": "ホープフルステークス",
+    "grade": "G1",
+    "date": "2026-12-28",
+    "course": "中山",
+    "distance": "芝2000m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-japan-cup",
+    "name": "ジャパンカップ",
+    "grade": "G1",
+    "date": "2026-11-29",
+    "course": "東京",
+    "distance": "芝2400m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-kikuka-sho",
+    "name": "菊花賞",
+    "grade": "G1",
+    "date": "2026-10-25",
+    "course": "京都",
+    "distance": "芝3000m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-mile-championship",
+    "name": "マイルチャンピオンシップ",
+    "grade": "G1",
+    "date": "2026-11-22",
+    "course": "京都",
+    "distance": "芝1600m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-nhk-mile-cup",
+    "name": "NHKマイルカップ",
+    "grade": "G1",
+    "date": "2026-05-10",
+    "course": "東京",
+    "distance": "芝1600m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-oka-sho",
+    "name": "桜花賞",
+    "grade": "G1",
+    "date": "2026-04-12",
+    "course": "阪神",
+    "distance": "芝1600m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-osaka-hai",
+    "name": "大阪杯",
+    "grade": "G1",
+    "date": "2026-04-05",
+    "course": "阪神",
+    "distance": "芝2000m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-prix-de-larc-de-triomphe",
+    "name": "凱旋門賞",
+    "grade": "海外G1",
+    "date": "2026-10-04",
+    "course": "ロンシャン",
+    "distance": "芝2400m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-queen-elizabeth-ii-cup",
+    "name": "エリザベス女王杯",
+    "grade": "G1",
+    "date": "2026-11-15",
+    "course": "京都",
+    "distance": "芝2200m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-satsuki-sho",
+    "name": "皐月賞",
+    "grade": "G1",
+    "date": "2026-04-19",
+    "course": "中山",
+    "distance": "芝2000m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-saudi-cup",
+    "name": "サウジカップ",
+    "grade": "海外G1",
+    "date": "2026-02-21",
+    "course": "キングアブドゥルアジーズ",
+    "distance": "ダ1800m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-shuka-sho",
+    "name": "秋華賞",
+    "grade": "G1",
+    "date": "2026-10-18",
+    "course": "京都",
+    "distance": "芝2000m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-sprinters-stakes",
+    "name": "スプリンターズステークス",
+    "grade": "G1",
+    "date": "2026-09-27",
+    "course": "中山",
+    "distance": "芝1200m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-takamatsunomiya-kinen",
+    "name": "高松宮記念",
+    "grade": "G1",
+    "date": "2026-03-29",
+    "course": "中京",
+    "distance": "芝1200m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-takarazuka-kinen",
+    "name": "宝塚記念",
+    "grade": "G1",
+    "date": "2026-06-28",
+    "course": "阪神",
+    "distance": "芝2200m",
+    "planned_horses": [
+      "イクイノックス",
+      "ドウデュース"
+    ],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-tenno-sho-autumn",
+    "name": "天皇賞・秋",
+    "grade": "G1",
+    "date": "2026-11-01",
+    "course": "東京",
+    "distance": "芝2000m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-tenno-sho-spring",
+    "name": "天皇賞・春",
+    "grade": "G1",
+    "date": "2026-05-03",
+    "course": "京都",
+    "distance": "芝3200m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-tokyo-yushun",
+    "name": "日本ダービー (東京優駿)",
+    "grade": "G1",
+    "date": "2026-05-31",
+    "course": "東京",
+    "distance": "芝2400m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-victoria-mile",
+    "name": "ヴィクトリアマイル",
+    "grade": "G1",
+    "date": "2026-05-17",
+    "course": "東京",
+    "distance": "芝1600m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-yasuda-kinen",
+    "name": "安田記念",
+    "grade": "G1",
+    "date": "2026-06-07",
+    "course": "東京",
+    "distance": "芝1600m",
+    "planned_horses": [],
+    "origin": "manual"
+  },
+  {
+    "id": "2026-yushun-himba",
+    "name": "オークス (優駿牝馬)",
+    "grade": "G1",
+    "date": "2026-05-24",
+    "course": "東京",
+    "distance": "芝2400m",
+    "planned_horses": [],
+    "origin": "manual"
+  }
+]

@@ -4,27 +4,36 @@
 // [
 //   {
 //     "date": "2026-05-30",
-//     "category": "technology",
-//     "source": "WSJ Technology",
+//     "category": "g1",
+//     "source": "netkeiba ニュース＆コラム",
 //     "title_ja": "日本語訳タイトル",
-//     "title_en": "English Original Title",
+//     "title_en": "原題（日本語ソースなら同じでよい）",
 //     "url": "https://...",
-//     "summary": "5〜6行の日本語要約（改行は \\n で表現）"
+//     "summary": "8〜10行の日本語要約（改行は \\n で表現）",
+//     "race_id": "2026-takarazuka-kinen",  // 紐づくレースの id、無ければ null/省略可
+//     "horses": ["ドウデュース", "イクイノックス"],  // 登場馬名（無ければ [] / 省略可）
+//     "sires":  ["ハーツクライ", "キタサンブラック"]  // 登場種牡馬（無ければ [] / 省略可）
 //   }, ...
 // ]
 
 import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { appendArticles, openDb, DB_PATH, type NewArticle } from "../src/db.ts";
+import {
+  appendArticles, openDb, DB_PATH, readRaces, writeRaces,
+  type NewArticle, type Race,
+} from "../src/db.ts";
 import { CATEGORY_ORDER } from "../src/feeds.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const INPUT_PATH = join(__dirname, "..", "digest-input.json");
 
-// カテゴリの真実源は src/feeds.ts（Category 型 / CATEGORY_ORDER）。
-// ここで重複定義すると新カテゴリ追加時に取り込みが弾く事故になるため、必ず流用する。
 const VALID_CATEGORIES = new Set<string>(CATEGORY_ORDER);
+
+function asStringArray(v: unknown): string[] {
+  if (!Array.isArray(v)) return [];
+  return v.filter((x): x is string => typeof x === "string" && x.trim() !== "");
+}
 
 function validate(items: unknown): NewArticle[] {
   if (!Array.isArray(items)) throw new Error("digest-input.json は配列である必要があります");
@@ -51,9 +60,53 @@ function validate(items: unknown): NewArticle[] {
       title_en: a.title_en as string,
       url: a.url as string,
       summary: a.summary as string,
+      race_id: typeof a.race_id === "string" && a.race_id.trim() !== "" ? a.race_id : null,
+      horses: asStringArray(a.horses).join("\t"),
+      sires: asStringArray(a.sires).join("\t"),
     });
   }
   return out;
+}
+
+/**
+ * 記事の race_id を見て races.json に未登録のレースがあれば動的に追加し、
+ * 既存レースには記事から拾った馬名を planned_horses に追記する。
+ */
+function syncRacesFromArticles(items: NewArticle[]): void {
+  const races = readRaces();
+  const byId = new Map(races.map((r) => [r.id, r]));
+  let touched = false;
+
+  for (const a of items) {
+    if (!a.race_id) continue;
+    const horseNames = a.horses ? a.horses.split("\t").filter(Boolean) : [];
+
+    let race = byId.get(a.race_id);
+    if (!race) {
+      // 記事から動的に追加（最低限のメタ。詳細は手動 or 後段で補完する想定）
+      race = {
+        id: a.race_id,
+        name: a.race_id,            // 暫定: id をそのまま name に。後で書き換え可能
+        grade: "未分類",
+        date: "",
+        course: "",
+        distance: "",
+        planned_horses: [],
+        origin: "article",
+      };
+      byId.set(a.race_id, race);
+      races.push(race);
+      touched = true;
+    }
+    for (const h of horseNames) {
+      if (!race.planned_horses.includes(h)) {
+        race.planned_horses.push(h);
+        touched = true;
+      }
+    }
+  }
+
+  if (touched) writeRaces(races);
 }
 
 function main() {
@@ -63,12 +116,12 @@ function main() {
   }
   const items = validate(JSON.parse(readFileSync(INPUT_PATH, "utf-8")));
 
-  // 正本(articles.json)に追記。url 既出は重複排除される。
   const nowIso = new Date().toISOString();
   const added = appendArticles(items, nowIso);
   console.log(`${items.length}件中 ${added}件を articles.json に新規追加しました（既出は重複排除）。`);
 
-  // 検索用 digest.db を正本から再生成（GUIで開く・ローカル検索用。git管理外）。
+  syncRacesFromArticles(items);
+
   const db = openDb(DB_PATH);
   db.close();
   console.log(`検索用 digest.db を再生成しました（articles.json が正本）。`);
