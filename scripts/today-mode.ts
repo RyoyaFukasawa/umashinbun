@@ -107,6 +107,26 @@ function decide(today: string, races: Race[]): ModeResult {
     .filter((r) => r.date && r.date.startsWith(nextMonth))
     .sort((a, b) => a.date.localeCompare(b.date));
 
+  // === 年またぎフォールバック ===
+  // 12/26 以降は「翌年の重賞を races.json に取り込む必要があるかも」モード。
+  // races.json に翌年(=year+1)の重賞が1件も無いなら、強制的に monthly_prep に倒す。
+  // (通常の monthly_prep は「来月にレースがあるかで判定」するが、12月末は
+  //  来月=1月のレースがそもそも races.json に無いと検出できない鶏卵問題があるため)
+  const [thisYear, thisMonth, day] = today.split("-").map(Number);
+  if (thisMonth === 12 && day >= 26) {
+    const nextYearPrefix = `${thisYear + 1}-`;
+    const hasNextYearRaces = races.some((r) => r.date && r.date.startsWith(nextYearPrefix));
+    if (!hasNextYearRaces) {
+      notes.push(`年またぎフォールバック: ${thisYear + 1}年の重賞が races.json に未登録のため強制 monthly_prep`);
+      return {
+        mode: "monthly_prep",
+        target_races: [],
+        next_month_races: [],
+        notes,
+      };
+    }
+  }
+
   // モード優先度: monthly_prep > race_week > weekly_review > light
   // ただし weekly_review は他モードと "両立可能" な扱い(月曜が race_week の中にあっても、ops-logもやる)
   // 出力上は1つのモードに丸めるので、ここでは weekly_review 単独表記はしない方針:

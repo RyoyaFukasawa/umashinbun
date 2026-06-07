@@ -63,11 +63,41 @@ npm run --silent today-mode
 #### 分岐A: mode = "monthly_prep" (月末モード)
 
 **目的**: 来月の重賞に向けて、レースのメタ情報と出走予定馬の事典化を**先に整えておく**。
+12月末は加えて「翌年G1日程の取り込み」を必ず行う(年またぎ準備)。
+
+##### A-0. 年またぎフォールバックの場合 (12/26 以降で翌年データが races.json に無い)
+
+`notes` に「年またぎフォールバック」とある場合、まず翌年のJRA G1日程を取り込む。
+**これが完了するまでこのターンを終えない。**
+
+1. 翌年のJRA G1日程を WebFetch で取得する。情報源の優先順位:
+   - `https://www.makworld.net/horse/grade/<翌年>.html` (例: 2027年なら `/grade/2027.html`)
+   - Wikipedia「<翌年>年の競馬」のG1スケジュール表
+   - JRA公式の重賞日程PDF
+2. 翌年G1 24本(春G1 11本 + 秋G1 13本) すべてについて以下のメタを埋めて `races.json` に追加:
+   ```json
+   {
+     "id": "2027-takarazuka-kinen",
+     "name": "宝塚記念",
+     "grade": "G1",
+     "date": "2027-06-13",
+     "course": "阪神",
+     "distance": "芝2200m",
+     "planned_horses": [],
+     "origin": "manual"
+   }
+   ```
+   - `id` は `<翌年>-<英小文字ハイフン形式>`。既存 2026 年と命名規則を揃える。
+   - `course` `distance` は前年と通常同じだが、リニューアル等で変わる場合は WebFetch 内容を優先。
+3. 取り込み後 `npm run build` を実行して翌年分のページが生成されることを確認。
+4. **ここで一度コミット**: `chore(prep): import <翌年>年 G1 schedule`
+5. その後、平常時の monthly_prep 手順(A-1以降)も実行できる範囲で行う。
+
+##### A-1. 平常時の monthly_prep
 
 1. `next_month_races` 内の各レース(最大5件)に対して:
    - `races.json` の該当レコードを確認。`date` / `course` / `distance` / `planned_horses` が
      未設定なら、WebFetch でnetkeibaの該当レース紹介ページから取得して埋める。
-     (例: 凱旋門賞は2025年に追加した manual エントリ、宝塚記念は既存…など)
    - **WebFetch で planned_horses を取れたら**、`races.json` の該当レコードを書き換える。
 2. その月の重賞の主要出走予定馬のうち、`horses-profile.json` に未登録のものを
    Wikipedia で WebFetch して事典化する。1頭につき以下を抽出して JSON に追記する:
@@ -83,7 +113,26 @@ npm run --silent today-mode
 
 **目的**: 対象レースに関する情報を集中的に拾い、レースページの厚みをピークに持っていく。
 
-1. `target_races` の各レースについて、対象の `planned_horses` リストをメモする。
+##### B-0. planned_horses を最新化する (毎朝必ず実施)
+
+出走予定馬は刻々と変わる(特別登録段階 → 出馬投票で確定 → 直前回避)。
+レース当日に近づくほど精度を上げる必要があるので、毎朝の routine 開始時に必ず取得し直す。
+
+1. `target_races` の各レースについて、レースに対応する netkeiba の特集ページ
+   または「<レース名>2026 出走予定馬」を検索して WebFetch する。
+   レース別 URL の例:
+   - 宝塚記念: `https://dir.netkeiba.com/keibamatome/detail.html?no=<記事ID>`
+   - その他のレース: WebSearchで「<レース名> <年> 出走予定馬」を検索してヒットしたページ
+2. WebFetch で **カタカナの馬名リスト** を抽出する。スクレイパー(`fetch-runners.ts`)は
+   精度不足なので使わない。Claude が WebFetch の構造化抽出で正確に馬名だけ取る。
+3. `races.json` の対象レースの `planned_horses` を WebFetch 結果で**上書き**する。
+   - レース3日前以降(出馬投票後)は18頭以下に確定されているはず。
+   - レース1週前は20頭以上の特別登録段階。
+4. WebFetch が失敗した場合は既存の `planned_horses` をそのまま残し、ops-log に記録する。
+
+##### B-1. 記事選定 + 要約
+
+1. `target_races` の各レースについて、対象の `planned_horses` リスト(B-0 で更新済み)をメモする。
    これが「今日拾うべき馬」のホワイトリスト。
 2. `raw-items.json` を読み、以下のいずれかに該当する記事を**優先的に**選ぶ:
    - タイトル/本文に対象レース名 (例: "宝塚記念") が含まれる
