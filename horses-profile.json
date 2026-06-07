@@ -11,11 +11,14 @@
     "trainer": "斉藤崇史",
     "main_jockeys": ["北村友一"],
     "record": "10戦7勝（中央8戦6勝、海外2戦1勝）/ 獲得賞金12億1984万円",
-    "major_wins": [
-      { "grade": "G1", "name": "天皇賞・春", "year": "2026" },
-      { "grade": "G1", "name": "大阪杯", "year": "2026" },
-      { "grade": "G1", "name": "東京優駿", "year": "2025" },
-      { "grade": "G1", "name": "ホープフルステークス", "year": "2024" }
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "天皇賞・春", "grade": "G1", "course": "京都", "distance": "芝3200m" },
+      { "place": 1, "year": "2026", "name": "大阪杯", "grade": "G1", "course": "阪神", "distance": "芝2000m" },
+      { "place": 1, "year": "2025", "name": "プランスドランジュ賞", "grade": "G3", "course": "パリロンシャン", "distance": "芝2000m" },
+      { "place": 1, "year": "2025", "name": "東京優駿", "grade": "G1", "course": "東京", "distance": "芝2400m" },
+      { "place": 2, "year": "2025", "name": "皐月賞", "grade": "G1", "course": "中山", "distance": "芝2000m" },
+      { "place": 1, "year": "2024", "name": "ホープフルステークス", "grade": "G1", "course": "中山", "distance": "芝2000m" },
+      { "place": 1, "year": "2024", "name": "東京スポーツ杯2歳ステークス", "grade": "G2", "course": "東京", "distance": "芝1800m" }
     ],
     "strengths": [
       "「横綱相撲」と評される安定した走法で、自ら動いて前を捕まえる内容",
@@ -36,12 +39,12 @@
     "trainer": "田中博康",
     "main_jockeys": ["武豊"],
     "record": "13戦6勝（中央12戦6勝、地方1戦0勝）/ 獲得賞金4億2069万円",
-    "major_wins": [
-      { "grade": "G1", "name": "安田記念", "year": "2026" },
-      { "grade": "G2", "name": "中山記念", "year": "2025" },
-      { "grade": "G2", "name": "毎日王冠", "year": "2024" },
-      { "grade": "G2", "name": "スプリングステークス", "year": "2024" },
-      { "grade": "OP", "name": "ひいらぎ賞", "year": "2023" }
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "安田記念", "grade": "G1", "course": "東京", "distance": "芝1600m" },
+      { "place": 1, "year": "2025", "name": "中山記念", "grade": "G2", "course": "中山", "distance": "芝1800m" },
+      { "place": 2, "year": "2025", "name": "マイルチャンピオンシップ南部杯", "grade": "JpnI", "course": "盛岡", "distance": "ダ1600m" },
+      { "place": 1, "year": "2024", "name": "毎日王冠", "grade": "G2", "course": "東京", "distance": "芝1800m" },
+      { "place": 1, "year": "2024", "name": "スプリングステークス", "grade": "G2", "course": "中山", "distance": "芝1800m" }
     ],
     "strengths": [
       "デビュー後3連勝の素質馬。日本ダービーで初黒星も、その後着実に重賞を制覇",
@@ -62,9 +65,13 @@
     "trainer": "杉山晴紀",
     "main_jockeys": ["横山武史"],
     "record": "21戦4勝（中央19戦4勝、海外2戦0勝）/ 獲得賞金4億6212万円",
-    "major_wins": [
-      { "grade": "G2", "name": "富士ステークス", "year": "2025" },
-      { "grade": "G2", "name": "セントライト記念", "year": "2022" }
+    "major_results": [
+      { "place": 2, "year": "2025", "name": "マイルチャンピオンシップ", "grade": "G1", "course": "京都", "distance": "芝1600m" },
+      { "place": 1, "year": "2025", "name": "富士ステークス", "grade": "G2", "course": "東京", "distance": "芝1600m" },
+      { "place": 2, "year": "2025", "name": "安田記念", "grade": "G1", "course": "東京", "distance": "芝1600m" },
+      { "place": 2, "year": "2024", "name": "フェブラリーステークス", "grade": "G1", "course": "東京", "distance": "ダ1600m" },
+      { "place": 2, "year": "2023", "name": "マイラーズカップ", "grade": "G2", "course": "京都", "distance": "芝1600m" },
+      { "place": 1, "year": "2022", "name": "セントライト記念", "grade": "G2", "course": "中山", "distance": "芝2200m" }
     ],
     "strengths": [
       "芝・ダート両方で走力を発揮する『二刀流』の適性",
@@ -85,12 +92,13 @@
     "trainer": "田中博康",
     "main_jockeys": ["戸崎圭太"],
     "record": "18戦7勝（中央17勝、海外1戦0勝）/ 獲得賞金3億3156万円",
-    "major_wins": [
-      { "grade": "G2", "name": "中山記念", "year": "2026" },
-      { "grade": "G2", "name": "毎日王冠", "year": "2025" },
-      { "grade": "G2", "name": "オールカマー", "year": "2024" },
-      { "grade": "G3", "name": "エプソムカップ", "year": "2024" },
-      { "grade": "G2", "name": "セントライト記念", "year": "2023" }
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "中山記念", "grade": "G2", "course": "中山", "distance": "芝1800m" },
+      { "place": 1, "year": "2025", "name": "毎日王冠", "grade": "G2", "course": "東京", "distance": "芝1800m" },
+      { "place": 1, "year": "2024", "name": "オールカマー", "grade": "G2", "course": "中山", "distance": "芝2200m" },
+      { "place": 1, "year": "2024", "name": "エプソムカップ", "grade": "G3", "course": "東京", "distance": "芝1800m" },
+      { "place": 1, "year": "2023", "name": "セントライト記念", "grade": "G2", "course": "中山", "distance": "芝2200m" },
+      { "place": 3, "year": "2023", "name": "ラジオNIKKEI賞", "grade": "G3", "course": "福島", "distance": "芝1800m" }
     ],
     "strengths": [
       "「直線で鋭く脚を伸ばす」優れた末脚",
@@ -111,12 +119,16 @@
     "trainer": "加藤士津八",
     "main_jockeys": [],
     "record": "20戦2勝 / 獲得賞金3億9339万円",
-    "major_wins": [
-      { "grade": "G2", "name": "弥生賞ディープインパクト記念", "year": "2024" }
+    "major_results": [
+      { "place": 3, "year": "2025", "name": "アメリカジョッキークラブカップ", "grade": "G2", "course": "中山", "distance": "芝2200m" },
+      { "place": 2, "year": "2024", "name": "有馬記念", "grade": "G1", "course": "中山", "distance": "芝2500m" },
+      { "place": 2, "year": "2024", "name": "セントライト記念", "grade": "G2", "course": "中山", "distance": "芝2200m" },
+      { "place": 2, "year": "2024", "name": "皐月賞", "grade": "G1", "course": "中山", "distance": "芝2000m" },
+      { "place": 1, "year": "2024", "name": "弥生賞ディープインパクト記念", "grade": "G2", "course": "中山", "distance": "芝2000m" }
     ],
     "strengths": [
       "2024年の弥生賞で『アルアイン産駒の初重賞制覇』を実現",
-      "皐月賞2着・有馬記念で大波乱の演出役など、底力のある一発タイプ"
+      "皐月賞2着・有馬記念2着など、底力のある一発タイプ"
     ],
     "story": "馬名は「冠名+オーストラリア北東部の熱帯雨林」を意味。気鋭の加藤士津八厩舎の看板馬で、「人気がない時の方が面白い」と陣営は2026年宝塚記念で大波乱を狙う。",
     "source_url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%82%B9%E3%83%A2%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%B3%E3%83%80"
@@ -132,10 +144,11 @@
     "trainer": "石橋守",
     "main_jockeys": ["武豊"],
     "record": "14戦5勝（中央13戦5勝、海外1戦0勝）",
-    "major_wins": [
-      { "grade": "G1", "name": "宝塚記念", "year": "2025" },
-      { "grade": "G2", "name": "神戸新聞杯", "year": "2024" },
-      { "grade": "G3", "name": "毎日杯", "year": "2024" }
+    "major_results": [
+      { "place": 2, "year": "2026", "name": "大阪杯", "grade": "G1", "course": "阪神", "distance": "芝2000m" },
+      { "place": 1, "year": "2025", "name": "宝塚記念", "grade": "G1", "course": "阪神", "distance": "芝2200m" },
+      { "place": 1, "year": "2024", "name": "神戸新聞杯", "grade": "G2", "course": "中京", "distance": "芝2200m" },
+      { "place": 1, "year": "2024", "name": "毎日杯", "grade": "G3", "course": "阪神", "distance": "芝1800m" }
     ],
     "strengths": [
       "脚質: 逃げを得意とする",

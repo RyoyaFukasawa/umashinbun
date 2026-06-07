@@ -138,14 +138,27 @@ export function readRaces(path: string = RACES_JSON): Race[] {
 // 父・母・母父・生産者・馬主・調教師は「他の馬と共有される人物・組織」なので
 // それぞれ専用ページにリンクさせる前提で名前(文字列)のまま持つ。
 
-export interface MajorWin {
+/**
+ * 馬の主要レース成績(勝利+好走)を表す1エントリ。
+ * 「主要勝利」だけでなく「G1で2着」「重賞で3着」のような好走も拾う。
+ */
+export interface MajorResult {
   /** "G1" / "G2" / "G3" / "OP" など */
   grade: string;
   /** レース名（races.json の name と揃える必要は無い。物語の語彙でよい） */
   name: string;
   /** YYYY または YYYY-MM-DD */
   year: string;
+  /** 着順。1=勝利、2=2着、3=3着 (4着以下は major にしない方針) */
+  place: 1 | 2 | 3;
+  /** "東京" / "阪神" / "中山" など。不明なら空文字でも可 */
+  course?: string;
+  /** "芝2200m" / "ダ1800m" など。不明なら空文字でも可 */
+  distance?: string;
 }
+
+/** @deprecated MajorResult を使う。旧データ互換のため残してある型エイリアス */
+export type MajorWin = MajorResult;
 
 export interface HorseProfile {
   /** YYYY-MM-DD。不明なら空文字 */
@@ -173,8 +186,13 @@ export interface HorseProfile {
   main_jockeys: string[];
   /** 通算成績の自由文。"16戦8勝(中央13戦8勝、海外3戦0勝)" のような形式 */
   record: string;
-  /** 主要勝利レース。新しい順に並べる */
-  major_wins: MajorWin[];
+  /**
+   * 主要レース結果(勝利+好走)。新しい順に並べる。
+   * 「主要勝利」だけでなく「G1で2着」「重賞で3着」も含める。
+   */
+  major_results: MajorResult[];
+  /** @deprecated major_results を使う。旧JSON互換のため残してある */
+  major_wins?: MajorResult[];
   /** 「得意・特徴」を箇条書きで何項目か。"差し脚 / 中距離向き" など */
   strengths: string[];
   /** 1〜2文の物語的記述（任意） */
@@ -191,7 +209,15 @@ export function readHorseProfiles(path: string = HORSES_PROFILE_JSON): HorseProf
   if (typeof raw !== "object" || raw === null || Array.isArray(raw)) {
     throw new Error("horses-profile.json はオブジェクト（馬名→プロフィール）である必要があります");
   }
-  return raw as HorseProfileMap;
+  // 旧フィールド名 major_wins (place 無し) → 新 major_results (place=1 補完) に正規化
+  const out: HorseProfileMap = {};
+  for (const [name, p] of Object.entries(raw as HorseProfileMap)) {
+    const results = p.major_results
+      ?? (p.major_wins?.map((w) => ({ ...w, place: (w.place ?? 1) as 1 | 2 | 3 })))
+      ?? [];
+    out[name] = { ...p, major_results: results };
+  }
+  return out;
 }
 
 export function writeHorseProfiles(map: HorseProfileMap, path: string = HORSES_PROFILE_JSON): void {

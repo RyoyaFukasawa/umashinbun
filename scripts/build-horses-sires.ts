@@ -49,11 +49,20 @@ function renderProfileSection(profile: HorseProfile): string {
   for (const [k, v] of rows) lines.push(`| **${k}** | ${v} |`);
   lines.push("");
 
-  if (profile.major_wins?.length) {
-    lines.push("### 主要勝利");
+  // major_results は新フィールド名。readHorseProfiles() で旧 major_wins から
+  // 正規化済みなので、profile.major_results を見るだけでよい。
+  const results = profile.major_results ?? [];
+  if (results.length > 0) {
+    lines.push("### 主要勝利・好走");
     lines.push("");
-    for (const w of profile.major_wins) {
-      lines.push(`- **${w.year}年 ${w.name} (${w.grade})**`);
+    for (const r of results) {
+      // 1着=🥇 / 2着=🥈 / 3着=🥉。place が無い旧データは🥇に倒れる(後方互換)。
+      const medal = r.place === 2 ? "🥈" : r.place === 3 ? "🥉" : "🥇";
+      // コース/距離が両方ある場合は ` — 阪神 芝2200m` で末尾に併記、
+      // どちらかしか無ければそれだけ、両方無ければ表記なし。
+      const venue = [r.course, r.distance].filter(Boolean).join(" ");
+      const venueLabel = venue ? ` — ${venue}` : "";
+      lines.push(`- ${medal} **${r.year}年 ${r.name} (${r.grade})**${venueLabel}`);
     }
     lines.push("");
   }
