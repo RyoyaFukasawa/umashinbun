@@ -2,7 +2,7 @@
 kind: owners
 name: KRジャパン
 related_horses: 1
-related_articles: 1
+related_articles: 5
 ---
 
 # 👤 KRジャパン
@@ -14,6 +14,10 @@ related_articles: 1
 
 - [ガイアフォース](../horses/ガイアフォース.md)
 
-## 📰 関連記事 (1件)
+## 📰 関連記事 (5件)
 
 - **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
+- **2026-06-07** — [安田記念速報：シックスペンスがクビ差制す、2着はワールズエンドとガイアフォース](https://news.yahoo.co.jp/articles/507874ee12b256d7586f0515ac801e1053c2e044?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
+- **2026-06-07** — [安田記念結果：シックスペンスがG1初制覇、2着はワールズエンド・ガイアフォースの同着](https://news.netkeiba.com/?pid=news_view&no=333608) *(出典: netkeiba ニュース＆コラム)*
+- **2026-06-07** — [安田記念2着同着：ワールズエンド津村「ペースは思った通り」、ガイア横山武「前が止まらない割に頑張った」](https://news.netkeiba.com/?pid=news_view&no=333589) *(出典: netkeiba ニュース＆コラム)*
+- **2026-06-06** — [安田記念の事前分析：ブリーダーズC出走権をかけた争い（TDN）](https://www.thoroughbreddailynews.com/black-type-analysis-breeders-cup-berth-on-the-line-in-yasuda-kinen/) *(出典: Thoroughbred Daily News)*

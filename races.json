@@ -107,7 +107,30 @@
     "course": "東京",
     "distance": "芝1600m",
     "planned_horses": [],
-    "origin": "manual"
+    "origin": "manual",
+    "results": [
+      {
+        "place": 1,
+        "horse": "ロデオドライブ",
+        "jockey": "D.レーン",
+        "time": "1:31.5",
+        "popularity": 1
+      },
+      {
+        "place": 2,
+        "horse": "アスクイキゴミ",
+        "jockey": "戸崎圭太",
+        "time": null,
+        "popularity": 4
+      },
+      {
+        "place": 3,
+        "horse": "アドマイヤクワッズ",
+        "jockey": "坂井瑠星",
+        "time": null,
+        "popularity": 6
+      }
+    ]
   },
   {
     "id": "2026-oka-sho",
@@ -235,7 +258,30 @@
     "course": "東京",
     "distance": "芝2400m",
     "planned_horses": [],
-    "origin": "manual"
+    "origin": "manual",
+    "results": [
+      {
+        "place": 1,
+        "horse": "ロブチェン",
+        "jockey": "松山弘平",
+        "time": "2:22.7",
+        "popularity": 1
+      },
+      {
+        "place": 2,
+        "horse": "パントルナイーフ",
+        "jockey": "C.ルメール",
+        "time": null,
+        "popularity": 4
+      },
+      {
+        "place": 3,
+        "horse": "バステール",
+        "jockey": "川田将雅",
+        "time": null,
+        "popularity": 11
+      }
+    ]
   },
   {
     "id": "2026-victoria-mile",
@@ -245,7 +291,30 @@
     "course": "東京",
     "distance": "芝1600m",
     "planned_horses": [],
-    "origin": "manual"
+    "origin": "manual",
+    "results": [
+      {
+        "place": 1,
+        "horse": "エンブロイダリー",
+        "jockey": "C.ルメール",
+        "time": "1:30.9",
+        "popularity": 1
+      },
+      {
+        "place": 2,
+        "horse": "カムニャック",
+        "jockey": "川田将雅",
+        "time": null,
+        "popularity": 2
+      },
+      {
+        "place": 3,
+        "horse": "クイーンズウォーク",
+        "jockey": "西村淳也",
+        "time": null,
+        "popularity": 3
+      }
+    ]
   },
   {
     "id": "2026-yasuda-kinen",
@@ -265,11 +334,41 @@
     ],
     "origin": "manual",
     "results": [
-      { "place": 1, "horse": "シックスペンス", "jockey": "武豊", "time": "1:32.1", "popularity": 8 },
-      { "place": 2, "horse": "ワールズエンド", "jockey": "津村明秀", "time": "1:32.1", "popularity": 7 },
-      { "place": 2, "horse": "ガイアフォース", "jockey": "横山武史", "time": "1:32.1", "popularity": 1 },
-      { "place": 4, "horse": "セイウンハーデス", "jockey": "幸英明", "time": "1:32.1", "popularity": 6 },
-      { "place": 5, "horse": "パンジャタワー", "jockey": "松山弘平", "time": "1:32.2", "popularity": 4 }
+      {
+        "place": 1,
+        "horse": "シックスペンス",
+        "jockey": "武豊",
+        "time": "1:32.1",
+        "popularity": 8
+      },
+      {
+        "place": 2,
+        "horse": "ワールズエンド",
+        "jockey": "津村明秀",
+        "time": "1:32.1",
+        "popularity": 7
+      },
+      {
+        "place": 2,
+        "horse": "ガイアフォース",
+        "jockey": "横山武史",
+        "time": "1:32.1",
+        "popularity": 1
+      },
+      {
+        "place": 4,
+        "horse": "セイウンハーデス",
+        "jockey": "幸英明",
+        "time": "1:32.1",
+        "popularity": 6
+      },
+      {
+        "place": 5,
+        "horse": "パンジャタワー",
+        "jockey": "松山弘平",
+        "time": "1:32.2",
+        "popularity": 4
+      }
     ]
   },
   {
@@ -280,6 +379,29 @@
     "course": "東京",
     "distance": "芝2400m",
     "planned_horses": [],
-    "origin": "manual"
+    "origin": "manual",
+    "results": [
+      {
+        "place": 1,
+        "horse": "ジュウリョクピエロ",
+        "jockey": "今村聖奈",
+        "time": "2:25.6",
+        "popularity": 5
+      },
+      {
+        "place": 2,
+        "horse": "ドリームコア",
+        "jockey": "C.ルメール",
+        "time": null,
+        "popularity": 3
+      },
+      {
+        "place": 3,
+        "horse": "ラフターラインズ",
+        "jockey": "D.レーン",
+        "time": null,
+        "popularity": 2
+      }
+    ]
   }
 ]
