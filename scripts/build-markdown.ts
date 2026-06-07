@@ -110,12 +110,8 @@ function renderNextRaceBanner(race: Race, today: string): string[] {
 
   // --- 重賞週 (1〜7日) ---
   if (days >= 1 && days <= 7) {
-    // 馬絵文字をカウントダウンに連動させる(7日前は7頭、 1日前は1頭ゴールに迫る)
-    const horses = "🐎".repeat(days);
     const dayBig = days === 1 ? "🔥 **明日開催** 🔥" : `🔥 **あと ${days} 日** 🔥`;
     return [
-      `> # ${horses} → 🏁`,
-      `>`,
       `> ## 🏆 ${race.name} (${race.grade})`,
       `>`,
       `> ${dayBig}`,
@@ -124,7 +120,7 @@ function renderNextRaceBanner(race: Race, today: string): string[] {
       `> |---|---|---|---|`,
       `> | ${dateLabel} | ${race.course} | ${race.distance} | ${horseCount}頭 |`,
       `>`,
-      `> 📰 [${race.name}のレースページ →](${linkPath})`,
+      `> 📰 [${race.name}のレースページ →](${linkPath}) 🐎`,
     ];
   }
 
