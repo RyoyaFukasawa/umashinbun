@@ -189,10 +189,13 @@ npm run --silent today-mode
 
 #### 分岐C: mode = "weekly_review" (改善モード)
 
-**目的**: 週次の振り返りとシステム改善。
+**目的**: 月曜の軽量ダイジェスト。改善 PR の作成は別 routine の仕事。
 
-1. [IMPROVE_PROMPT.md](IMPROVE_PROMPT.md) の手順を実行する (ops-log 集計、INSIGHTS.md 更新、改善PR)。
-2. その後、 **軽量モード(分岐D)も併せて実行**する(改善は午前中、軽量モードのダイジェストも当日分は欲しい)。
+1. **このルーチンでは IMPROVE_PROMPT.md は実行しない。**
+   週次の自己改善 (ops-log 集計・INSIGHTS.md 更新・改善PR) は
+   別の routine `umashinbun-weekly-improve` が同じ月曜の 8:00 JST に動いて担当する。
+   こちらは weekly_review モードでも「**軽量モード(分岐D)と同じ仕事だけ**」をする。
+2. 分岐D の手順をそのまま実行する。
 
 #### 分岐D: mode = "light" (軽量モード)
 

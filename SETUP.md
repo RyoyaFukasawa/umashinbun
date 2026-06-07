@@ -150,20 +150,34 @@ Routines の 7:00 JST までに完了するよう2時間のマージンを確保
 
 ## 7. Claude Code Routines への登録
 
-`ROUTINES_PROMPT.md` の本文を Claude Code の Routines にタスクとして登録する。
-登録する routine は **1本だけ**（中で `npm run today-mode` を呼んで日付に応じた仕事内容を自動切り替え）。
+Claude Code の Routines に **2 本**登録する: 日次ダイジェスト用と週次改善用。
+プロンプト本文はリポジトリ内 (`ROUTINES_PROMPT.md` / `IMPROVE_PROMPT.md`) に置き、
+routine 側はそれを "Read して従え" の短い指示だけ。プロンプト更新は git push するだけで反映される。
 
-### 登録手順
+### routine 1: `umashinbun-daily-digest` (毎朝 7:00 JST)
 
-1. <https://claude.ai/code/routines> を開いて **New routine**
-2. **Name**: `umashinbun daily digest` など
-3. **Prompt**: コピペ用に切り出した [`ROUTINE_PROMPT_BODY.md`](ROUTINE_PROMPT_BODY.md) の **全文を貼り付け**
-   (= `ROUTINES_PROMPT.md` の "## タスクプロンプト本文" 以降と同じ内容)
-4. **Repositories**: `RyoyaFukasawa/umashinbun` を追加
-5. **Environment**: Default (Trusted) のままでよい
-6. **Trigger**: Schedule、ローカルタイムで毎日 7:00 AM (内部で `0 22 * * *` UTC に変換)
-7. **Permissions**: "Allow unrestricted branch pushes" を有効化 (main に直接 push する設計)
-8. **Create** を押す
+- **Prompt**: `ROUTINES_PROMPT.md` を Read して、その「タスクプロンプト本文」セクションの手順に従って作業する旨を書く
+  (実物は [SETUP.md レシピ](#daily-routine-prompt-text) または kawaraban-daily-digest を参考)
+- **Repositories**: `RyoyaFukasawa/umashinbun`
+- **Environment**: Default (Trusted)
+- **Trigger**: Schedule、毎日 7:00 JST (cron `0 22 * * *`)
+- **Permissions**: "Allow unrestricted branch pushes" を有効化 (main に直接 push する設計)
+- **Allowed tools**: Bash / Read / Write / Edit / Glob / Grep / WebFetch / WebSearch
+
+### routine 2: `umashinbun-weekly-improve` (月曜 8:00 JST)
+
+- **Prompt**: `IMPROVE_PROMPT.md` を Read して従う旨を書く (kawaraban-weekly-improve と同じ構造)
+- **Repositories**: `RyoyaFukasawa/umashinbun`
+- **Environment**: Default (Trusted)
+- **Trigger**: Schedule、月曜 8:00 JST (cron `0 23 * * 0`)
+- **Permissions**: main 直 push **しない**(改善は PR で出す設計)。 ops-log/ のみ main 直コミット可
+- **Allowed tools**: 上記 + **Agent + Task** (複数サブエージェントを立ててブレスト+対立議論を回すため)
+
+### 2本の役割分担
+
+- daily routine の `weekly_review` モード(月曜)は IMPROVE_PROMPT を実行 **しない**。
+  日次ダイジェスト routine が二重に改善を回すのを避けるため、 weekly_review モードの実体は light モードと同じ軽量ダイジェスト。
+- 週次の本格改善 (ops-log 集計・ブレスト・対立議論・改善PR) は weekly-improve routine だけが担当する。
 
 ### モードと対応する仕事
 
