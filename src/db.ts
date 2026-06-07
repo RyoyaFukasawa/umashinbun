@@ -17,6 +17,15 @@ export const DB_PATH = join(__dirname, "..", "digest.db");
 export const ARTICLES_JSON = join(__dirname, "..", "articles.json");
 export const RACES_JSON = join(__dirname, "..", "races.json");
 
+/**
+ * 馬名・種牡馬名 → ファイル名/URLセーフな文字列。
+ * Markdown のリンクとファイル名の両方で安全に使えるよう、危ない記号を _ に置換する。
+ * races と horses/sires の両方で同じ値が必要なので、ここで共通化している。
+ */
+export function safeFilename(name: string): string {
+  return name.replace(/[\\/:*?"<>|\s]/g, "_");
+}
+
 export interface ArticleRow {
   id: number;
   date: string; // YYYY-MM-DD (記事日付)

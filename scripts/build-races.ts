@@ -11,7 +11,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import {
-  openDb, allRaces, articlesByRace, articlesByHorse,
+  openDb, allRaces, articlesByRace, articlesByHorse, safeFilename,
   type ArticleRow, type Race,
 } from "../src/db.ts";
 
@@ -76,9 +76,12 @@ function renderRaceFile(race: Race, raceArticles: ArticleRow[], horseToArticles:
     lines.push("*出走予定馬はまだ抽出されていません。記事で名前が拾われ次第ここに並びます。*");
     lines.push("");
   } else {
+    // レースページは races/YYYY/MM/<id>.md にあるので horses/ へは ../../../horses/
+    // 馬名は専用ページ(horses/<safe-name>.md)へのリンクにする。
     for (const horse of race.planned_horses) {
       const arts = horseToArticles.get(horse) ?? [];
-      lines.push(`### ${horse}`);
+      const safe = safeFilename(horse);
+      lines.push(`### [${horse}](../../../horses/${safe}.md)`);
       if (arts.length === 0) {
         lines.push("*関連記事なし。*");
       } else {
@@ -86,7 +89,7 @@ function renderRaceFile(race: Race, raceArticles: ArticleRow[], horseToArticles:
           lines.push(renderArticleLine(a));
         }
         if (arts.length > 20) {
-          lines.push(`- *他 ${arts.length - 20} 件 → [horses/${horse}.md](../../../horses/${encodeURIComponent(horse)}.md)*`);
+          lines.push(`- *他 ${arts.length - 20} 件 → [${horse} のページ全体](../../../horses/${safe}.md)*`);
         }
       }
       lines.push("");
