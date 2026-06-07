@@ -20,32 +20,12 @@
     "origin": "manual"
   },
   {
-    "id": "2026-breeders-cup-classic",
-    "name": "ブリーダーズカップ・クラシック",
-    "grade": "海外G1",
-    "date": "2026-11-07",
-    "course": "Del Mar",
-    "distance": "ダ2000m",
-    "planned_horses": [],
-    "origin": "manual"
-  },
-  {
     "id": "2026-champions-cup",
     "name": "チャンピオンズカップ",
     "grade": "G1",
     "date": "2026-12-06",
     "course": "中京",
     "distance": "ダ1800m",
-    "planned_horses": [],
-    "origin": "manual"
-  },
-  {
-    "id": "2026-dubai-world-cup",
-    "name": "ドバイワールドカップ",
-    "grade": "海外G1",
-    "date": "2026-03-28",
-    "course": "メイダン",
-    "distance": "ダ2000m",
     "planned_horses": [],
     "origin": "manual"
   },
@@ -61,22 +41,13 @@
   },
   {
     "id": "2026-hakodate-sprint-s",
-    "name": "函館スプリントステークス",
-    "grade": "G3",
-    "date": "2026-06-14",
-    "course": "函館",
-    "distance": "芝1200m",
-    "planned_horses": [
-      "インビンシブルパパ",
-      "ウインカーネリアン",
-      "カルプスペルシュ",
-      "クラスペディア",
-      "サトノレーヴ",
-      "ドンアミティエ",
-      "ナムラクレア",
-      "ペアポルックス"
-    ],
-    "origin": "manual"
+    "name": "2026-hakodate-sprint-s",
+    "grade": "未分類",
+    "date": "",
+    "course": "",
+    "distance": "",
+    "planned_horses": [],
+    "origin": "article"
   },
   {
     "id": "2026-hanshin-juvenile-fillies",
@@ -85,16 +56,6 @@
     "date": "2026-12-13",
     "course": "阪神",
     "distance": "芝1600m",
-    "planned_horses": [],
-    "origin": "manual"
-  },
-  {
-    "id": "2026-hong-kong-cup",
-    "name": "香港カップ",
-    "grade": "海外G1",
-    "date": "2026-12-13",
-    "course": "シャティン",
-    "distance": "芝2000m",
     "planned_horses": [],
     "origin": "manual"
   },
@@ -169,16 +130,6 @@
     "origin": "manual"
   },
   {
-    "id": "2026-prix-de-larc-de-triomphe",
-    "name": "凱旋門賞",
-    "grade": "海外G1",
-    "date": "2026-10-04",
-    "course": "ロンシャン",
-    "distance": "芝2400m",
-    "planned_horses": [],
-    "origin": "manual"
-  },
-  {
     "id": "2026-queen-elizabeth-ii-cup",
     "name": "エリザベス女王杯",
     "grade": "G1",
@@ -195,16 +146,6 @@
     "date": "2026-04-19",
     "course": "中山",
     "distance": "芝2000m",
-    "planned_horses": [],
-    "origin": "manual"
-  },
-  {
-    "id": "2026-saudi-cup",
-    "name": "サウジカップ",
-    "grade": "海外G1",
-    "date": "2026-02-21",
-    "course": "キングアブドゥルアジーズ",
-    "distance": "ダ1800m",
     "planned_horses": [],
     "origin": "manual"
   },
@@ -242,21 +183,26 @@
     "id": "2026-takarazuka-kinen",
     "name": "宝塚記念",
     "grade": "G1",
-    "date": "2026-06-28",
+    "date": "2026-06-14",
     "course": "阪神",
     "distance": "芝2200m",
     "planned_horses": [
-      "イクイノックス",
-      "クロノジェネシス",
       "クロワデュノール",
       "コスモキュランダ",
-      "スルーセブンシーズ",
-      "タイトルホルダー",
+      "シェイクユアハート",
+      "シュガークン",
+      "シンエンペラー",
+      "ジューンテイク",
+      "スティンガーグラス",
+      "タガノデュード",
       "ダノンデサイル",
-      "ドウデュース",
-      "メイショウサムソン",
+      "ビザンチンドリーム",
+      "ファミリータイム",
+      "マイユニバース",
+      "ミクニインスパイア",
+      "ミステリーウェイ",
+      "ミュージアムマイル",
       "メイショウタバル",
-      "ユニコーンライオン",
       "レガレイラ"
     ],
     "origin": "manual"
@@ -308,17 +254,7 @@
     "date": "2026-06-07",
     "course": "東京",
     "distance": "芝1600m",
-    "planned_horses": [
-      "ガイアフォース",
-      "シックスペンス",
-      "シリウスコルト",
-      "セイウンハーデス",
-      "トロヴァトーレ",
-      "パンジャタワー",
-      "メイショウタバル",
-      "レーベンスティール",
-      "ワールズエンド"
-    ],
+    "planned_horses": [],
     "origin": "manual"
   },
   {

@@ -5,7 +5,7 @@ grade: G1
 date: 2026-06-07
 course: 東京
 distance: 芝1600m
-planned_horses: 9
+planned_horses: 0
 articles: 2
 ---
 
@@ -49,35 +49,6 @@ articles: 2
 ⚖️ 強気/弱気: 武豊+メイショウタバルにとって強気材料
 📅 次の注目: 6月28日 宝塚記念
 
-## 🐎 出走予定馬と関連記事 (9頭)
+## 🐎 出走予定馬と関連記事 (0頭)
 
-### [ガイアフォース](../../../horses/ガイアフォース.md)
-- **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-
-### [シックスペンス](../../../horses/シックスペンス.md)
-- **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-- **2026-06-07** — [武豊がJRA最年長G1勝利記録を更新 急きょの依頼に結果で応えた!「おじさん頑張っています(笑)」](https://news.netkeiba.com/?pid=column_view&cid=59008) *(出典: netkeiba ニュース＆コラム)*
-
-### [シリウスコルト](../../../horses/シリウスコルト.md)
-- **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-
-### [セイウンハーデス](../../../horses/セイウンハーデス.md)
-- **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-
-### [トロヴァトーレ](../../../horses/トロヴァトーレ.md)
-- **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-
-### [パンジャタワー](../../../horses/パンジャタワー.md)
-- **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-
-### [メイショウタバル](../../../horses/メイショウタバル.md)
-- **2026-06-07** — [【宝塚記念】春古馬三冠に挑むクロワデュノールに"最後の壁" メイショウタバルら前走大阪杯組に逆転のチャンスあり](https://news.yahoo.co.jp/articles/36ed08a32f0bee5b11c1561b4a336f2b347ca2bd?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-- **2026-06-07** — [武豊がJRA最年長G1勝利記録を更新 急きょの依頼に結果で応えた!「おじさん頑張っています(笑)」](https://news.netkeiba.com/?pid=column_view&cid=59008) *(出典: netkeiba ニュース＆コラム)*
-- **2026-06-07** — [【宝塚記念予想】今年も開催4日目で先行有利か 渋ればフレンチデピュティの血が特注](https://news.netkeiba.com/?pid=column_view&cid=59003) *(出典: netkeiba ニュース＆コラム)*
-
-### [レーベンスティール](../../../horses/レーベンスティール.md)
-- **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-
-### [ワールズエンド](../../../horses/ワールズエンド.md)
-- **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-- **2026-06-07** — [武豊がJRA最年長G1勝利記録を更新 急きょの依頼に結果で応えた!「おじさん頑張っています(笑)」](https://news.netkeiba.com/?pid=column_view&cid=59008) *(出典: netkeiba ニュース＆コラム)*
+*出走予定馬はまだ抽出されていません。記事で名前が拾われ次第ここに並びます。*

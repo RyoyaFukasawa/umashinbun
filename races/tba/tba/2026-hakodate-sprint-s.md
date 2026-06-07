@@ -1,17 +1,15 @@
 ---
 race_id: 2026-hakodate-sprint-s
-name: 函館スプリントステークス
-grade: G3
-date: 2026-06-14
-course: 函館
-distance: 芝1200m
-planned_horses: 8
+name: 2026-hakodate-sprint-s
+grade: 未分類
+date: 
+course: 
+distance: 
+planned_horses: 0
 articles: 2
 ---
 
-# 函館スプリントステークス (G3)
-
-**2026-06-14 ・ 函館 ・ 芝1200m**
+# 2026-hakodate-sprint-s (未分類)
 
 ## 📰 このレースに関する記事 (2件)
 
@@ -50,31 +48,6 @@ articles: 2
 ⚖️ 強気/弱気: 北海道好走歴のある中堅馬に強気材料
 📅 次の注目: 6月14日 函館スプリントS
 
-## 🐎 出走予定馬と関連記事 (8頭)
+## 🐎 出走予定馬と関連記事 (0頭)
 
-### [インビンシブルパパ](../../../horses/インビンシブルパパ.md)
-- **2026-06-07** — [【函館SS予想】開幕週で外枠苦戦 ストームキャットのスピード有力](https://news.netkeiba.com/?pid=column_view&cid=59010) *(出典: netkeiba ニュース＆コラム)*
-
-### [ウインカーネリアン](../../../horses/ウインカーネリアン.md)
-- **2026-06-07** — [【函館SS予想】開幕週で外枠苦戦 ストームキャットのスピード有力](https://news.netkeiba.com/?pid=column_view&cid=59010) *(出典: netkeiba ニュース＆コラム)*
-
-### [カルプスペルシュ](../../../horses/カルプスペルシュ.md)
-- **2026-06-07** — [【函館スプリントS】北海道巧者カルプスペルシュが反撃態勢 高松宮記念組は複勝率20%未満](https://news.yahoo.co.jp/articles/9b3e2f7d4c8a6e1b5c2d8f9a3e6b7c4d1a2b3c5d?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-- **2026-06-07** — [【函館SS予想】開幕週で外枠苦戦 ストームキャットのスピード有力](https://news.netkeiba.com/?pid=column_view&cid=59010) *(出典: netkeiba ニュース＆コラム)*
-
-### [クラスペディア](../../../horses/クラスペディア.md)
-- **2026-06-07** — [【函館スプリントS】北海道巧者カルプスペルシュが反撃態勢 高松宮記念組は複勝率20%未満](https://news.yahoo.co.jp/articles/9b3e2f7d4c8a6e1b5c2d8f9a3e6b7c4d1a2b3c5d?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-- **2026-06-07** — [【函館SS予想】開幕週で外枠苦戦 ストームキャットのスピード有力](https://news.netkeiba.com/?pid=column_view&cid=59010) *(出典: netkeiba ニュース＆コラム)*
-
-### [サトノレーヴ](../../../horses/サトノレーヴ.md)
-- **2026-06-07** — [【函館SS予想】開幕週で外枠苦戦 ストームキャットのスピード有力](https://news.netkeiba.com/?pid=column_view&cid=59010) *(出典: netkeiba ニュース＆コラム)*
-
-### [ドンアミティエ](../../../horses/ドンアミティエ.md)
-- **2026-06-07** — [【函館スプリントS】北海道巧者カルプスペルシュが反撃態勢 高松宮記念組は複勝率20%未満](https://news.yahoo.co.jp/articles/9b3e2f7d4c8a6e1b5c2d8f9a3e6b7c4d1a2b3c5d?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
-- **2026-06-07** — [【函館SS予想】開幕週で外枠苦戦 ストームキャットのスピード有力](https://news.netkeiba.com/?pid=column_view&cid=59010) *(出典: netkeiba ニュース＆コラム)*
-
-### [ナムラクレア](../../../horses/ナムラクレア.md)
-- **2026-06-07** — [【函館SS予想】開幕週で外枠苦戦 ストームキャットのスピード有力](https://news.netkeiba.com/?pid=column_view&cid=59010) *(出典: netkeiba ニュース＆コラム)*
-
-### [ペアポルックス](../../../horses/ペアポルックス.md)
-- **2026-06-07** — [【函館SS予想】開幕週で外枠苦戦 ストームキャットのスピード有力](https://news.netkeiba.com/?pid=column_view&cid=59010) *(出典: netkeiba ニュース＆コラム)*
+*出走予定馬はまだ抽出されていません。記事で名前が拾われ次第ここに並びます。*

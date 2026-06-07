@@ -10,6 +10,7 @@
   "scripts": {
     "fetch": "node --experimental-strip-types scripts/fetch-feeds.ts",
     "fetch-article": "node --experimental-strip-types scripts/fetch-article.ts",
+    "fetch-runners": "node --experimental-strip-types scripts/fetch-runners.ts",
     "ingest": "node --experimental-strip-types scripts/ingest.ts",
     "build-races": "node --experimental-strip-types scripts/build-races.ts",
     "build-horses-sires": "node --experimental-strip-types scripts/build-horses-sires.ts",

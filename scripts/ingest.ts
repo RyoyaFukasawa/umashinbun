@@ -73,8 +73,16 @@ function validate(items: unknown): NewArticle[] {
 }
 
 /**
- * 記事の race_id を見て races.json に未登録のレースがあれば動的に追加し、
- * 既存レースには記事から拾った馬名を planned_horses に追記する。
+ * 記事の race_id を見て、races.json に未登録のレースがあれば動的に追加する。
+ *
+ * **planned_horses は意図的に触らない**。理由:
+ * 「記事に登場した馬」は出走予定とは限らない(過去のレース回顧で言及された馬、
+ * 他社の予想で名前が出ただけの馬、引退済みの歴史的馬まで含まれてしまう)。
+ * 出走予定馬は信頼できる一次情報(JRA出馬投票/netkeibaの特別登録馬等)から
+ * 別途取得する設計に変更した。
+ *
+ * 動的追加されたレースは origin="article"。日付・距離なども不明なので空のまま。
+ * 必要に応じて後で手動で `races.json` を編集する。
  */
 function syncRacesFromArticles(items: NewArticle[]): void {
   const races = readRaces();
@@ -83,31 +91,20 @@ function syncRacesFromArticles(items: NewArticle[]): void {
 
   for (const a of items) {
     if (!a.race_id) continue;
-    const horseNames = a.horses ? a.horses.split("\t").filter(Boolean) : [];
+    if (byId.has(a.race_id)) continue;
 
-    let race = byId.get(a.race_id);
-    if (!race) {
-      // 記事から動的に追加（最低限のメタ。詳細は手動 or 後段で補完する想定）
-      race = {
-        id: a.race_id,
-        name: a.race_id,            // 暫定: id をそのまま name に。後で書き換え可能
-        grade: "未分類",
-        date: "",
-        course: "",
-        distance: "",
-        planned_horses: [],
-        origin: "article",
-      };
-      byId.set(a.race_id, race);
-      races.push(race);
-      touched = true;
-    }
-    for (const h of horseNames) {
-      if (!race.planned_horses.includes(h)) {
-        race.planned_horses.push(h);
-        touched = true;
-      }
-    }
+    races.push({
+      id: a.race_id,
+      name: a.race_id,
+      grade: "未分類",
+      date: "",
+      course: "",
+      distance: "",
+      planned_horses: [],
+      origin: "article",
+    });
+    byId.set(a.race_id, races[races.length - 1]);
+    touched = true;
   }
 
   if (touched) writeRaces(races);
