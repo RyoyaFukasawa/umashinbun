@@ -1,7 +1,7 @@
 ---
 kind: jockeys
 name: C.ルメール
-related_horses: 3
+related_horses: 4
 related_articles: 1
 ---
 
@@ -10,8 +10,9 @@ related_articles: 1
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (3頭)
+## 🐎 関連する馬 (4頭)
 
+- [エンブロイダリー](../horses/エンブロイダリー.md)
 - [オオセイケイ](../horses/オオセイケイ.md)
 - [ラードンチェイス](../horses/ラードンチェイス.md)
 - [リリカルフレア](../horses/リリカルフレア.md)

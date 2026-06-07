@@ -1,0 +1,19 @@
+---
+kind: jockeys
+name: O.マーフィー
+related_horses: 1
+related_articles: 1
+---
+
+# 🏇 O.マーフィー
+*騎手*
+
+[索引へ](README.md)
+
+## 🐎 関連する馬 (1頭)
+
+- [ベイシティローラー](../horses/ベイシティローラー.md)
+
+## 📰 関連記事 (1件)
+
+- **2026-06-07** — [コロネーションC：ベイシティローラーが10馬身差独走V、大目標は凱旋門賞](https://news.yahoo.co.jp/articles/06f0cf24550033fbcb0f524ec27c935eccd75446?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
