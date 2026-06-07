@@ -85,8 +85,10 @@ function renderReadme(db: ReturnType<typeof openDb>): string {
   const lines: string[] = [];
   lines.push("# umashinbun 馬新聞");
   lines.push("");
-  lines.push("**レース中心の競馬ダイジェスト。** 「次の宝塚記念に向けてドウデュースはどんな状態？」 — それを1ページで読めるように、");
+  lines.push("**レース中心の競馬ダイジェスト。** 「次の宝塚記念に向けてメイショウタバルはどんな状態？」 — それを1ページで読めるように、");
   lines.push("毎朝、競馬ニュースを翻訳・要約してレースごと・馬ごと・種牡馬ごとに集約する。");
+  lines.push("");
+  lines.push("姉妹リポ: [kawaraban](https://github.com/RyoyaFukasawa/kawaraban) (投資家向けの世界ニュースダイジェスト)。本リポはその「馬版」として構成・運用ルーチンを流用している。");
   lines.push("");
   lines.push("## 入口");
   lines.push("");
