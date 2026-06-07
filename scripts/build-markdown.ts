@@ -14,8 +14,9 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import {
   openDb, articlesByCategory, allRaces, raceFilePath,
-  type ArticleRow,
+  type ArticleRow, type Race,
 } from "../src/db.ts";
+import { figlet } from "../src/figlet.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -65,6 +66,43 @@ function renderCategoryView(title: string, rows: ArticleRow[]): string {
   return lines.join("\n");
 }
 
+/**
+ * race.id ("2026-takarazuka-kinen") からローマ字英訳を作る。
+ * "2026-" の prefix を剥がして、ハイフンを空白に、大文字化するだけ。
+ * 既存26レースで概ね自然な結果になることは検証済み(README ヘッダー目的なので十分)。
+ */
+function raceNameEnFromId(id: string): string {
+  return id.replace(/^\d{4}-/, "").replace(/-/g, " ").toUpperCase();
+}
+
+function daysBetween(a: string, b: string): number {
+  const [ya, ma, da] = a.split("-").map(Number);
+  const [yb, mb, db] = b.split("-").map(Number);
+  return Math.round((Date.UTC(yb, mb - 1, db) - Date.UTC(ya, ma - 1, da)) / 86400000);
+}
+
+/**
+ * 「次のG1」を README 冒頭に大きく表示するヘッダー。
+ * figlet アスキーアート(レース名英字) + 日本語サブタイトル + 開催情報を
+ * コードブロック(```)で囲んで等幅で見せる。GitHub の Markdown でも崩れない。
+ */
+function renderNextRaceBanner(race: Race, today: string): string[] {
+  const nameEn = raceNameEnFromId(race.id);
+  const days = daysBetween(today, race.date);
+  const dayLabel = days === 0 ? "本日開催" : days === 1 ? "明日開催" : `あと ${days} 日`;
+  const meta = [race.date, race.course, race.distance].filter(Boolean).join(" ・ ");
+  const lines = [
+    "```",
+    ...figlet(nameEn),
+    "",
+    `        🏆 次のG1: ${race.name} (${race.grade})`,
+    `        ${meta}`,
+    `        開催まで ${dayLabel}  ・  出走予定 ${race.planned_horses.length}頭`,
+    "```",
+  ];
+  return lines;
+}
+
 function renderReadme(db: ReturnType<typeof openDb>): string {
   const races = allRaces(db);
   // 直近の未来 (今日以降) のレース 8件 + 過去レース 3件
@@ -83,6 +121,18 @@ function renderReadme(db: ReturnType<typeof openDb>): string {
     .all() as ArticleRow[];
 
   const lines: string[] = [];
+
+  // ★ 最上部の「次のG1」アスキーアートヘッダー。
+  // races.json から G1 のうち今日以降 かつ 結果がまだ入っていないレースで最も近いものを選ぶ。
+  // (results が入っている = 既に終わった = 「次」ではない)
+  const nextG1 = races
+    .filter((r) => r.date && r.date >= today && r.grade === "G1" && !(r.results && r.results.length > 0))
+    .sort((a, b) => a.date.localeCompare(b.date))[0];
+  if (nextG1) {
+    lines.push(...renderNextRaceBanner(nextG1, today));
+    lines.push("");
+  }
+
   lines.push("# umashinbun 馬新聞");
   lines.push("");
   lines.push("**レース中心の競馬ダイジェスト。** 「次の宝塚記念に向けてメイショウタバルはどんな状態？」 — それを1ページで読めるように、");
