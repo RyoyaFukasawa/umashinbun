@@ -9,8 +9,9 @@
 // ★ 初期登録分は 2026-06-07 に curl で生存確認済み（HTTP 200 かつ <item> を含むこと）。
 //    JRA公式 RSS は 2026-03-31 で配信終了したため不採用。サンスポZBAT!・スポニチ・
 //    デイリースポーツ・ラジオNIKKEI・スポーツ報知は公開RSSが見つからず不採用。
-//    その代わり、Yahoo!ニュース経由で東スポ競馬・競馬ラボ・SPAIA・馬トク報知・
-//    競馬のおはなしのフィードを購読する（各社の記事が流れ込んでいる集約フィード）。
+//    Yahoo!ニュース経由で東スポ競馬・SPAIA・馬トク報知・競馬のおはなしのフィードを購読。
+//    競馬ラボ (keibalab/all.xml) は 2026-06-07 に HTTP 403 で死亡確認のため削除
+//    （git履歴に記録済み。復活時は git log で URL を確認して再追加する）。
 
 export type Category = "g1" | "horse" | "pog" | "overseas" | "news";
 
@@ -47,13 +48,6 @@ export const FEEDS: FeedSource[] = [
     url: "https://news.yahoo.co.jp/rss/media/tspkeiba/all.xml",
     category: "g1",
   },
-  {
-    // 競馬ラボ。コラム・特集中心、展望記事も多い（Yahoo!ニュース経由・無料）。
-    name: "競馬ラボ (Yahoo!ニュース経由)",
-    url: "https://news.yahoo.co.jp/rss/media/keibalab/all.xml",
-    category: "g1",
-  },
-
   // --- 注目馬・調教・厩舎情報 ---
   // 「その週末に走る個別馬」のディテール（追い切り・近況・コメント）を拾う層。
   {
