@@ -234,9 +234,13 @@ function main() {
   }
 
   // 登場馬の集計に「horses-profile.json にだけ載っていて記事0件の馬」も足す
+  // さらに planned_horses にだけ登場する馬 (出走予定だが記事もプロフィールもまだない馬) も足す
   const articleTally = horseCounts(db);
   const tallyMap = new Map<string, number>(articleTally.map((t) => [t.name, t.count]));
   for (const name of Object.keys(profiles)) {
+    if (!tallyMap.has(name)) tallyMap.set(name, 0);
+  }
+  for (const name of horseRaceIndex.keys()) {
     if (!tallyMap.has(name)) tallyMap.set(name, 0);
   }
   const horsesTally = [...tallyMap.entries()]
