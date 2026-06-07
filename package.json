@@ -1,0 +1,17 @@
+{
+  "name": "umashinbun",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "毎朝、週末の競馬・注目馬・調教・血統・海外競馬を日本語に翻訳・要約してSQLite+Markdownに蓄積する",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "fetch": "node --experimental-strip-types scripts/fetch-feeds.ts",
+    "fetch-article": "node --experimental-strip-types scripts/fetch-article.ts",
+    "ingest": "node --experimental-strip-types scripts/ingest.ts",
+    "build-md": "node --experimental-strip-types scripts/build-markdown.ts",
+    "query": "node --experimental-strip-types scripts/query.ts"
+  }
+}

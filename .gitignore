@@ -1,0 +1,24 @@
+# 中間生成物（コミット不要）
+digest-input.json
+
+# fetch-article が保存する記事本文。要約のための一時材料でコミット不要。
+article-bodies/
+
+# raw-items.json は GitHub Actions(fetch-feeds) が生成し、
+# Claude routine がそれを読んで要約するため、あえて追跡する。
+
+# digest.db は検索用の派生物。正本は articles.json（テキスト）なので追跡しない。
+# バイナリDBを毎日コミットするとリポジトリが肥大化し差分も読めないため。
+# 検索したいときは `npm run ingest`（または build-md/query）が articles.json から再生成する。
+digest.db
+digest.db-journal
+digest.db-wal
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# 注意: 記事の正本は articles.json（git管理・テキスト・差分が読める）。

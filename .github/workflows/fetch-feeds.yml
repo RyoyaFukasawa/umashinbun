@@ -1,0 +1,49 @@
+name: fetch-feeds
+
+# 毎朝 4:00 JST（19:00 UTC）に RSS を取得して raw-items.json を main にコミットする。
+# Claude routine（7:00 JST）はこの raw-items.json を読んで要約する。
+# 取得処理をここに置く理由: Claude Code on the Web の実行環境は allowlist 外の
+# 外部ホストへの通信を遮断する（fetch が host_not_allowed で403になる）ため。
+# GitHub Actions の通常ランナーには その制約がないので RSS を取得できる。
+#
+# cron 時刻を 4:00 JST と早めに置く理由: GitHub Actions の schedule は高負荷時間帯に
+# 遅延・ドロップする仕様で、実測では 50分〜1時間34分 後ろにずれていた（早まることはない）。
+# routine の 7:00 JST に確実に間に合わせるため、約2時間のマージンを確保している。
+
+on:
+  schedule:
+    - cron: '0 19 * * *'    # 19:00 UTC = 04:00 JST（遅延しても 7:00 JST までに完了させるための前倒し）
+  workflow_dispatch: {}       # 手動実行も可能
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-feeds
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch feeds
+        run: npm run fetch
+
+      - name: Commit raw-items.json if changed
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add raw-items.json
+          # 未追跡/変更の両方を staged 差分で判定（初回コミットも拾う）
+          if git diff --cached --quiet -- raw-items.json; then
+            echo 'raw-items.json に変化なし。コミットしません。'
+            exit 0
+          fi
+          git commit -m "chore(fetch): update raw-items.json ($(date -u +%Y-%m-%d))"
+          git push
