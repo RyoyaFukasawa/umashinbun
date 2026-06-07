@@ -18,13 +18,13 @@
 ## 直近のレース
 
 - **2026-06-07** [安田記念 (G1)](races/2026/06/2026-yasuda-kinen.md) 東京 芝1600m
+- **2026-06-14** [函館スプリントステークス (G3)](races/2026/06/2026-hakodate-sprint-s.md) 函館 芝1200m
 - **2026-06-28** [宝塚記念 (G1)](races/2026/06/2026-takarazuka-kinen.md) 阪神 芝2200m
 - **2026-09-27** [スプリンターズステークス (G1)](races/2026/09/2026-sprinters-stakes.md) 中山 芝1200m
 - **2026-10-04** [凱旋門賞 (海外G1)](races/2026/10/2026-prix-de-larc-de-triomphe.md) ロンシャン 芝2400m
 - **2026-10-18** [秋華賞 (G1)](races/2026/10/2026-shuka-sho.md) 京都 芝2000m
 - **2026-10-25** [菊花賞 (G1)](races/2026/10/2026-kikuka-sho.md) 京都 芝3000m
 - **2026-11-01** [天皇賞・秋 (G1)](races/2026/11/2026-tenno-sho-autumn.md) 東京 芝2000m
-- **2026-11-07** [ブリーダーズカップ・クラシック (海外G1)](races/2026/11/2026-breeders-cup-classic.md) Del Mar ダ2000m
 
 ### 終了したレース（直近）
 - **2026-05-31** [日本ダービー (東京優駿) (G1)](races/2026/05/2026-tokyo-yushun.md)
@@ -33,6 +33,11 @@
 
 ## 最新の記事5件
 
+- **2026-06-07** [ナイソスがメトロポリタンHを制覇、Baffert師は"最も賢い馬"と称賛](https://www.bloodmgmt.bloodhorse.com/horse-racing/articles/292314/nysos-rolls-to-victory-in-met-mile) *(BloodHorse All News)*
+- **2026-06-07** [ベイシティローラー、コロネーションカップで10馬身差圧勝の番狂わせ](https://www.bloodmgmt.bloodhorse.com/horse-racing/articles/292310/bay-city-roller-flattens-competition-in-coronation-cup) *(BloodHorse All News)*
+- **2026-06-07** [クリスマスデイがエプソムダービー制覇、Coolmore勢に12勝目をもたらす](https://www.bloodmgmt.bloodhorse.com/horse-racing/articles/292308/christmas-day-unwraps-epsom-derby-for-coolmore-partners) *(BloodHorse All News)*
+- **2026-06-07** [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(SPAIA競馬 (Yahoo!ニュース経由))*
+- **2026-06-07** [【函館スプリントS】北海道巧者カルプスペルシュが反撃態勢 高松宮記念組は複勝率20%未満](https://news.yahoo.co.jp/articles/9b3e2f7d4c8a6e1b5c2d8f9a3e6b7c4d1a2b3c5d?source=rss) *(SPAIA競馬 (Yahoo!ニュース経由))*
 
 ## 仕組み
 
