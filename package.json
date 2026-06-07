@@ -11,6 +11,7 @@
     "fetch": "node --experimental-strip-types scripts/fetch-feeds.ts",
     "fetch-article": "node --experimental-strip-types scripts/fetch-article.ts",
     "fetch-runners": "node --experimental-strip-types scripts/fetch-runners.ts",
+    "fetch-results": "node --experimental-strip-types scripts/fetch-results.ts",
     "today-mode": "node --experimental-strip-types scripts/today-mode.ts",
     "ingest": "node --experimental-strip-types scripts/ingest.ts",
     "build-races": "node --experimental-strip-types scripts/build-races.ts",

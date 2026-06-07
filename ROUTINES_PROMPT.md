@@ -130,38 +130,41 @@ npm run --silent today-mode
    - レース1週前は20頭以上の特別登録段階。
 4. WebFetch が失敗した場合は既存の `planned_horses` をそのまま残し、ops-log に記録する。
 
-##### B-0-2. 終了レースの結果取得 (days_until <= 0 のレースが対象)
+##### B-0-2. 終了レースの結果取得
 
-レースが終わった当日または翌日(日曜のレースなら月曜)に、netkeibaから結果を取り込む。
+レースが終わった当日または翌日に、対象一覧を `fetch-results` で出して、それぞれを WebFetch で取り込む。
 
-1. `target_races` のうち `days_until <= 0` のレースについて、
-   `races.json` の `results` が空であれば WebFetch で取得しに行く。
-   - 取得元: `https://db.netkeiba.com/race/<netkeiba race id>/` または
-     WebSearchで「<レース名> <年> 結果」を検索したページ
-2. WebFetch で抽出する情報(構造化):
-   - **着順** (1-18着、最低でも上位5着まで)
-   - **馬名** (カタカナ)
-   - **騎手名**
-   - **タイム** ("2:11.4" 形式)
-   - **単勝人気** (数値)
+1. `npm run fetch-results` を実行して、結果取得が必要なレース一覧を得る。
+   ```sh
+   npm run fetch-results              # 直近30日の終了レース(routine 通常運用はこれ)
+   npm run fetch-results -- --all     # results が空の全終了レース(過去年も)
+   npm run fetch-results -- --race 2026-takarazuka-kinen  # 個別指定
+   ```
+   出力 JSON の `targets` 配列が、これから取得すべきレース。各エントリに
+   `race_id` / `name` / `date` / `search_hints` が入っている。
+2. 各 target について以下を実行:
+   - WebSearch で `search_hints[0]` ("<レース名> <年> 結果") を検索
+   - ヒットしたページの中から、構造化されたレース結果ページ(Wikipedia や信頼できる競馬まとめサイト)を WebFetch する
+   - 上位5着までの **着順 / 馬名(カタカナ) / 騎手名 / タイム / 単勝人気** を抽出
 3. 抽出結果を `races.json` の該当レースの `results` フィールドに追加。形式:
    ```json
    "results": [
      { "place": 1, "horse": "メイショウタバル", "jockey": "武豊", "time": "2:11.4", "popularity": 3 },
      { "place": 2, "horse": "クロワデュノール", "jockey": "北村友一", "time": "2:11.5", "popularity": 1 },
-     { "place": 3, "horse": "コスモキュランダ", "jockey": "戸崎圭太", "time": "2:11.7", "popularity": 8 },
-     ...
+     { "place": 3, "horse": "コスモキュランダ", "jockey": "戸崎圭太", "time": "2:11.7", "popularity": 8 }
    ]
    ```
-4. 上位3着の馬に `horses-profile.json` のエントリがあれば、 そこの `major_results` に新しい
-   エントリを **手動で追加**する。 race_id でリンクを張れるようにする:
+   2着同着・3着同着は **同じ place 値で複数エントリ** を作る(よくある現象)。
+4. 上位3着の馬に `horses-profile.json` のエントリがあれば、`major_results` に新エントリを追加。
+   `race_id` を指定してレースページへの双方向リンクを成立させる:
    ```json
    { "place": 1, "year": "2026", "name": "宝塚記念", "grade": "G1",
      "course": "阪神", "distance": "芝2200m", "race_id": "2026-takarazuka-kinen" }
    ```
-   - これにより、馬ページの「主要勝利・好走」がレースページにリンクされる(双方向リンク完成)。
-   - エントリがまだ無い馬は、分岐A手順2(Wikipediaから事典化)を実行してから追加。
-5. WebFetch が失敗した場合は空の results を残し、ops-log に記録して次回再試行する。
+   - エントリがまだ無い馬は、分岐A手順2(Wikipediaから事典化)を先に実行してから追加。
+5. WebFetch が失敗した target は ops-log に記録して次回再試行する(targets リストに残り続ける)。
+6. 全件処理後、`npm run build` を実行して `races/...md` の 🏁 結果セクションと、
+   馬ページの「主要勝利・好走」のレースリンクが反映されることを確認。
 
 ##### B-1. 記事選定 + 要約
 
