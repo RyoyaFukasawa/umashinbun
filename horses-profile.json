@@ -607,5 +607,394 @@
     ],
     "story": "ビバリーヒルズの高級ショッピングストリート「ロデオドライブ」に由来する馬名。D.レーン騎手との好コンビでNHKマイルCを制覇。辻哲英調教師にとってJRA G1初勝利となった。",
     "source_url": "https://ja.wikipedia.org/wiki/ロデオドライブ_(競走馬)"
+  },
+  "トロヴァトーレ": {
+    "born": "2021-04-30",
+    "sex": "牡",
+    "sire": "レイデオロ",
+    "dam": "シャルマント",
+    "damsire": "エンパイアメーカー",
+    "breeder": null,
+    "owner": null,
+    "trainer": "鹿戸雄一",
+    "main_jockeys": [
+      "C.ルメール"
+    ],
+    "record": "17戦8勝 / 獲得賞金2億3727万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "エプソムカップ",
+        "grade": "G3",
+        "course": "東京",
+        "distance": "芝1800m"
+      },
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "東京新聞杯",
+        "grade": "G3",
+        "course": "東京",
+        "distance": "芝1600m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "ダービー卿チャレンジトロフィー",
+        "grade": "G3",
+        "course": "中山",
+        "distance": "芝1600m"
+      }
+    ],
+    "strengths": [
+      "直線で内を突いて抜け出す独特の走法",
+      "1600m前後のマイル〜中距離で最高のパフォーマンス"
+    ],
+    "story": "東京新聞杯・エプソムC・ダービー卿CTと重賞3連勝の勢いで2番人気として臨んだ安田記念は8枠17番から後方過ぎる位置取りとなり9着。上がり33秒1の末脚は見せるも間に合わなかった。",
+    "source_url": "https://ja.wikipedia.org/wiki/トロヴァトーレ_(競走馬)"
+  },
+  "シンエンペラー": {
+    "born": "2021-04-30",
+    "sex": "牡",
+    "sire": "Siyouni",
+    "dam": "Starlet's Sister",
+    "damsire": "Galileo",
+    "breeder": null,
+    "owner": null,
+    "trainer": "矢作芳人",
+    "main_jockeys": [
+      "坂井瑠星"
+    ],
+    "record": "14戦3勝（中央10戦2勝、海外6戦1勝）",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "ネオムターフカップ",
+        "grade": "G2",
+        "course": "ネオム",
+        "distance": "芝1600m"
+      },
+      {
+        "place": 1,
+        "year": "2023",
+        "name": "京都2歳ステークス",
+        "grade": "G3",
+        "course": "京都",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 2,
+        "year": "2024",
+        "name": "ジャパンカップ",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 2,
+        "year": "2023",
+        "name": "ホープフルステークス",
+        "grade": "G1",
+        "course": "中山",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 3,
+        "year": "2024",
+        "name": "東京優駿",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 3,
+        "year": "2024",
+        "name": "愛チャンピオンステークス",
+        "grade": "G1",
+        "course": "レパーズタウン",
+        "distance": "芝2000m"
+      }
+    ],
+    "strengths": [
+      "フランス生産の外国産馬（Siyouni産駒）",
+      "海外遠征経験豊富な国際派。末脚の強さが武器"
+    ],
+    "story": "フランス生産のSiyouni産駒。2024年ジャパンカップで同着2着、アイルランド遠征も経験した国際派。2026年宝塚記念に出走予定。",
+    "source_url": "https://ja.wikipedia.org/wiki/シンエンペラー"
+  },
+  "ダノンデサイル": {
+    "born": "2021-04-06",
+    "sex": "牡",
+    "sire": "エピファネイア",
+    "dam": "トップデサイル",
+    "damsire": "Congrats",
+    "breeder": null,
+    "owner": "ダノックス",
+    "trainer": "安田翔伍",
+    "main_jockeys": [
+      "横山典弘",
+      "戸崎圭太"
+    ],
+    "record": "13戦5勝 / 獲得賞金14億6533万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "ドバイシーマクラシック",
+        "grade": "G2",
+        "course": "メイダン",
+        "distance": "芝2410m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "アメリカジョッキークラブカップ",
+        "grade": "G2",
+        "course": "中山",
+        "distance": "芝2200m"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "東京優駿",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "京成杯",
+        "grade": "G3",
+        "course": "中山",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 3,
+        "year": "2025",
+        "name": "ジャパンカップ",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 3,
+        "year": "2024",
+        "name": "有馬記念",
+        "grade": "G1",
+        "course": "中山",
+        "distance": "芝2500m"
+      }
+    ],
+    "strengths": [
+      "2024年ダービー馬。エピファネイア産駒初の海外G勝利（ドバイシーマクラシック）",
+      "中距離〜長距離の底力と安定感"
+    ],
+    "story": "2024年ダービー馬。ドバイシーマクラシック制覇でエピファネイア産駒初の海外重賞勝利馬に。2026年宝塚記念（阪神芝2200m）に出走予定。",
+    "source_url": "https://ja.wikipedia.org/wiki/ダノンデサイル"
+  },
+  "レガレイラ": {
+    "born": "2021-04-12",
+    "sex": "牝",
+    "sire": "スワーヴリチャード",
+    "dam": "ロカ",
+    "damsire": "ハービンジャー",
+    "breeder": "ノーザンファーム",
+    "owner": "シルクレーシング",
+    "trainer": "木村哲也",
+    "main_jockeys": [
+      "C.ルメール",
+      "戸崎圭太"
+    ],
+    "record": "12戦5勝 / 獲得賞金9億1064万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "エリザベス女王杯",
+        "grade": "G1",
+        "course": "京都",
+        "distance": "芝2200m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "オールカマー",
+        "grade": "G2",
+        "course": "中山",
+        "distance": "芝2200m"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "有馬記念",
+        "grade": "G1",
+        "course": "中山",
+        "distance": "芝2500m"
+      },
+      {
+        "place": 1,
+        "year": "2023",
+        "name": "ホープフルステークス",
+        "grade": "G1",
+        "course": "中山",
+        "distance": "芝2000m"
+      }
+    ],
+    "strengths": [
+      "牝馬で2歳G1（ホープフルS）制覇（史上初）",
+      "64年ぶりの3歳牝馬有馬記念制覇。卓越した末脚が武器"
+    ],
+    "story": "2023年ホープフルS「2歳混合G1制覇は史上初の快挙」。2024年有馬記念では64年ぶりの3歳牝馬制覇。2025年エリザベス女王杯連覇（前年は5着も翌年制覇）。2026年宝塚記念（阪神芝2200m）に出走予定。",
+    "source_url": "https://ja.wikipedia.org/wiki/レガレイラ"
+  },
+  "セイウンハーデス": {
+    "born": "2019-04-08",
+    "sex": "牡",
+    "sire": "シルバーステート",
+    "dam": "ハイノリッジ",
+    "damsire": "マンハッタンカフェ",
+    "breeder": null,
+    "owner": null,
+    "trainer": "橋口慎介",
+    "main_jockeys": [
+      "幸英明"
+    ],
+    "record": "19戦5勝 / 獲得賞金2億3104万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "エプソムカップ",
+        "grade": "G3",
+        "course": "東京",
+        "distance": "芝1800m"
+      },
+      {
+        "place": 1,
+        "year": "2023",
+        "name": "七夕賞",
+        "grade": "G3",
+        "course": "福島",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 2,
+        "year": "2023",
+        "name": "新潟大賞典",
+        "grade": "G3",
+        "course": "新潟",
+        "distance": "芝2000m"
+      }
+    ],
+    "strengths": [
+      "先行戦法が得意。東京コースでの適性が高い",
+      "2023年の屈腱炎から復活。PRP療法で約1年5か月後に復帰"
+    ],
+    "story": "2023年に屈腱炎で長期離脱後、PRP療法で復帰。復帰3戦目の2025年エプソムカップでは稍重で1分43秒9のコースレコード勝利。7歳の安田記念は4着善戦。",
+    "source_url": "https://ja.wikipedia.org/wiki/セイウンハーデス"
+  },
+  "パンジャタワー": {
+    "born": "2022-02-21",
+    "sex": "牡",
+    "sire": "タワーオブロンドン",
+    "dam": "クラークスデール",
+    "damsire": "ヴィクトワールピサ",
+    "breeder": null,
+    "owner": null,
+    "trainer": "橋口慎介",
+    "main_jockeys": [
+      "松山弘平"
+    ],
+    "record": "9戦4勝 / 獲得賞金2億8895万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "NHKマイルカップ",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝1600m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "キーンランドカップ",
+        "grade": "G3",
+        "course": "札幌",
+        "distance": "芝1200m"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "京王杯2歳ステークス",
+        "grade": "G2",
+        "course": "東京",
+        "distance": "芝1400m"
+      }
+    ],
+    "strengths": [
+      "メンタルが強く物事に動じない安定した気性",
+      "タワーオブロンドン産駒初のG1馬。スプリント〜マイルが守備範囲"
+    ],
+    "story": "2025年NHKマイルカップG1制覇でタワーオブロンドン産駒初のG1馬に。安田記念では16番枠5着。松山騎手「マイルは守備範囲」とコメント。",
+    "source_url": "https://ja.wikipedia.org/wiki/パンジャタワー"
+  },
+  "ステレンボッシュ": {
+    "born": "2021-02-12",
+    "sex": "牝",
+    "sire": "エピファネイア",
+    "dam": "ブルークランズ",
+    "damsire": "ルーラーシップ",
+    "breeder": "ノーザンファーム",
+    "owner": "シルクレーシング",
+    "trainer": "宮田敬介",
+    "main_jockeys": [
+      "D.レーン",
+      "戸崎圭太"
+    ],
+    "record": "15戦3勝",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "桜花賞",
+        "grade": "G1",
+        "course": "阪神",
+        "distance": "芝1600m"
+      },
+      {
+        "place": 2,
+        "year": "2024",
+        "name": "オークス",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 3,
+        "year": "2024",
+        "name": "秋華賞",
+        "grade": "G1",
+        "course": "京都",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 3,
+        "year": "2024",
+        "name": "香港ヴァーズ",
+        "grade": "G1",
+        "course": "シャティン",
+        "distance": "芝2400m"
+      }
+    ],
+    "strengths": [
+      "直線での豪脚。桜花賞・オークス2着・秋華賞3着と牝馬3冠路線で堅実に活躍",
+      "国枝栄元厩舎で育ち、宮田敬介厩舎に転厩後の復活を模索"
+    ],
+    "story": "2024年桜花賞馬。オークス2着・秋華賞3着と牝馬3冠路線を席巻。国枝栄厩舎解散後に宮田敬介厩舎へ転厩。5歳の現在も復活を目指す。安田記念は10着で復調途上。",
+    "source_url": "https://ja.wikipedia.org/wiki/ステレンボッシュ_(競走馬)"
   }
 }

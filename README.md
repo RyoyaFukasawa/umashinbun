@@ -51,10 +51,10 @@
 ## 最新の記事5件
 
 - **2026-06-07** [エフフォーリア産駒がJRA初勝利！ジョドレルバンクが東京芝1800m新馬戦を快勝](https://news.yahoo.co.jp/articles/c47d1c56a559b6ccd633a80b43556b6c314038da?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-07** [エフフォーリア産駒JRA初勝利 ジョドレルバンクが東京芝1800m新馬を快勝](https://news.yahoo.co.jp/articles/c47d1c56a559b6ccd633a80b43556b6c314038da) *(競馬のおはなし)*
 - **2026-06-07** [ビスケットサンドが阪神新馬戦デビューV、姉はモリアーナ](https://news.yahoo.co.jp/articles/95efb1ec456bd321f910b5d730e0f4eb33a8f210?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-07** [ビスケットサンドが阪神芝1400m新馬戦快勝 姉はモリアーナの良血牝馬](https://news.yahoo.co.jp/articles/95efb1ec456bd321f910b5d730e0f4eb33a8f210) *(競馬のおはなし)*
 - **2026-06-07** [ナイソスがメトロポリタンHを制覇、Baffert師は"最も賢い馬"と称賛](https://www.bloodmgmt.bloodhorse.com/horse-racing/articles/292314/nysos-rolls-to-victory-in-met-mile) *(BloodHorse All News)*
-- **2026-06-07** [ベイシティローラー、コロネーションカップで10馬身差圧勝の番狂わせ](https://www.bloodmgmt.bloodhorse.com/horse-racing/articles/292310/bay-city-roller-flattens-competition-in-coronation-cup) *(BloodHorse All News)*
-- **2026-06-07** [クリスマスデイがエプソムダービー制覇、Coolmore勢に12勝目をもたらす](https://www.bloodmgmt.bloodhorse.com/horse-racing/articles/292308/christmas-day-unwraps-epsom-derby-for-coolmore-partners) *(BloodHorse All News)*
 
 ## 仕組み
 
