@@ -155,12 +155,15 @@ Routines の 7:00 JST までに完了するよう2時間のマージンを確保
 
 ### 登録手順
 
-1. <https://claude.com/code> にログイン
-2. 該当リポジトリ (`RyoyaFukasawa/umashinbun`) を選択
-3. Routines タブを開いて新規 routine を作成
-4. プロンプトに **`ROUTINES_PROMPT.md` の "## タスクプロンプト本文" 以降を全部** 貼り付け
-5. スケジュール: cron `0 22 * * *` (= 7:00 JST)
-6. main への push 権限を付与
+1. <https://claude.ai/code/routines> を開いて **New routine**
+2. **Name**: `umashinbun daily digest` など
+3. **Prompt**: コピペ用に切り出した [`ROUTINE_PROMPT_BODY.md`](ROUTINE_PROMPT_BODY.md) の **全文を貼り付け**
+   (= `ROUTINES_PROMPT.md` の "## タスクプロンプト本文" 以降と同じ内容)
+4. **Repositories**: `RyoyaFukasawa/umashinbun` を追加
+5. **Environment**: Default (Trusted) のままでよい
+6. **Trigger**: Schedule、ローカルタイムで毎日 7:00 AM (内部で `0 22 * * *` UTC に変換)
+7. **Permissions**: "Allow unrestricted branch pushes" を有効化 (main に直接 push する設計)
+8. **Create** を押す
 
 ### モードと対応する仕事
 
