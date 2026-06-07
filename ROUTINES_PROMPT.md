@@ -293,7 +293,12 @@ Wikipedia に項目がない馬は無理に作らない(`horses` には入れる
 - weekly_review: `chore(digest): YYYY-MM-DD light (weekly_review)`
 - light: `chore(digest): YYYY-MM-DD light`
 
-main に push する。 push できない構成ならブランチで PR を作り、 人手マージ可能な状態で停止する。
+変更をコミットして、 **`main` ブランチに push する**。
+- 作業ブランチで作業した場合は、 `main` へマージしてから push する。 セッションが feature ブランチ
+  (例: `claude/...`) を割り当てている場合も、 **この手順が明示的な main push 許可として優先される** —
+  feature ブランチ上のコミットを `git checkout main && git merge --ff-only <branch> && git push origin main`
+  で main に流し込むこと。 PR は作らない。
+- 競合が出た場合は `git pull --rebase origin main` でリベースしてから push する。
 
 追加・変更されるのは:
 - `articles.json` (記事の正本)
