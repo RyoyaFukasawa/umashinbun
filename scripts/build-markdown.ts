@@ -16,7 +16,6 @@ import {
   openDb, articlesByCategory, allRaces, raceFilePath,
   type ArticleRow, type Race,
 } from "../src/db.ts";
-import { figlet } from "../src/figlet.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -66,15 +65,6 @@ function renderCategoryView(title: string, rows: ArticleRow[]): string {
   return lines.join("\n");
 }
 
-/**
- * race.id ("2026-takarazuka-kinen") からローマ字英訳を作る。
- * "2026-" の prefix を剥がして、ハイフンを空白に、大文字化するだけ。
- * 既存26レースで概ね自然な結果になることは検証済み(README ヘッダー目的なので十分)。
- */
-function raceNameEnFromId(id: string): string {
-  return id.replace(/^\d{4}-/, "").replace(/-/g, " ").toUpperCase();
-}
-
 function daysBetween(a: string, b: string): number {
   const [ya, ma, da] = a.split("-").map(Number);
   const [yb, mb, db] = b.split("-").map(Number);
@@ -82,25 +72,97 @@ function daysBetween(a: string, b: string): number {
 }
 
 /**
- * 「次のG1」を README 冒頭に大きく表示するヘッダー。
- * figlet アスキーアート(レース名英字) + 日本語サブタイトル + 開催情報を
- * コードブロック(```)で囲んで等幅で見せる。GitHub の Markdown でも崩れない。
+ * 「次のG1」を README 冒頭に表示するバナー。
+ * 開催日からの距離に応じて4パターンで見た目を変える:
+ *   - 当日 (days === 0): 🎺ファンファーレ。 本日開催を強調
+ *   - 重賞週 (1〜7日): 🐎馬絵文字 (残り日数に応じて数が増える)
+ *   - 中距離 (8〜30日): シンプル枠
+ *   - 遠い先 (31日以上): 短い予告
+ *
+ * すべて引用ブロック(>)と Markdown 表で表現する。
+ * コードブロックを使わないので、GitHub の Markdown レンダラーで装飾付きで表示される。
  */
 function renderNextRaceBanner(race: Race, today: string): string[] {
-  const nameEn = raceNameEnFromId(race.id);
   const days = daysBetween(today, race.date);
-  const dayLabel = days === 0 ? "本日開催" : days === 1 ? "明日開催" : `あと ${days} 日`;
-  const meta = [race.date, race.course, race.distance].filter(Boolean).join(" ・ ");
-  const lines = [
-    "```",
-    ...figlet(nameEn),
-    "",
-    `        🏆 次のG1: ${race.name} (${race.grade})`,
-    `        ${meta}`,
-    `        開催まで ${dayLabel}  ・  出走予定 ${race.planned_horses.length}頭`,
-    "```",
+  const meta = [race.course, race.distance].filter(Boolean).join(" ・ ");
+  const weekday = ["日", "月", "火", "水", "木", "金", "土"][
+    new Date(`${race.date}T00:00:00Z`).getUTCDay()
   ];
-  return lines;
+  const dateLabel = `${race.date} (${weekday})`;
+  const horseCount = race.planned_horses.length;
+  const { dir, file } = raceFilePath(race);
+  const linkPath = `${dir}/${file}`;
+
+  // --- 当日 ---
+  if (days === 0) {
+    return [
+      `> # 🎺🎺🎺 本日開催 🎺🎺🎺`,
+      `>`,
+      `> ## 🏆 ${race.name} (${race.grade})`,
+      `>`,
+      `> ### ${dateLabel} ・ ${meta}`,
+      `>`,
+      `> 🏟️ いよいよ発走 ・ 出走 ${horseCount}頭`,
+      `>`,
+      `> 📰 [${race.name}のレースページ →](${linkPath})`,
+    ];
+  }
+
+  // --- 重賞週 (1〜7日) ---
+  if (days >= 1 && days <= 7) {
+    // 馬絵文字をカウントダウンに連動させる(7日前は7頭、 1日前は1頭ゴールに迫る)
+    const horses = "🐎".repeat(days);
+    const dayBig = days === 1 ? "🔥 **明日開催** 🔥" : `🔥 **あと ${days} 日** 🔥`;
+    return [
+      `> # ${horses} → 🏁`,
+      `>`,
+      `> ## 🏆 ${race.name} (${race.grade})`,
+      `>`,
+      `> ${dayBig}`,
+      `>`,
+      `> | 開催日 | 開催地 | 距離 | 出走予定 |`,
+      `> |---|---|---|---|`,
+      `> | ${dateLabel} | ${race.course} | ${race.distance} | ${horseCount}頭 |`,
+      `>`,
+      `> 📰 [${race.name}のレースページ →](${linkPath})`,
+    ];
+  }
+
+  // --- 中距離 (8〜30日) ---
+  if (days <= 30) {
+    return [
+      `> ### 🏆 次のG1: ${race.name} (${race.grade})`,
+      `> ${dateLabel} ・ ${meta} ・ あと **${days}** 日`,
+      `>`,
+      `> 📰 [レースページ →](${linkPath})`,
+    ];
+  }
+
+  // --- 遠い先 (31日以上) ---
+  return [
+    `> 🏆 次のG1: **${race.name}** (${race.grade}) — ${dateLabel} ・ ${meta} ・ あと ${days} 日`,
+  ];
+}
+
+/**
+ * 直近で終わったG1の結果速報。 results が入っていて、 今日との差が3日以内のものだけ。
+ * 「あの宝塚記念どうだった?」 への即答として README 冒頭に置く。
+ */
+function renderRecentResultBanner(race: Race, today: string): string[] | null {
+  const days = daysBetween(race.date, today); // 終わってから何日経ったか
+  if (days < 0 || days > 3) return null;
+  if (!race.results || race.results.length === 0) return null;
+  const winner = race.results.find((r) => r.place === 1);
+  if (!winner) return null;
+  const { dir, file } = raceFilePath(race);
+  const linkPath = `${dir}/${file}`;
+  const whenLabel = days === 0 ? "本日" : days === 1 ? "昨日" : `${days}日前`;
+  return [
+    `> ### 🏁 ${whenLabel}の結果: ${race.name} (${race.grade})`,
+    `> 🥇 **${winner.horse}** 騎手 ${winner.jockey ?? "?"} ・ ${winner.time ?? ""} ・ ${winner.popularity != null ? `${winner.popularity}人気` : ""}`,
+    `>`,
+    `> 📰 [結果を見る →](${linkPath})`,
+  ];
 }
 
 function renderReadme(db: ReturnType<typeof openDb>): string {
@@ -122,9 +184,19 @@ function renderReadme(db: ReturnType<typeof openDb>): string {
 
   const lines: string[] = [];
 
-  // ★ 最上部の「次のG1」アスキーアートヘッダー。
-  // races.json から G1 のうち今日以降 かつ 結果がまだ入っていないレースで最も近いものを選ぶ。
-  // (results が入っている = 既に終わった = 「次」ではない)
+  // ★ 最上部のバナー: 直近で終わったG1の結果速報 + 次のG1
+  // 「直近の結果 (3日以内)」が先、 「次のG1」が後の順。
+  // results が入っている = 既に終わった = 「次」ではない
+  const recentFinishedG1 = races
+    .filter((r) => r.date && r.grade === "G1" && r.results && r.results.length > 0)
+    .sort((a, b) => b.date.localeCompare(a.date))[0];
+  if (recentFinishedG1) {
+    const banner = renderRecentResultBanner(recentFinishedG1, today);
+    if (banner) {
+      lines.push(...banner);
+      lines.push("");
+    }
+  }
   const nextG1 = races
     .filter((r) => r.date && r.date >= today && r.grade === "G1" && !(r.results && r.results.length > 0))
     .sort((a, b) => a.date.localeCompare(b.date))[0];
