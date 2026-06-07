@@ -102,9 +102,25 @@ sqlite3 digest.db "SELECT date,title_ja FROM articles WHERE race_id='2026-takara
 
 `ROUTINES_PROMPT.md` の本文を Claude Code の Routines にタスクとして登録し、
 スケジュールを毎朝（例: cron `0 22 * * *` = 7:00 JST）に設定する。
-GitHub push まで含めて全自動で完結する。
+登録するroutineは **1本だけ**。中で `npm run today-mode` を呼んで日付に応じた
+仕事内容を自動で切り替える設計。
 
-最初の数日は出力（特に race_id / horses / sires の抽出率）を確認し、
+```bash
+# 今日のモードを確認
+npm run today-mode
+
+# 任意の日付でモード判定を試したい場合
+npm run today-mode -- --date 2026-06-14
+```
+
+出力モードと対応する仕事:
+- `monthly_prep` (月末3日以内+翌月に重賞)→ 翌月の事典化と出走予定馬整備
+- `race_week` (7日以内に重賞) → 対象レース・対象馬に絞った重点要約
+- `weekly_review` (月曜) → ops-log 集計と改善PR
+- `light` (それ以外) → POG・業界ニュースだけ軽量に
+
+GitHub push まで含めて全自動で完結する。
+最初の数週間は出力（特に重賞週モードの抽出精度）を確認し、
 要約プロンプトやソースを `src/feeds.ts` で微調整するとよい。
 
 ## 6. ソースの増減

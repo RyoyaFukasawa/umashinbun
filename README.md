@@ -42,9 +42,13 @@
 ## 仕組み
 
 1. **毎朝 4:00 JST** — GitHub Actions が RSS を取得し `raw-items.json` を生成（[.github/workflows/fetch-feeds.yml](.github/workflows/fetch-feeds.yml)）。
-2. **毎朝 7:00 JST** — Claude routine が記事を選定し、本文を取得して競馬ファンの視点で翻訳・要約。記事ごとに「対象レース」「登場馬」「登場種牡馬」を構造化フィールドとして抽出し、`articles.json` に追記する（[ROUTINES_PROMPT.md](ROUTINES_PROMPT.md)）。
-3. ビルドスクリプトが `articles.json` + `races.json` から `races/` `horses/` `sires/` `views/news.md` を再生成する。
-4. **毎週月曜** — 別の Claude routine が直近7日の運用ログを読み、フィードや要約プロンプトの改善を PR で提案する（[IMPROVE_PROMPT.md](IMPROVE_PROMPT.md)）。
+2. **毎朝 7:00 JST** — Claude routine が `npm run today-mode` で日付に応じた仕事内容を判定して、4つのモードを切り替える（[ROUTINES_PROMPT.md](ROUTINES_PROMPT.md)）:
+   - 🗓 **月末モード**: 翌月の重賞メタ情報と出走予定馬の事典化を先に整える
+   - 🏆 **重賞週モード** (重賞7日以内): 対象レース・出走予定馬に絞って厚く要約
+   - 📅 **改善モード** (月曜): ops-log/ 集計とプロンプト/フィードの改善PR
+   - 💤 **軽量モード** (それ以外): POG・業界ニュース・血統だけ少量拾う
+3. ビルドスクリプトが `articles.json` + `races.json` + `horses-profile.json` から `races/` `horses/` `sires/` `trainers/` `jockeys/` `breeders/` `owners/` `dams/` `views/` を再生成する。
+4. **毎週月曜** — 直近7日の運用ログを読み、フィードや要約プロンプトの改善を PR で提案する（[IMPROVE_PROMPT.md](IMPROVE_PROMPT.md)）。
 
 ## 情報源
 
