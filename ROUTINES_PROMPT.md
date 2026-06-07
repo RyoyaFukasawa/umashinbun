@@ -253,22 +253,63 @@ Wikipedia に項目がない馬は無理に作らない(`horses` には入れる
 
 #### 運用ログ (全モード共通)
 
-`ops-log/YYYY-MM-DD.md` に以下を記録する:
-- 判定された mode と target_races
-- 今日選定した記事の本数(カテゴリ別)
-- race_id / horses / sires / jockeys / trainers の抽出率
-- 事典化した馬の数(monthly_prep / race_week モードのみ)
-- 気づき・改善候補・プロジェクト改善考察
+この日の実行を振り返り、 `ops-log/YYYY-MM-DD.md` を作成 (同日再実行なら上書き) する。
+フォーマットは [ops-log/README.md](ops-log/README.md) に従う。
+
+具体的に記録する内容:
+
+- **モード判定**: `npm run today-mode` の出力(mode / target_races / next_month_races / notes)
+- **fetch 結果**: 各ソースの 成功/SKIP、 取得件数・新規件数、 SKIP の理由(HTTPコード等)
+  - 成功ソース数 / 全ソース数、 候補総数を必ず残す
+- **カテゴリ別 採用状況**: g1 / horse / pog / overseas / news それぞれの 候補数・採用数
+- **構造化抽出率**: 採用記事のうち race_id / horses / sires / jockeys / trainers がそれぞれ非空だった割合
+  - これが低いとレースページ・馬ページ・エンティティページが薄くなる。 直接の品質指標
+- **事典化した馬の数** (monthly_prep / race_week モードのみ):
+  - horses-profile.json に追記した馬と Wikipedia URL
+  - 取得失敗 (Wikipedia 項目なし等) の馬
+- **出走予定馬 / 結果取得の成否** (race_week モードのみ):
+  - B-0 planned_horses 更新の結果 (何頭 → 何頭、 どのレース)
+  - B-0-2 結果取得の対象と成否
+- **気づき・改善候補**: 継続的に失敗しているソース、 候補が薄いカテゴリ、 重複が多い等を簡潔に。
+  新ソース候補に心当たりがあればURLとともにメモする。
+
+**「プロジェクト改善考察」欄を必ず書く** ([ops-log/README.md](ops-log/README.md) の該当節の問いを使う)。
+これは記事内容の感想ではなく、 **この仕組みをどう良くするか** —— fetch の仕組みは妥当か、
+重賞週に厚い情報が集まっているか、 ソース構成に穴はないか、 構造化抽出の精度は十分か、
+馬の事典化が機能しているか、 planned_horses/results の最新化が動いているか —— についての所感を書く。
+
+書く前に `ops-log/INSIGHTS.md` (累積考察) を **読み**、 既出の論点は「継続/悪化/解消」が
+分かるように書く。 その日に言えることだけでよい (全問に答えなくてよい)。
+
+⚠️ これは **記録だけ**。 `src/feeds.ts` や `ROUTINES_PROMPT.md` 等のコードは
+**この日次タスクでは変更しない** (コード改善は週次の改善 routine が PR で行う)。
+**`INSIGHTS.md` も日次では書き換えない** (読むだけ。 追記するのは週次 routine)。
 
 #### コミット
 
 コミットメッセージ:
-- monthly_prep: `chore(prep): prep YYYY-MM races`
+- monthly_prep: `chore(prep): YYYY-MM-DD prep <翌月>`
 - race_week: `chore(digest): YYYY-MM-DD race-week (<対象レース名>)`
-- weekly_review: `chore(weekly): review YYYY-MM-DD + INSIGHTS update`
+- weekly_review: `chore(digest): YYYY-MM-DD light (weekly_review)`
 - light: `chore(digest): YYYY-MM-DD light`
 
-main に push する。 push できない構成ならブランチで PR を作り、人手マージ可能な状態で停止する。
+main に push する。 push できない構成ならブランチで PR を作り、 人手マージ可能な状態で停止する。
+
+追加・変更されるのは:
+- `articles.json` (記事の正本)
+- `races.json` (planned_horses 更新・results 追加された場合)
+- `horses-profile.json` (新出馬の事典化)
+- `races/**` / `horses/**` / `sires/**` / `trainers/**` / `jockeys/**` /
+  `breeders/**` / `owners/**` / `dams/**` / `views/**` / `README.md` (build 派生物)
+- `ops-log/YYYY-MM-DD.md` (この日の運用ログ)
+
+コミットしないもの:
+- `digest.db` (git 管理外。 検索用の派生物)
+- `raw-items.json` (GitHub Actions が管理するファイル。 この routine ではコミットしない)
+- `digest-input.json` (中間生成物。 .gitignore 済み)
+- `article-bodies/` (中間生成物。 .gitignore 済み)
+- `ops-log/INSIGHTS.md` (日次では書かない)
+- `ops-log/DEBATES/` (日次では書かない)
 
 ### 注意
 
