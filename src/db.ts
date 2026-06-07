@@ -27,6 +27,32 @@ export function safeFilename(name: string): string {
   return name.replace(/[\\/:*?"<>|\s]/g, "_");
 }
 
+/**
+ * レースのファイル配置を1か所で決める。
+ * 例: { id: "2026-takarazuka-kinen", name: "宝塚記念", date: "2026-06-14" }
+ *   →  { dir: "races/2026/06", file: "2026-06-14-宝塚記念.md" }
+ *
+ * 日付未定(date="")のレースは races/tba/tba/<id>.md にフォールバック。
+ * （日付があるレースは「日付-レース名」で人間に読める形、無いものは id 維持）
+ *
+ * 全 build スクリプトと、馬ページ→レースページの相対リンク計算で同じ値を
+ * 使うので、レース1件の置き場所を変えるときは必ずこの関数を経由する。
+ */
+export function raceFilePath(race: { id: string; name: string; date: string }): { dir: string; file: string } {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(race.date);
+  if (m) {
+    const [, y, mm] = m;
+    return {
+      dir: `races/${y}/${mm}`,
+      file: `${race.date}-${safeFilename(race.name)}.md`,
+    };
+  }
+  return {
+    dir: "races/tba/tba",
+    file: `${safeFilename(race.id)}.md`,
+  };
+}
+
 export interface ArticleRow {
   id: number;
   date: string; // YYYY-MM-DD (記事日付)

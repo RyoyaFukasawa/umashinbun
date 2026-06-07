@@ -13,7 +13,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import {
-  openDb, articlesByCategory, allRaces,
+  openDb, articlesByCategory, allRaces, raceFilePath,
   type ArticleRow,
 } from "../src/db.ts";
 
@@ -103,16 +103,16 @@ function renderReadme(db: ReturnType<typeof openDb>): string {
   lines.push("## 直近のレース");
   lines.push("");
   for (const r of upcoming) {
-    const yymm = { y: r.date.slice(0, 4), m: r.date.slice(5, 7) };
-    lines.push(`- **${r.date}** [${r.name} (${r.grade})](races/${yymm.y}/${yymm.m}/${r.id}.md) ${r.course} ${r.distance}`);
+    const { dir, file } = raceFilePath(r);
+    lines.push(`- **${r.date}** [${r.name} (${r.grade})](${dir}/${file}) ${r.course} ${r.distance}`);
   }
   if (upcoming.length === 0) lines.push("*予定されている未来のレースがありません。*");
   if (past.length > 0) {
     lines.push("");
     lines.push("### 終了したレース（直近）");
     for (const r of past) {
-      const yymm = { y: r.date.slice(0, 4), m: r.date.slice(5, 7) };
-      lines.push(`- **${r.date}** [${r.name} (${r.grade})](races/${yymm.y}/${yymm.m}/${r.id}.md)`);
+      const { dir, file } = raceFilePath(r);
+      lines.push(`- **${r.date}** [${r.name} (${r.grade})](${dir}/${file})`);
     }
   }
   lines.push("");

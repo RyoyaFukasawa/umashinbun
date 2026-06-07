@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import {
   openDb, horseCounts, sireCounts, articlesByHorse, articlesBySire,
-  allRaces, safeFilename, readHorseProfiles,
+  allRaces, safeFilename, readHorseProfiles, raceFilePath,
   type ArticleRow, type Race, type HorseProfile,
 } from "../src/db.ts";
 
@@ -113,10 +113,9 @@ function renderEntityPage(
     lines.push(`## 🏆 ${label}`);
     lines.push("");
     for (const r of relatedRaces) {
-      const ymm = r.date && /^\d{4}-\d{2}/.test(r.date)
-        ? { y: r.date.slice(0, 4), m: r.date.slice(5, 7) }
-        : { y: "tba", m: "tba" };
-      const path = `../races/${ymm.y}/${ymm.m}/${r.id}.md`;
+      // horses/<name>.md (1階層) → races/.../<file>.md なので "../" + dir/file
+      const { dir, file } = raceFilePath(r);
+      const path = `../${dir}/${file}`;
       const dateLabel = r.date || "日付未定";
       lines.push(`- **${dateLabel}** [${r.name} (${r.grade})](${path}) ${r.course} ${r.distance}`);
     }

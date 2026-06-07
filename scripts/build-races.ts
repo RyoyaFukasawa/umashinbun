@@ -11,7 +11,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import {
-  openDb, allRaces, articlesByRace, articlesByHorse, safeFilename,
+  openDb, allRaces, articlesByRace, articlesByHorse, safeFilename, raceFilePath,
   type ArticleRow, type Race,
 } from "../src/db.ts";
 
@@ -78,10 +78,14 @@ function renderRaceFile(race: Race, raceArticles: ArticleRow[], horseToArticles:
   } else {
     // レースページは races/YYYY/MM/<id>.md にあるので horses/ へは ../../../horses/
     // 馬名は専用ページ(horses/<safe-name>.md)へのリンクにする。
+    // レースMDの相対位置から horses/ への遡り階数を決める
+    // races/YYYY/MM/file.md → "../../../horses/" (3階層上)
+    // races/tba/tba/file.md → "../../../horses/" (3階層上、同じ)
+    const horsesPrefix = "../../../horses/";
     for (const horse of race.planned_horses) {
       const arts = horseToArticles.get(horse) ?? [];
       const safe = safeFilename(horse);
-      lines.push(`### [${horse}](../../../horses/${safe}.md)`);
+      lines.push(`### [${horse}](${horsesPrefix}${safe}.md)`);
       if (arts.length === 0) {
         lines.push("*関連記事なし。*");
       } else {
@@ -89,7 +93,7 @@ function renderRaceFile(race: Race, raceArticles: ArticleRow[], horseToArticles:
           lines.push(renderArticleLine(a));
         }
         if (arts.length > 20) {
-          lines.push(`- *他 ${arts.length - 20} 件 → [${horse} のページ全体](../../../horses/${safe}.md)*`);
+          lines.push(`- *他 ${arts.length - 20} 件 → [${horse} のページ全体](${horsesPrefix}${safe}.md)*`);
         }
       }
       lines.push("");
@@ -116,13 +120,10 @@ function main() {
   let written = 0;
   for (const race of races) {
     const raceArts = articlesByRace(db, race.id);
-    // 日付なしレースは "tba" ディレクトリへ
-    const yymm = race.date && /^\d{4}-\d{2}/.test(race.date)
-      ? { y: race.date.slice(0, 4), m: race.date.slice(5, 7) }
-      : { y: "tba", m: "tba" };
-    const dir = join(ROOT, "races", yymm.y, yymm.m);
+    const { dir: relDir, file } = raceFilePath(race);
+    const dir = join(ROOT, relDir);
     mkdirSync(dir, { recursive: true });
-    writeFileSync(join(dir, `${race.id}.md`), renderRaceFile(race, raceArts, horseIndex), "utf-8");
+    writeFileSync(join(dir, file), renderRaceFile(race, raceArts, horseIndex), "utf-8");
     written++;
   }
 
@@ -146,13 +147,12 @@ function main() {
       indexLines.push(`## ${ym}`);
       indexLines.push("");
     }
-    const yymm = r.date && /^\d{4}-\d{2}/.test(r.date)
-      ? { y: r.date.slice(0, 4), m: r.date.slice(5, 7) }
-      : { y: "tba", m: "tba" };
-    const path = `${yymm.y}/${yymm.m}/${r.id}.md`;
+    // races/README.md からの相対パス: races/ を起点に dir/file の "races/" を剥がす
+    const { dir, file } = raceFilePath(r);
+    const relFromIndex = `${dir.replace(/^races\//, "")}/${file}`;
     const dateLabel = r.date || "日付未定";
     const venue = [r.course, r.distance].filter(Boolean).join(" ");
-    indexLines.push(`- **${dateLabel}** [${r.name} (${r.grade})](${path}) ${venue}`);
+    indexLines.push(`- **${dateLabel}** [${r.name} (${r.grade})](${relFromIndex}) ${venue}`);
   }
   indexLines.push("");
 
