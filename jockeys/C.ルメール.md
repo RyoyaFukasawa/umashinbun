@@ -2,7 +2,7 @@
 kind: jockeys
 name: C.ルメール
 related_horses: 13
-related_articles: 17
+related_articles: 22
 ---
 
 # 🏇 C.ルメール
@@ -26,8 +26,13 @@ related_articles: 17
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (17件)
+## 📰 関連記事 (22件)
 
+- **2026-06-08** — [【宝塚記念2026】前走レース評価データ——大阪杯・有馬記念・日経賞から読む各馬の実力](https://news.yahoo.co.jp/articles/cdc7bb9c1350bedeecfb7d70109e77e9740061e6) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-08** — [【宝塚記念2026】レガレイラ・約半年ぶり実戦「久々を感じないシャープな脚さばき」——GⅠ3勝馬が復権を狙う](https://news.yahoo.co.jp/articles/ad0e08101cc9d3f8930cc0048eae2e6f7ceac0ef) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-08** — [【宝塚記念2026】豪華18頭が揃う春のグランプリ——主要登録馬の戦績と状況](https://news.yahoo.co.jp/articles/c7d0521ccc36536e3c1d14bee468f0567cea2126) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-08** — [【宝塚記念2026】リーディングサイアー三つどもえ——キズナ・キタサンブラック・ロードカナロアの「父親の戦い」](https://news.yahoo.co.jp/articles/3bfee1db5ec2e89854f4114656a5744068177d9b) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-08** — [【宝塚記念2026】クロワデュノール「春の古馬3冠」挑戦の全容——ファン投票歴代最多得票で斉藤崇師が語る](https://news.yahoo.co.jp/articles/365e7fb251bb086b2926712ba089f43f1f8ed272) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
 - **2026-06-07** — [【宝塚記念】春古馬三冠に挑むクロワデュノールに"最後の壁" メイショウタバルら前走大阪杯組に逆転のチャンスあり](https://news.yahoo.co.jp/articles/36ed08a32f0bee5b11c1561b4a336f2b347ca2bd?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
 - **2026-06-07** — [武豊「来週も更新したい」宝塚記念連覇に意欲、メイショウタバルで連覇狙う](https://news.yahoo.co.jp/articles/c94d4ec5c9b50f44446dad080a83606b19217a46?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
