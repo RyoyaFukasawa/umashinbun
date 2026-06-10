@@ -2,7 +2,7 @@
 kind: jockeys
 name: C.ルメール
 related_horses: 13
-related_articles: 23
+related_articles: 26
 ---
 
 # 🏇 C.ルメール
@@ -26,8 +26,11 @@ related_articles: 23
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (23件)
+## 📰 関連記事 (26件)
 
+- **2026-06-11** — [【宝塚記念】レガレイラ 文句なしの最終リハ 昨年と同じ有馬から直行ローテも 木村師「今年は調教の中身に違い」](https://news.netkeiba.com/?pid=news_view&no=333890) *(出典: netkeiba ニュース＆コラム)*
+- **2026-06-11** — [【宝塚記念】クロワデュノール 史上初の春古馬3冠へ! 先週から激変 急ピッチ上昇 レガレイラも活気十分](https://news.netkeiba.com/?pid=news_view&no=333887) *(出典: netkeiba ニュース＆コラム)*
+- **2026-06-11** — [【宝塚記念】スティンガーグラス 軽快な動きに好感触 天皇賞・春回避からの参戦 友道師「前進気勢あってちょうどいい」](https://news.netkeiba.com/?pid=news_view&no=333875) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-09** — [【宝塚記念】レガレイラ「昨年の宝塚記念よりもいい」](https://news.netkeiba.com/?pid=news_view&no=333745) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-08** — [【宝塚記念2026】前走レース評価データ——大阪杯・有馬記念・日経賞から読む各馬の実力](https://news.yahoo.co.jp/articles/cdc7bb9c1350bedeecfb7d70109e77e9740061e6) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-08** — [【宝塚記念2026】レガレイラ・約半年ぶり実戦「久々を感じないシャープな脚さばき」——GⅠ3勝馬が復権を狙う](https://news.yahoo.co.jp/articles/ad0e08101cc9d3f8930cc0048eae2e6f7ceac0ef) *(出典: 馬トク報知 (Yahoo!ニュース経由))*

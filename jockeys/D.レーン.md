@@ -1,8 +1,8 @@
 ---
 kind: jockeys
 name: D.レーン
-related_horses: 11
-related_articles: 18
+related_horses: 12
+related_articles: 24
 ---
 
 # 🏇 D.レーン
@@ -10,7 +10,7 @@ related_articles: 18
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (11頭)
+## 🐎 関連する馬 (12頭)
 
 - [ガイアフォース](../horses/ガイアフォース.md)
 - [ジョドレルバンク](../horses/ジョドレルバンク.md)
@@ -20,12 +20,18 @@ related_articles: 18
 - [トロヴァトーレ](../horses/トロヴァトーレ.md)
 - [パンジャタワー](../horses/パンジャタワー.md)
 - [ビスケットサンド](../horses/ビスケットサンド.md)
+- [ミュージアムマイル](../horses/ミュージアムマイル.md)
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ロデオドライブ](../horses/ロデオドライブ.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (18件)
+## 📰 関連記事 (24件)
 
+- **2026-06-11** — [【宝塚記念】ミュージアムマイル 5カ月半ぶり今季初戦 高柳大師「しっかり仕上がっている」](https://news.netkeiba.com/?pid=news_view&no=333896) *(出典: netkeiba ニュース＆コラム)*
+- **2026-06-09** — [【宝塚記念】今年初戦のミュージアムマイル 休み明けがポイント](https://news.netkeiba.com/?pid=news_view&no=333768) *(出典: netkeiba ニュース＆コラム)*
+- **2026-06-08** — [【宝塚記念2026】前走レース評価データ——大阪杯・有馬記念・日経賞から読む各馬の実力](https://news.yahoo.co.jp/articles/cdc7bb9c1350bedeecfb7d70109e77e9740061e6) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-08** — [【宝塚記念2026】豪華18頭が揃う春のグランプリ——主要登録馬の戦績と状況](https://news.yahoo.co.jp/articles/c7d0521ccc36536e3c1d14bee468f0567cea2126) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-08** — [【宝塚記念2026】クロワデュノール「春の古馬3冠」挑戦の全容——ファン投票歴代最多得票で斉藤崇師が語る](https://news.yahoo.co.jp/articles/365e7fb251bb086b2926712ba089f43f1f8ed272) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-07** — [エフフォーリア産駒がJRA初勝利！ジョドレルバンクが東京芝1800m新馬戦を快勝](https://news.yahoo.co.jp/articles/c47d1c56a559b6ccd633a80b43556b6c314038da?source=rss) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*
 - **2026-06-07** — [エフフォーリア産駒JRA初勝利 ジョドレルバンクが東京芝1800m新馬を快勝](https://news.yahoo.co.jp/articles/c47d1c56a559b6ccd633a80b43556b6c314038da) *(出典: 競馬のおはなし)*
 - **2026-06-07** — [ビスケットサンドが阪神新馬戦デビューV、姉はモリアーナ](https://news.yahoo.co.jp/articles/95efb1ec456bd321f910b5d730e0f4eb33a8f210?source=rss) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*
@@ -37,6 +43,7 @@ related_articles: 18
 - **2026-06-07** — [安田記念 2番人気トロヴァトーレ9着の敗因 ルメール「後ろ過ぎた。枠が残念でした」](https://news.yahoo.co.jp/articles/52983157a86d81683cf43ddc65187ecd4921e42b) *(出典: 東スポ競馬)*
 - **2026-06-07** — [安田記念速報：シックスペンスがクビ差制す、2着はワールズエンドとガイアフォース](https://news.yahoo.co.jp/articles/507874ee12b256d7586f0515ac801e1053c2e044?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
 - **2026-06-07** — [安田記念 結果速報：シックスペンスがゴール前の激戦をクビ差で制す 2着同着にワールズエンドとガイアフォース](https://news.yahoo.co.jp/articles/507874ee12b256d7586f0515ac801e1053c2e044) *(出典: SPAIA競馬)*
+- **2026-06-07** — [【宝塚記念展望】史上初の春古馬3冠制覇を目指すクロワデュノールがV最有力 メイショウタバルは宝塚連覇を狙う](https://news.netkeiba.com/?pid=news_view&no=333625) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-07** — [【安田記念】武豊57歳・G1史上最年長制覇！シックスペンスが8番人気で波乱演出](https://news.netkeiba.com/?pid=news_view&no=333613) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-07** — [安田記念結果：シックスペンスがG1初制覇、2着はワールズエンド・ガイアフォースの同着](https://news.netkeiba.com/?pid=news_view&no=333608) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-07** — [安田記念 ステレンボッシュ10着 レーン「全体的に忙しいレースに」復活への道険しく](https://news.netkeiba.com/?pid=news_view&no=333606) *(出典: netkeiba ニュース＆コラム)*
