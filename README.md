@@ -1,6 +1,6 @@
 > ## 🏆 宝塚記念 (G1)
 >
-> 🔥 **あと 3 日** 🔥
+> 🔥 **あと 2 日** 🔥
 >
 > | 開催日 | 開催地 | 距離 | 出走予定 |
 > |---|---|---|---|
@@ -45,11 +45,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-11** [「重賞×逃げ」は勝率20.0%、単回収率187%の好成績 武豊騎手のプラス条件、マイナス条件](https://news.yahoo.co.jp/articles/a65818f43e00a26cf49ba66367daeb68c09efed7?source=rss) *(SPAIA競馬 (Yahoo!ニュース経由))*
-- **2026-06-11** [【宝塚記念】天皇賞（春）から参戦する「中距離重賞馬」は複回収率144% データで導く穴馬候補3頭](https://news.yahoo.co.jp/articles/7612d00819cda9a1de504d31eb17c6924c4f6cca?source=rss) *(SPAIA競馬 (Yahoo!ニュース経由))*
-- **2026-06-11** [【宝塚記念】「夏は牝馬」を後押しする勝率57.1%の好データ レガレイラの逆襲を警戒](https://news.yahoo.co.jp/articles/55185a26b41680c376b0543b2cb4a8162b5724e4?source=rss) *(SPAIA競馬 (Yahoo!ニュース経由))*
-- **2026-06-11** [【宝塚記念】史上3頭目の連覇へ勝率トップ16番枠からメイショウタバル逃走劇見せる](https://news.yahoo.co.jp/articles/3b1b96cf5639edda1479a2f6cc652d4b3d9cef6e?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-06-11** [【宝塚記念・記者の特注馬】武豊の競馬力とメイショウタバルの成長力でいざ連覇へ！大一番へ態勢十分](https://news.yahoo.co.jp/articles/ee11f93d3ea28eeb6186d6e6e530bd8b5ee8a09b?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-12** [ミクニインスパイア木曜輸送で4番馬番から快走狙い　前走日経賞2着より「感じがいい」](https://news.yahoo.co.jp/articles/f2187d37041a482e8657809dd05c6e50c6a4e15d?source=rss) *(馬トク報知（Yahoo!ニュース）)*
+- **2026-06-12** [コスモキュランダ金曜関西入り・加藤士師「凄くいい雰囲気、一発あってもおかしくない」](https://news.yahoo.co.jp/articles/eb11cd5c07a4ea438a983d3a0e673104a93f23f4?source=rss) *(馬トク報知（Yahoo!ニュース）)*
+- **2026-06-12** [メイショウタバル「凱旋門賞へ行くぞ」　武豊と史上3頭目の連覇目指す最終調整](https://news.yahoo.co.jp/articles/bfd66626264eaa76f95995ce7a20cff5fa25809b?source=rss) *(東スポ競馬（Yahoo!ニュース）)*
+- **2026-06-12** [レガレイラ今年初戦・昨年11着の雪辱へ闘志　木村師「元気に過ごしてくれている」](https://news.yahoo.co.jp/articles/96d330de6f6a4f2636992145322da3d26123aa9c?source=rss) *(東スポ競馬（Yahoo!ニュース）)*
+- **2026-06-12** [ジューンテイク香港帰り順調・折り合い良く坂路登坂「順調に上向いてます」](https://news.yahoo.co.jp/articles/88457d5768a0fd70bc3fa125526bafb88e52df44?source=rss) *(東スポ競馬（Yahoo!ニュース）)*
 
 ## 仕組み
 
