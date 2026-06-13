@@ -1,6 +1,6 @@
 > ## 🏆 宝塚記念 (G1)
 >
-> 🔥 **あと 2 日** 🔥
+> 🔥 **明日開催** 🔥
 >
 > | 開催日 | 開催地 | 距離 | 出走予定 |
 > |---|---|---|---|
@@ -45,11 +45,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-12** [ミクニインスパイア木曜輸送で4番馬番から快走狙い　前走日経賞2着より「感じがいい」](https://news.yahoo.co.jp/articles/f2187d37041a482e8657809dd05c6e50c6a4e15d?source=rss) *(馬トク報知（Yahoo!ニュース）)*
-- **2026-06-12** [コスモキュランダ金曜関西入り・加藤士師「凄くいい雰囲気、一発あってもおかしくない」](https://news.yahoo.co.jp/articles/eb11cd5c07a4ea438a983d3a0e673104a93f23f4?source=rss) *(馬トク報知（Yahoo!ニュース）)*
-- **2026-06-12** [メイショウタバル「凱旋門賞へ行くぞ」　武豊と史上3頭目の連覇目指す最終調整](https://news.yahoo.co.jp/articles/bfd66626264eaa76f95995ce7a20cff5fa25809b?source=rss) *(東スポ競馬（Yahoo!ニュース）)*
-- **2026-06-12** [レガレイラ今年初戦・昨年11着の雪辱へ闘志　木村師「元気に過ごしてくれている」](https://news.yahoo.co.jp/articles/96d330de6f6a4f2636992145322da3d26123aa9c?source=rss) *(東スポ競馬（Yahoo!ニュース）)*
-- **2026-06-12** [ジューンテイク香港帰り順調・折り合い良く坂路登坂「順調に上向いてます」](https://news.yahoo.co.jp/articles/88457d5768a0fd70bc3fa125526bafb88e52df44?source=rss) *(東スポ競馬（Yahoo!ニュース）)*
+- **2026-06-13** [フライトライン産駒デミアンが日本初勝利 「2歳馬とは思えない精神的安定感」とレーン騎手が絶賛](https://news.yahoo.co.jp/articles/2d5d42ca082ae0d1ada8c3ecae8d4ba3f920d0b6?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-13** [C.ルメール騎手がJRA通算2200勝達成 史上最少騎乗回数で史上8人目の金字塔 夏は海外へ](https://news.netkeiba.com/?pid=news_view&no=334153) *(netkeiba ニュース＆コラム)*
+- **2026-06-13** [【宝塚記念・土曜気配】メイショウタバルはDPコースで落ち着き抜群の最終調整 石橋師「レースに直結するか分からないが心配なく来ている」](https://news.yahoo.co.jp/articles/d1b005a67e3aa360b1f311f38dc26250dc1d4adf?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-13** [【宝塚記念・土曜気配】シンエンペラー 前走比6キロ減の502キロ 矢作師「500キロは切りたい」と調整に手応え](https://news.yahoo.co.jp/articles/be6b04b3da3319c614b639a2ce33b11f67eb6a27?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-13** [【宝塚記念・土曜気配】ミュージアムマイルは坂路ラスト12秒5 高柳大調教師「追い切って軽くなりました」](https://news.yahoo.co.jp/articles/a315d316314466518d997c3223b00f0c28856a9a?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
 
 ## 仕組み
 
