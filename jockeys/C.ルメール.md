@@ -1,8 +1,8 @@
 ---
 kind: jockeys
 name: C.ルメール
-related_horses: 30
-related_articles: 97
+related_horses: 32
+related_articles: 113
 ---
 
 # 🏇 C.ルメール
@@ -10,7 +10,7 @@ related_articles: 97
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (30頭)
+## 🐎 関連する馬 (32頭)
 
 - [エンブロイダリー](../horses/エンブロイダリー.md)
 - [オオセイケイ](../horses/オオセイケイ.md)
@@ -19,8 +19,10 @@ related_articles: 97
 - [クロワデュノール](../horses/クロワデュノール.md)
 - [コスモキュランダ](../horses/コスモキュランダ.md)
 - [シェイクユアハート](../horses/シェイクユアハート.md)
+- [シックスペンス](../horses/シックスペンス.md)
 - [シュガークン](../horses/シュガークン.md)
 - [シンエンペラー](../horses/シンエンペラー.md)
+- [ジュウリョクピエロ](../horses/ジュウリョクピエロ.md)
 - [ジューンテイク](../horses/ジューンテイク.md)
 - [スティンガーグラス](../horses/スティンガーグラス.md)
 - [ステレンボッシュ](../horses/ステレンボッシュ.md)
@@ -43,8 +45,20 @@ related_articles: 97
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (97件)
+## 📰 関連記事 (113件)
 
+- **2026-06-14** — [マイユニバース急性心不全で競走中止・死亡 直線コースで倒れる悲報](https://news.yahoo.co.jp/articles/c9c4262a83603cc8b7cb048dfc4c393a73d1d1b2?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-14** — [「完璧じゃないですかね」石橋守調教師がメイショウタバルと武豊を絶賛](https://news.yahoo.co.jp/articles/70433671f8ec64ded737fbff758bb64f8475c9fb?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-14** — [宝塚記念 6万1857人のユタカコール 開門前倒し 1週間前から徹夜組のフィーバー コロナ禍以降最多](https://news.yahoo.co.jp/articles/43f8c300ba5e5980ff026bac695fb3e1185bff88?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-14** — [ダノンデサイルは3着 G1 4連続・通算5度目の3着 戸崎圭太「こういう馬場でも走れた」](https://news.yahoo.co.jp/articles/f5c3636985a80e15e775a85e7ac1445493ebd086?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-14** — [ミュージアムマイルは9着 レーン騎手「残り600mでは手応えも良く…」重馬場に屈する](https://news.yahoo.co.jp/articles/eb6bc599eea7c0f1879011f1d856db56e3001ba5?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-14** — [武豊が今週も記録ずくめV！ 同一騎手での宝塚記念連覇は史上初 2週連続G1は20年ぶり](https://news.yahoo.co.jp/articles/dffe1b81addd0ee80b05816273d947468eee8485?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-14** — [コスモキュランダが奇襲逃げで見せ場十分の4着 横山武史「競馬の前から逃げたいと」](https://news.yahoo.co.jp/articles/df90e6cf7cb3684e2251fbb25e82b47c3eaf841c?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-14** — [武豊の連覇＆連勝に今村聖奈のドラマチックV…上半期G1振り返り 目立った「同騎手による複数勝利」](https://news.yahoo.co.jp/articles/dbdb69eed1cb7e795107f6f40c9bf40e2d968219?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-14** — [クロワデュノール春古馬3冠ならず クビ差2着 北村友一「4角のバランスが乱れた」](https://news.yahoo.co.jp/articles/bc951629f790adbffae8abaa8da87f8f7b086aa4?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-14** — [直前のゲリラ豪雨で馬場状態「良」→「重」に急変 武豊「天国から松本会長が降らせてくれた」](https://news.yahoo.co.jp/articles/a24d541f8045577ddee24fded797bf6530cb9402?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-14** — [メイショウタバル（武豊）が宝塚記念連覇達成 史上3頭目の快挙](https://news.yahoo.co.jp/articles/914b3d5309fb9dc1691d3ce75315ba2fc1911f7a?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-14** — [レガレイラは7着完敗 ルメール「ギアアップできませんでした」極悪馬場に白旗](https://news.yahoo.co.jp/articles/7b95f4bb369f4ad92e469dbee2918334aacd7dbc?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-13** — [C.ルメール騎手がJRA通算2200勝達成 史上最少騎乗回数で史上8人目の金字塔 夏は海外へ](https://news.netkeiba.com/?pid=news_view&no=334153) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-13** — [【宝塚記念・土曜気配】メイショウタバルはDPコースで落ち着き抜群の最終調整 石橋師「レースに直結するか分からないが心配なく来ている」](https://news.yahoo.co.jp/articles/d1b005a67e3aa360b1f311f38dc26250dc1d4adf?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-13** — [【宝塚記念・土曜気配】シンエンペラー 前走比6キロ減の502キロ 矢作師「500キロは切りたい」と調整に手応え](https://news.yahoo.co.jp/articles/be6b04b3da3319c614b639a2ce33b11f67eb6a27?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
@@ -127,6 +141,7 @@ related_articles: 97
 - **2026-06-07** — [武豊「来週も更新したい」宝塚記念連覇に意欲、メイショウタバルで連覇狙う](https://news.yahoo.co.jp/articles/c94d4ec5c9b50f44446dad080a83606b19217a46?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-07** — [武豊「来週さらに更新したい」 宝塚記念でメイショウタバルとのコンビで連覇に意欲](https://news.yahoo.co.jp/articles/c94d4ec5c9b50f44446dad080a83606b19217a46) *(出典: 東スポ競馬)*
 - **2026-06-07** — [【安田記念】ガイアフォース1番人気・4度目のG1で2着同着に 横山武史「前が止まらなかった割に…」](https://news.yahoo.co.jp/articles/5e6563858a9f769e3511cda043c9100e6200b869?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-07** — [シックスペンスの母はキタサンブラックを受胎中 ノーザンファームは今年平地G1で11戦9勝](https://news.yahoo.co.jp/articles/59cd88e96a4c413e5d175583df8d50997bbd95e5) *(出典: 東スポ競馬)*
 - **2026-06-07** — [ワールズエンドが懸命の逃げ粘りで2着同着も津村明秀「悔やまれます」](https://news.yahoo.co.jp/articles/57a279fcc3e803a36fe7aa07a111526b3eec88fc?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-07** — [安田記念 2番人気トロヴァトーレ9着の敗因 ルメール「後ろ過ぎた。枠が残念でした」](https://news.yahoo.co.jp/articles/52983157a86d81683cf43ddc65187ecd4921e42b) *(出典: 東スポ競馬)*
 - **2026-06-07** — [安田記念速報：シックスペンスがクビ差制す、2着はワールズエンドとガイアフォース](https://news.yahoo.co.jp/articles/507874ee12b256d7586f0515ac801e1053c2e044?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
@@ -136,7 +151,10 @@ related_articles: 97
 - **2026-06-07** — [【安田記念】武豊57歳・G1史上最年長制覇！シックスペンスが8番人気で波乱演出](https://news.netkeiba.com/?pid=news_view&no=333613) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-07** — [安田記念結果：シックスペンスがG1初制覇、2着はワールズエンド・ガイアフォースの同着](https://news.netkeiba.com/?pid=news_view&no=333608) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-07** — [安田記念 ステレンボッシュ10着 レーン「全体的に忙しいレースに」復活への道険しく](https://news.netkeiba.com/?pid=news_view&no=333606) *(出典: netkeiba ニュース＆コラム)*
+- **2026-06-07** — [武豊57歳2ヶ月24日でJRA最年長G1勝利記録を更新](https://news.netkeiba.com/?pid=news_view&no=333603) *(出典: netkeiba ニュース＆コラム)*
+- **2026-06-07** — [田中博康調教師がJRA芝G1初勝利「豊さんと勝てたことが本当に嬉しい」](https://news.netkeiba.com/?pid=news_view&no=333599) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-07** — [安田記念2着同着：ワールズエンド津村「ペースは思った通り」、ガイア横山武「前が止まらない割に頑張った」](https://news.netkeiba.com/?pid=news_view&no=333589) *(出典: netkeiba ニュース＆コラム)*
+- **2026-06-07** — [安田記念レース後コメント：武豊騎手「いい仕事ができた」田中博康調教師と勝利の喜び](https://news.netkeiba.com/?pid=news_view&no=333587) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-07** — [武豊がJRA最年長G1勝利記録を更新 急きょの依頼に結果で応えた!「おじさん頑張っています(笑)」](https://news.netkeiba.com/?pid=column_view&cid=59008) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-07** — [【宝塚記念予想】今年も開催4日目で先行有利か 渋ればフレンチデピュティの血が特注](https://news.netkeiba.com/?pid=column_view&cid=59003) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-07** — [【加藤士津八調教師】「人気がない時の方が面白い」──コスモキュランダと宝塚記念で狙う"大波乱"のシナリオ](https://news.netkeiba.com/?pid=column_view&cid=58987) *(出典: netkeiba ニュース＆コラム)*

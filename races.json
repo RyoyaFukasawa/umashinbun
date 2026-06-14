@@ -229,7 +229,51 @@
       "メイショウタバル",
       "レガレイラ"
     ],
-    "origin": "manual"
+    "origin": "manual",
+    "results": [
+      {
+        "place": 1,
+        "horse": "メイショウタバル",
+        "jockey": "武豊",
+        "time": "2:12.1",
+        "popularity": 2
+      },
+      {
+        "place": 2,
+        "horse": "クロワデュノール",
+        "jockey": "北村友一",
+        "time": null,
+        "popularity": 1
+      },
+      {
+        "place": 3,
+        "horse": "ダノンデサイル",
+        "jockey": "戸崎圭太",
+        "time": null,
+        "popularity": 3
+      },
+      {
+        "place": 4,
+        "horse": "コスモキュランダ",
+        "jockey": "横山武史",
+        "time": null,
+        "popularity": null
+      },
+      {
+        "place": 7,
+        "horse": "レガレイラ",
+        "jockey": "C.ルメール",
+        "time": null,
+        "popularity": 5
+      },
+      {
+        "place": 9,
+        "horse": "ミュージアムマイル",
+        "jockey": "D.レーン",
+        "time": null,
+        "popularity": 4
+      }
+    ]
   },
   {
     "id": "2026-tenno-sho-autumn",
