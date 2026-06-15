@@ -1,9 +1,9 @@
-> ### 🏁 本日の結果: 宝塚記念 (G1)
+> ### 🏁 昨日の結果: 宝塚記念 (G1)
 > 🥇 **メイショウタバル** 騎手 武豊 ・ 2:12.1 ・ 2人気
 >
 > 📰 [結果を見る →](races/2026/06/2026-06-14-宝塚記念.md)
 
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 105 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 104 日
 
 # umashinbun 馬新聞
 
@@ -26,7 +26,6 @@
 
 ## 直近のレース
 
-- **2026-06-14** [宝塚記念 (G1)](races/2026/06/2026-06-14-宝塚記念.md) 阪神 芝2200m
 - **2026-09-27** [スプリンターズステークス (G1)](races/2026/09/2026-09-27-スプリンターズステークス.md) 中山 芝1200m
 - **2026-10-18** [秋華賞 (G1)](races/2026/10/2026-10-18-秋華賞.md) 京都 芝2000m
 - **2026-10-25** [菊花賞 (G1)](races/2026/10/2026-10-25-菊花賞.md) 京都 芝3000m
@@ -34,19 +33,20 @@
 - **2026-11-15** [エリザベス女王杯 (G1)](races/2026/11/2026-11-15-エリザベス女王杯.md) 京都 芝2200m
 - **2026-11-22** [マイルチャンピオンシップ (G1)](races/2026/11/2026-11-22-マイルチャンピオンシップ.md) 京都 芝1600m
 - **2026-11-29** [ジャパンカップ (G1)](races/2026/11/2026-11-29-ジャパンカップ.md) 東京 芝2400m
+- **2026-12-06** [チャンピオンズカップ (G1)](races/2026/12/2026-12-06-チャンピオンズカップ.md) 中京 ダ1800m
 
 ### 終了したレース（直近）
+- **2026-06-14** [宝塚記念 (G1)](races/2026/06/2026-06-14-宝塚記念.md)
 - **2026-06-07** [安田記念 (G1)](races/2026/06/2026-06-07-安田記念.md)
 - **2026-05-31** [日本ダービー (東京優駿) (G1)](races/2026/05/2026-05-31-日本ダービー_(東京優駿).md)
-- **2026-05-24** [オークス (優駿牝馬) (G1)](races/2026/05/2026-05-24-オークス_(優駿牝馬).md)
 
 ## 最新の記事5件
 
-- **2026-06-14** [マイユニバース急性心不全で競走中止・死亡 直線コースで倒れる悲報](https://news.yahoo.co.jp/articles/c9c4262a83603cc8b7cb048dfc4c393a73d1d1b2?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
-- **2026-06-14** [「完璧じゃないですかね」石橋守調教師がメイショウタバルと武豊を絶賛](https://news.yahoo.co.jp/articles/70433671f8ec64ded737fbff758bb64f8475c9fb?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-06-14** [宝塚記念 6万1857人のユタカコール 開門前倒し 1週間前から徹夜組のフィーバー コロナ禍以降最多](https://news.yahoo.co.jp/articles/43f8c300ba5e5980ff026bac695fb3e1185bff88?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-06-14** [ダノンデサイルは3着 G1 4連続・通算5度目の3着 戸崎圭太「こういう馬場でも走れた」](https://news.yahoo.co.jp/articles/f5c3636985a80e15e775a85e7ac1445493ebd086?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
-- **2026-06-14** [ミュージアムマイルは9着 レーン騎手「残り600mでは手応えも良く…」重馬場に屈する](https://news.yahoo.co.jp/articles/eb6bc599eea7c0f1879011f1d856db56e3001ba5?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-15** [【愛G3制覇】スパランヌア無敗でマンスターオークスV、アイリッシュオークスへ照準 ジム・ボルジャー師が4年ぶりの逸材](https://www.thoroughbreddailynews.com/irish-oaks-calls-for-bolgers-unbeaten-sparan-nua/) *(Thoroughbred Daily News)*
+- **2026-06-15** [【ロイヤルアスコット開幕】注目5トピック ボウエコーがセントジェームズパレスSの中心、ムリンズ師は英王室に初勝利を贈れるか](https://www.thoroughbreddailynews.com/five-things-to-look-out-for-on-the-opening-day-of-royal-ascot/) *(Thoroughbred Daily News)*
+- **2026-06-15** [【仏オークス】ダイヤモンドネックレスが英愛仏クラシック制覇 ムーア騎手が史上初の全制覇達成](https://www.thoroughbreddailynews.com/diamond-necklace-gives-moore-historic-classic-clean-sweep/) *(Thoroughbred Daily News)*
+- **2026-06-15** [【血統・産駒】フライトライン産駒がさらに8頭JRAに登録 北海道生産の高額落札馬も含む](https://www.bloodhorse.com/horse-racing/articles/292497/eight-more-flightline-babies-set-to-race-in-japan) *(BloodHorse)*
+- **2026-06-15** [【血統・産駒】フライトライン産駒ディミアンが東京で初勝利 史上最高評価の名馬が種牡馬として始動](https://www.bloodhorse.com/horse-racing/articles/292457/flightline-sires-first-winner-demian-scores-in-japan) *(BloodHorse)*
 
 ## 仕組み
 
