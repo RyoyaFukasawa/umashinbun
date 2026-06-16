@@ -1,17 +1,18 @@
 ---
-kind: dams
-name: アリストクラティックレディ
-related_horses: 1
+kind: jockeys
+name: B.ロックネイン
+related_horses: 2
 related_articles: 2
 ---
 
-# 🐴 アリストクラティックレディ
-*繁殖牝馬・母*
+# 🏇 B.ロックネイン
+*騎手*
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (1頭)
+## 🐎 関連する馬 (2頭)
 
+- [グスタード](../horses/グスタード.md)
 - [ボウエコー](../horses/ボウエコー.md)
 
 ## 📰 関連記事 (2件)

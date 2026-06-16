@@ -1,9 +1,9 @@
-> ### 🏁 昨日の結果: 宝塚記念 (G1)
+> ### 🏁 2日前の結果: 宝塚記念 (G1)
 > 🥇 **メイショウタバル** 騎手 武豊 ・ 2:12.1 ・ 2人気
 >
 > 📰 [結果を見る →](races/2026/06/2026-06-14-宝塚記念.md)
 
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 104 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 103 日
 
 # umashinbun 馬新聞
 
@@ -42,11 +42,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-15** [【愛G3制覇】スパランヌア無敗でマンスターオークスV、アイリッシュオークスへ照準 ジム・ボルジャー師が4年ぶりの逸材](https://www.thoroughbreddailynews.com/irish-oaks-calls-for-bolgers-unbeaten-sparan-nua/) *(Thoroughbred Daily News)*
-- **2026-06-15** [【ロイヤルアスコット開幕】注目5トピック ボウエコーがセントジェームズパレスSの中心、ムリンズ師は英王室に初勝利を贈れるか](https://www.thoroughbreddailynews.com/five-things-to-look-out-for-on-the-opening-day-of-royal-ascot/) *(Thoroughbred Daily News)*
-- **2026-06-15** [【仏オークス】ダイヤモンドネックレスが英愛仏クラシック制覇 ムーア騎手が史上初の全制覇達成](https://www.thoroughbreddailynews.com/diamond-necklace-gives-moore-historic-classic-clean-sweep/) *(Thoroughbred Daily News)*
-- **2026-06-15** [【血統・産駒】フライトライン産駒がさらに8頭JRAに登録 北海道生産の高額落札馬も含む](https://www.bloodhorse.com/horse-racing/articles/292497/eight-more-flightline-babies-set-to-race-in-japan) *(BloodHorse)*
-- **2026-06-15** [【血統・産駒】フライトライン産駒ディミアンが東京で初勝利 史上最高評価の名馬が種牡馬として始動](https://www.bloodhorse.com/horse-racing/articles/292457/flightline-sires-first-winner-demian-scores-in-japan) *(BloodHorse)*
+- **2026-06-16** [白毛一族の新星スノーウィスパーが20日函館でデビュー ソダシ・マルガの半妹](https://news.yahoo.co.jp/articles/65eccd68169a530bb36f6289a4747a2a862805fb?source=rss) *(Yahoo!ニュース（競馬）)*
+- **2026-06-16** [【ロイヤルアスコット開幕】ボウエコーがセントジェームズパレスS制覇 5戦無敗でG1二冠・次走サセックスS](https://news.yahoo.co.jp/articles/bb1af572f7c0b10a8db6ce9fec7de466e009594e?source=rss) *(Yahoo!ニュース（競馬）)*
+- **2026-06-16** [【ロイヤルアスコット クイーンアンS】単勝51倍テンボブトニーが大波乱！ 1番人気ノータブルスピーチは6着](https://news.yahoo.co.jp/articles/0bf990df190119fd763a83f8edc8674b04dc07de?source=rss) *(Yahoo!ニュース（競馬）)*
+- **2026-06-16** [JRA顕彰馬にオジュウチョウサン・蛯名正義・国枝栄元師が選定 障害馬として41年ぶり2頭目](https://news.yahoo.co.jp/articles/6fd1b2c6d6a9bd100d6b21b25f1f0e8f02b38f87?source=rss) *(Yahoo!ニュース（競馬）)*
+- **2026-06-16** [ジュウリョクピエロが凱旋門賞を回避 秋は国内路線に専念・秋華賞→エリザベス女王杯へ](https://news.yahoo.co.jp/articles/6bed2bfd060f8a9ce78ebf510520c890018d712d?source=rss) *(Yahoo!ニュース（競馬）)*
 
 ## 仕組み
 

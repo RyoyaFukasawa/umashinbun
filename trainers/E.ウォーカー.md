@@ -1,26 +1,21 @@
 ---
 kind: trainers
-name: ジョージ・バウヒー
-related_horses: 6
-related_articles: 3
+name: E.ウォーカー
+related_horses: 2
+related_articles: 2
 ---
 
-# 🎓 ジョージ・バウヒー
+# 🎓 E.ウォーカー
 *調教師*
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (6頭)
+## 🐎 関連する馬 (2頭)
 
-- [ガスタード](../horses/ガスタード.md)
-- [ダミサス](../horses/ダミサス.md)
-- [ボウエコー](../horses/ボウエコー.md)
+- [テンボブトニー](../horses/テンボブトニー.md)
 - [モアサンダー](../horses/モアサンダー.md)
-- [リーチングハイ](../horses/リーチングハイ.md)
-- [ロジーアフェア](../horses/ロジーアフェア.md)
 
-## 📰 関連記事 (3件)
+## 📰 関連記事 (2件)
 
-- **2026-06-16** — [【ロイヤルアスコット開幕】ボウエコーがセントジェームズパレスS制覇 5戦無敗でG1二冠・次走サセックスS](https://news.yahoo.co.jp/articles/bb1af572f7c0b10a8db6ce9fec7de466e009594e?source=rss) *(出典: Yahoo!ニュース（競馬）)*
 - **2026-06-16** — [【ロイヤルアスコット クイーンアンS】単勝51倍テンボブトニーが大波乱！ 1番人気ノータブルスピーチは6着](https://news.yahoo.co.jp/articles/0bf990df190119fd763a83f8edc8674b04dc07de?source=rss) *(出典: Yahoo!ニュース（競馬）)*
 - **2026-06-15** — [【ロイヤルアスコット開幕】注目5トピック ボウエコーがセントジェームズパレスSの中心、ムリンズ師は英王室に初勝利を贈れるか](https://www.thoroughbreddailynews.com/five-things-to-look-out-for-on-the-opening-day-of-royal-ascot/) *(出典: Thoroughbred Daily News)*
