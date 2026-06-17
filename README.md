@@ -1,9 +1,9 @@
-> ### 🏁 2日前の結果: 宝塚記念 (G1)
+> ### 🏁 3日前の結果: 宝塚記念 (G1)
 > 🥇 **メイショウタバル** 騎手 武豊 ・ 2:12.1 ・ 2人気
 >
 > 📰 [結果を見る →](races/2026/06/2026-06-14-宝塚記念.md)
 
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 103 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 102 日
 
 # umashinbun 馬新聞
 
@@ -42,11 +42,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-16** [白毛一族の新星スノーウィスパーが20日函館でデビュー ソダシ・マルガの半妹](https://news.yahoo.co.jp/articles/65eccd68169a530bb36f6289a4747a2a862805fb?source=rss) *(Yahoo!ニュース（競馬）)*
-- **2026-06-16** [【ロイヤルアスコット開幕】ボウエコーがセントジェームズパレスS制覇 5戦無敗でG1二冠・次走サセックスS](https://news.yahoo.co.jp/articles/bb1af572f7c0b10a8db6ce9fec7de466e009594e?source=rss) *(Yahoo!ニュース（競馬）)*
-- **2026-06-16** [【ロイヤルアスコット クイーンアンS】単勝51倍テンボブトニーが大波乱！ 1番人気ノータブルスピーチは6着](https://news.yahoo.co.jp/articles/0bf990df190119fd763a83f8edc8674b04dc07de?source=rss) *(Yahoo!ニュース（競馬）)*
-- **2026-06-16** [JRA顕彰馬にオジュウチョウサン・蛯名正義・国枝栄元師が選定 障害馬として41年ぶり2頭目](https://news.yahoo.co.jp/articles/6fd1b2c6d6a9bd100d6b21b25f1f0e8f02b38f87?source=rss) *(Yahoo!ニュース（競馬）)*
-- **2026-06-16** [ジュウリョクピエロが凱旋門賞を回避 秋は国内路線に専念・秋華賞→エリザベス女王杯へ](https://news.yahoo.co.jp/articles/6bed2bfd060f8a9ce78ebf510520c890018d712d?source=rss) *(Yahoo!ニュース（競馬）)*
+- **2026-06-17** [【クイーンメアリーS】片目でも無敗！ヴィクトリアスが3連勝で重賞初制覇、オブライエン師99勝目](https://news.yahoo.co.jp/articles/cf9209d7dfffd5eae800e744ca11a6e6b81c491e?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-17** [【関東オークス】ペンダントが交流重賞初制覇、岩田父子でワンツー決着](https://news.yahoo.co.jp/articles/3264d2c22148fe7cee5b18edef61dc48a893d459?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-17** [【業界ニュース】英国でワクチン接種済みサラブレッドから馬インフルエンザ確認、種牡馬市場経由で拡散か](https://www.bloodhorse.com/horse-racing/articles/292562/equine-flu-confirmed-in-vaccinated-british-thoroughbred) *(BloodHorse All News)*
+- **2026-06-17** [【プリンスオブウェールズS】オンブズマンが4馬身差で連覇、凱旋門賞馬ダリズを完封](https://news.yahoo.co.jp/articles/f10af75ae8a30d574c48ea16947e1ccf3f313f2b?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-17** [【QE2世ジュビリーS】サトノレーヴ＆ルガルが最終調整完了、6月20日アスコットに2頭で挑戦](https://news.yahoo.co.jp/articles/ae4e2bf426deba977d90555b29c763770ef08877?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
 
 ## 仕組み
 

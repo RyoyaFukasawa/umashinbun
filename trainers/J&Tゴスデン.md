@@ -1,0 +1,21 @@
+---
+kind: trainers
+name: J&Tゴスデン
+related_horses: 3
+related_articles: 1
+---
+
+# 🎓 J&Tゴスデン
+*調教師*
+
+[索引へ](README.md)
+
+## 🐎 関連する馬 (3頭)
+
+- [オンブズマン](../horses/オンブズマン.md)
+- [ダリズ](../horses/ダリズ.md)
+- [ミニーホーク](../horses/ミニーホーク.md)
+
+## 📰 関連記事 (1件)
+
+- **2026-06-17** — [【プリンスオブウェールズS】オンブズマンが4馬身差で連覇、凱旋門賞馬ダリズを完封](https://news.yahoo.co.jp/articles/f10af75ae8a30d574c48ea16947e1ccf3f313f2b?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
