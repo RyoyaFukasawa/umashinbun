@@ -1,9 +1,4 @@
-> ### 🏁 3日前の結果: 宝塚記念 (G1)
-> 🥇 **メイショウタバル** 騎手 武豊 ・ 2:12.1 ・ 2人気
->
-> 📰 [結果を見る →](races/2026/06/2026-06-14-宝塚記念.md)
-
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 102 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 101 日
 
 # umashinbun 馬新聞
 
@@ -42,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-17** [【クイーンメアリーS】片目でも無敗！ヴィクトリアスが3連勝で重賞初制覇、オブライエン師99勝目](https://news.yahoo.co.jp/articles/cf9209d7dfffd5eae800e744ca11a6e6b81c491e?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-17** [【関東オークス】ペンダントが交流重賞初制覇、岩田父子でワンツー決着](https://news.yahoo.co.jp/articles/3264d2c22148fe7cee5b18edef61dc48a893d459?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-17** [【業界ニュース】英国でワクチン接種済みサラブレッドから馬インフルエンザ確認、種牡馬市場経由で拡散か](https://www.bloodhorse.com/horse-racing/articles/292562/equine-flu-confirmed-in-vaccinated-british-thoroughbred) *(BloodHorse All News)*
-- **2026-06-17** [【プリンスオブウェールズS】オンブズマンが4馬身差で連覇、凱旋門賞馬ダリズを完封](https://news.yahoo.co.jp/articles/f10af75ae8a30d574c48ea16947e1ccf3f313f2b?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-06-17** [【QE2世ジュビリーS】サトノレーヴ＆ルガルが最終調整完了、6月20日アスコットに2頭で挑戦](https://news.yahoo.co.jp/articles/ae4e2bf426deba977d90555b29c763770ef08877?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-18** [【POG】ソダシ半妹、白毛のスノーウィスパーが20日函館5Rに出走確定 陣営「気持ちも入ってきました」](https://news.yahoo.co.jp/articles/cb2434004c6412f36048f12d1670491f6fa6528d?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-18** [【POG】「勝ち負け」と黒岩調教師は期待 2週連続の好時計ゴールデンハニビーは18日東京移動で万全の態勢](https://news.yahoo.co.jp/articles/0d62d36bb6b614d6e932d6b57740d5314ccc9fbf?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-18** [【英ゴールドC】エイダン・オブライエン師がロイヤルアスコット100勝の快挙…スカンジナビアで激闘制する](https://news.yahoo.co.jp/articles/da15c7c281113aa142f24cd7fdd7bc903b28c6f1?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-18** [【プリンスオブウェールズS】オンブズマンが4馬身差の圧勝！ダリズ、ミニーホークを完封](https://news.yahoo.co.jp/articles/be00ce14afdfd5ca6710b95cfdef3be2a18edeb9?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-18** [浅屈腱炎発症のカンチェンジュンガはこのまま引退へ 庄野靖志調教師「ハマったときの脚はすごかった」](https://news.yahoo.co.jp/articles/48a91fd55dfca35bd5c1c135948f120e1b594971?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
 
 ## 仕組み
 

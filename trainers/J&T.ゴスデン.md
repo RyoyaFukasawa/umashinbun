@@ -1,18 +1,20 @@
 ---
-kind: dams
-name: ダリヤカナ
-related_horses: 1
+kind: trainers
+name: J&T.ゴスデン
+related_horses: 3
 related_articles: 2
 ---
 
-# 🐴 ダリヤカナ
-*繁殖牝馬・母*
+# 🎓 J&T.ゴスデン
+*調教師*
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (1頭)
+## 🐎 関連する馬 (3頭)
 
+- [オンブズマン](../horses/オンブズマン.md)
 - [ダリズ](../horses/ダリズ.md)
+- [ミニーホーク](../horses/ミニーホーク.md)
 
 ## 📰 関連記事 (2件)
 
