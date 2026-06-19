@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 101 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 100 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-18** [【POG】ソダシ半妹、白毛のスノーウィスパーが20日函館5Rに出走確定 陣営「気持ちも入ってきました」](https://news.yahoo.co.jp/articles/cb2434004c6412f36048f12d1670491f6fa6528d?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-06-18** [【POG】「勝ち負け」と黒岩調教師は期待 2週連続の好時計ゴールデンハニビーは18日東京移動で万全の態勢](https://news.yahoo.co.jp/articles/0d62d36bb6b614d6e932d6b57740d5314ccc9fbf?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-06-18** [【英ゴールドC】エイダン・オブライエン師がロイヤルアスコット100勝の快挙…スカンジナビアで激闘制する](https://news.yahoo.co.jp/articles/da15c7c281113aa142f24cd7fdd7bc903b28c6f1?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-18** [【プリンスオブウェールズS】オンブズマンが4馬身差の圧勝！ダリズ、ミニーホークを完封](https://news.yahoo.co.jp/articles/be00ce14afdfd5ca6710b95cfdef3be2a18edeb9?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-18** [浅屈腱炎発症のカンチェンジュンガはこのまま引退へ 庄野靖志調教師「ハマったときの脚はすごかった」](https://news.yahoo.co.jp/articles/48a91fd55dfca35bd5c1c135948f120e1b594971?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-19** [【POG】ソダシ・ママコチャの半妹スノーウィスパーが函館でデビュー—白毛一族の3代目がいよいよ始動](https://news.yahoo.co.jp/articles/a8a2e4db1beae1191493553c3dfc4a37c964d8ad) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-19** [NZチャンピオン種牡馬サバビールが24歳で死亡—牧場事故、10回の年度代表種牡馬が世を去る](https://www.thoroughbreddailynews.com/paddock-accident-claims-nz-champion-sire-savabeel-at-24/) *(Thoroughbred Daily News)*
+- **2026-06-19** [【ロイヤルアスコット最終日】サトノレーヴ&ルガルがQE2世ジュビリーSに出走—日本馬2頭で欧州G1スプリント制覇へ](https://news.yahoo.co.jp/articles/0906668399060b2112a260d3388b9c221a05724c) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-19** [カンチェンジュンガ引退—阪急杯・セントウルS2勝の重賞馬、右前浅屈けん炎で乗馬へ](https://news.yahoo.co.jp/articles/6da2dec7d44f2ea5a513993621e2bdca64e03d34) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-19** [マイネルラウレア引退—2023年若駒S覇者、繋の骨亀裂・手術を経て現役断念](https://news.netkeiba.com/?pid=news_view&no=334766) *(netkeiba ニュース＆コラム)*
 
 ## 仕組み
 

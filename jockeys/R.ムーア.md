@@ -1,18 +1,19 @@
 ---
-kind: owners
-name: サトミホースカンパニー
-related_horses: 1
+kind: jockeys
+name: R.ムーア
+related_horses: 2
 related_articles: 3
 ---
 
-# 👤 サトミホースカンパニー
-*馬主*
+# 🏇 R.ムーア
+*騎手*
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (1頭)
+## 🐎 関連する馬 (2頭)
 
 - [サトノレーヴ](../horses/サトノレーヴ.md)
+- [ルガル](../horses/ルガル.md)
 
 ## 📰 関連記事 (3件)
 
