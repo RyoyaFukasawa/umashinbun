@@ -1,8 +1,8 @@
 ---
 kind: jockeys
 name: C.ルメール
-related_horses: 32
-related_articles: 114
+related_horses: 33
+related_articles: 115
 ---
 
 # 🏇 C.ルメール
@@ -10,7 +10,7 @@ related_articles: 114
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (32頭)
+## 🐎 関連する馬 (33頭)
 
 - [エンブロイダリー](../horses/エンブロイダリー.md)
 - [オオセイケイ](../horses/オオセイケイ.md)
@@ -29,6 +29,7 @@ related_articles: 114
 - [セイウンハーデス](../horses/セイウンハーデス.md)
 - [タガノデュード](../horses/タガノデュード.md)
 - [ダノンデサイル](../horses/ダノンデサイル.md)
+- [チャリングクロス](../horses/チャリングクロス.md)
 - [トロヴァトーレ](../horses/トロヴァトーレ.md)
 - [パンジャタワー](../horses/パンジャタワー.md)
 - [ビザンチンドリーム](../horses/ビザンチンドリーム.md)
@@ -45,8 +46,9 @@ related_articles: 114
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (114件)
+## 📰 関連記事 (115件)
 
+- **2026-06-20** — [【町田特別】クロワデュノールの全弟・チャリングクロスが1勝クラスから連勝で3勝目](https://news.yahoo.co.jp/articles/6ca96ff8d28ede65478585fde26a9c725fb45c6d?source=rss) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*
 - **2026-06-16** — [ジュウリョクピエロが凱旋門賞を回避 秋は国内路線に専念・秋華賞→エリザベス女王杯へ](https://news.yahoo.co.jp/articles/6bed2bfd060f8a9ce78ebf510520c890018d712d?source=rss) *(出典: Yahoo!ニュース（競馬）)*
 - **2026-06-14** — [マイユニバース急性心不全で競走中止・死亡 直線コースで倒れる悲報](https://news.yahoo.co.jp/articles/c9c4262a83603cc8b7cb048dfc4c393a73d1d1b2?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-14** — [「完璧じゃないですかね」石橋守調教師がメイショウタバルと武豊を絶賛](https://news.yahoo.co.jp/articles/70433671f8ec64ded737fbff758bb64f8475c9fb?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*

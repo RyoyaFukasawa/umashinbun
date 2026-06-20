@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 100 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 99 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-19** [【POG】ソダシ・ママコチャの半妹スノーウィスパーが函館でデビュー—白毛一族の3代目がいよいよ始動](https://news.yahoo.co.jp/articles/a8a2e4db1beae1191493553c3dfc4a37c964d8ad) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-06-19** [NZチャンピオン種牡馬サバビールが24歳で死亡—牧場事故、10回の年度代表種牡馬が世を去る](https://www.thoroughbreddailynews.com/paddock-accident-claims-nz-champion-sire-savabeel-at-24/) *(Thoroughbred Daily News)*
-- **2026-06-19** [【ロイヤルアスコット最終日】サトノレーヴ&ルガルがQE2世ジュビリーSに出走—日本馬2頭で欧州G1スプリント制覇へ](https://news.yahoo.co.jp/articles/0906668399060b2112a260d3388b9c221a05724c) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-19** [カンチェンジュンガ引退—阪急杯・セントウルS2勝の重賞馬、右前浅屈けん炎で乗馬へ](https://news.yahoo.co.jp/articles/6da2dec7d44f2ea5a513993621e2bdca64e03d34) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-06-19** [マイネルラウレア引退—2023年若駒S覇者、繋の骨亀裂・手術を経て現役断念](https://news.netkeiba.com/?pid=news_view&no=334766) *(netkeiba ニュース＆コラム)*
+- **2026-06-20** [【新馬/函館5R】サリオス産駒JRA初勝利！イモージェンが鮮やかデビューV](https://news.yahoo.co.jp/articles/a3f8d22398e94f5b9464a65348dea8c8b9d83c1a?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-20** [【函館12R】園田転入の無敗馬ディナンが中央初勝利——4戦4勝で逃げ切りV](https://news.yahoo.co.jp/articles/91a3384acb227b97000856f834c62bcabd2ef9a8?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-20** [【町田特別】クロワデュノールの全弟・チャリングクロスが1勝クラスから連勝で3勝目](https://news.yahoo.co.jp/articles/6ca96ff8d28ede65478585fde26a9c725fb45c6d?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-20** [フランク・ストロナック、性的暴行罪で有罪判決——北米競馬の元オーナーブリーダー](https://www.bloodhorse.com/horse-racing/articles/292613/stronach-convicted-of-sexual-assault-indecent-assault) *(BloodHorse All News)*
+- **2026-06-20** [【QE2世ジュビリーS】サトノレーヴが今年も2着——ロイヤルアスコット初制覇わずかに届かず](https://news.yahoo.co.jp/articles/56d2d07fef4333a569c5e3c0526f098f11974b71?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
 
 ## 仕組み
 

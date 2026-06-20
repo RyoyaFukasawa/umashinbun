@@ -1,18 +1,21 @@
 ---
 kind: jockeys
-name: ジョアン・モレイラ
-related_horses: 1
+name: T.マーカンド
+related_horses: 4
 related_articles: 4
 ---
 
-# 🏇 ジョアン・モレイラ
+# 🏇 T.マーカンド
 *騎手*
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (1頭)
+## 🐎 関連する馬 (4頭)
 
+- [アルメラク](../horses/アルメラク.md)
 - [サトノレーヴ](../horses/サトノレーヴ.md)
+- [ジョリースター](../horses/ジョリースター.md)
+- [ルガル](../horses/ルガル.md)
 
 ## 📰 関連記事 (4件)
 
