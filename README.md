@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 99 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 98 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-20** [【新馬/函館5R】サリオス産駒JRA初勝利！イモージェンが鮮やかデビューV](https://news.yahoo.co.jp/articles/a3f8d22398e94f5b9464a65348dea8c8b9d83c1a?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-20** [【函館12R】園田転入の無敗馬ディナンが中央初勝利——4戦4勝で逃げ切りV](https://news.yahoo.co.jp/articles/91a3384acb227b97000856f834c62bcabd2ef9a8?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-20** [【町田特別】クロワデュノールの全弟・チャリングクロスが1勝クラスから連勝で3勝目](https://news.yahoo.co.jp/articles/6ca96ff8d28ede65478585fde26a9c725fb45c6d?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-20** [フランク・ストロナック、性的暴行罪で有罪判決——北米競馬の元オーナーブリーダー](https://www.bloodhorse.com/horse-racing/articles/292613/stronach-convicted-of-sexual-assault-indecent-assault) *(BloodHorse All News)*
-- **2026-06-20** [【QE2世ジュビリーS】サトノレーヴが今年も2着——ロイヤルアスコット初制覇わずかに届かず](https://news.yahoo.co.jp/articles/56d2d07fef4333a569c5e3c0526f098f11974b71?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-21** [【新馬/東京4R】サリオス産駒・タクティシアンが完勝デビューV 20日のイモージェンに続き産駒2頭目JRA勝利](https://news.yahoo.co.jp/articles/4ab13945a16cf97f88b83718f10385041eca7d91?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-21** [【東京6R】4億円ホース・ダノンアスコルティが待望の初勝利 キタサンブラック産駒がデビュー4戦目で白星](https://news.yahoo.co.jp/articles/0e1837ca61eb408bac175f92c1c292444ae889c0?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-21** [【英・QE2世ジュビリーS】サトノレーヴ 2年連続2着惜敗 名手ムーア絶妙リードも鼻差届かず](https://news.netkeiba.com/?pid=news_view&no=334993) *(netkeiba ニュース＆コラム)*
+- **2026-06-21** [岩田望来騎手が開催6日間の騎乗停止 6月21日の阪神1Rで斜行・落馬事故を引き起こす](https://news.yahoo.co.jp/articles/e773649f5ebf0321b3790020b5ff5aab31c29474?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-21** [フォーエバーヤングが今秋米国を転戦しBCクラシック連覇を目指す 矢作厩舎が公式SNSで発表 凱旋門賞には向かわず](https://news.netkeiba.com/?pid=news_view&no=334974) *(netkeiba ニュース＆コラム)*
 
 ## 仕組み
 

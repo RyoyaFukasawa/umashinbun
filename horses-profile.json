@@ -1463,7 +1463,9 @@
     "breeder": "エキュリー・デ・モンソー（アイルランド）",
     "owner": "エキュリー・デ・モンソー",
     "trainer": "エイダン・オブライエン",
-    "main_jockeys": ["ライアン・ムーア"],
+    "main_jockeys": [
+      "ライアン・ムーア"
+    ],
     "record": "5戦5勝（無敗）",
     "major_results": [
       {
@@ -1504,7 +1506,9 @@
     "breeder": "Sheikh Mohammed Obaid Al Maktoum",
     "owner": "Exors Of The Late Sheikh Mohammed Obaid",
     "trainer": "ジョージ・バウヒー",
-    "main_jockeys": ["ビリー・ロックネイン"],
+    "main_jockeys": [
+      "ビリー・ロックネイン"
+    ],
     "record": "5戦5勝（無敗）",
     "major_results": [
       {
@@ -1537,18 +1541,83 @@
     "breeder": "坂東牧場",
     "owner": "（株）チョウサン",
     "trainer": "小笠倫弘→和田正一郎",
-    "main_jockeys": ["石神深一"],
+    "main_jockeys": [
+      "石神深一"
+    ],
     "record": "40戦20勝（平地8戦2勝、障害32戦18勝）/ JRA障害G1・9勝",
     "major_results": [
-      { "place": 1, "year": "2022", "name": "中山グランドジャンプ", "grade": "JG1", "course": "中山", "distance": "障害4250m" },
-      { "place": 1, "year": "2021", "name": "中山大障害", "grade": "JG1", "course": "中山", "distance": "障害4100m" },
-      { "place": 1, "year": "2020", "name": "中山グランドジャンプ", "grade": "JG1", "course": "中山", "distance": "障害4250m" },
-      { "place": 1, "year": "2019", "name": "中山グランドジャンプ", "grade": "JG1", "course": "中山", "distance": "障害4250m" },
-      { "place": 1, "year": "2018", "name": "中山グランドジャンプ", "grade": "JG1", "course": "中山", "distance": "障害4250m" },
-      { "place": 1, "year": "2017", "name": "中山大障害", "grade": "JG1", "course": "中山", "distance": "障害4100m" },
-      { "place": 1, "year": "2017", "name": "中山グランドジャンプ", "grade": "JG1", "course": "中山", "distance": "障害4250m" },
-      { "place": 1, "year": "2016", "name": "中山大障害", "grade": "JG1", "course": "中山", "distance": "障害4100m" },
-      { "place": 1, "year": "2016", "name": "中山グランドジャンプ", "grade": "JG1", "course": "中山", "distance": "障害4250m" }
+      {
+        "place": 1,
+        "year": "2022",
+        "name": "中山グランドジャンプ",
+        "grade": "JG1",
+        "course": "中山",
+        "distance": "障害4250m"
+      },
+      {
+        "place": 1,
+        "year": "2021",
+        "name": "中山大障害",
+        "grade": "JG1",
+        "course": "中山",
+        "distance": "障害4100m"
+      },
+      {
+        "place": 1,
+        "year": "2020",
+        "name": "中山グランドジャンプ",
+        "grade": "JG1",
+        "course": "中山",
+        "distance": "障害4250m"
+      },
+      {
+        "place": 1,
+        "year": "2019",
+        "name": "中山グランドジャンプ",
+        "grade": "JG1",
+        "course": "中山",
+        "distance": "障害4250m"
+      },
+      {
+        "place": 1,
+        "year": "2018",
+        "name": "中山グランドジャンプ",
+        "grade": "JG1",
+        "course": "中山",
+        "distance": "障害4250m"
+      },
+      {
+        "place": 1,
+        "year": "2017",
+        "name": "中山大障害",
+        "grade": "JG1",
+        "course": "中山",
+        "distance": "障害4100m"
+      },
+      {
+        "place": 1,
+        "year": "2017",
+        "name": "中山グランドジャンプ",
+        "grade": "JG1",
+        "course": "中山",
+        "distance": "障害4250m"
+      },
+      {
+        "place": 1,
+        "year": "2016",
+        "name": "中山大障害",
+        "grade": "JG1",
+        "course": "中山",
+        "distance": "障害4100m"
+      },
+      {
+        "place": 1,
+        "year": "2016",
+        "name": "中山グランドジャンプ",
+        "grade": "JG1",
+        "course": "中山",
+        "distance": "障害4250m"
+      }
     ],
     "strengths": [
       "障害G1同一重賞5連覇（中山グランドジャンプ2016〜2020年）という史上初の偉業を達成",
@@ -1567,10 +1636,19 @@
     "breeder": "レイクヴィラファーム",
     "owner": "石川達絵",
     "trainer": "池江泰寿",
-    "main_jockeys": ["岩田望来"],
+    "main_jockeys": [
+      "岩田望来"
+    ],
     "record": "7戦3勝（中央6戦2勝、地方1戦1勝）",
     "major_results": [
-      { "place": 1, "year": "2026", "name": "関東オークス", "grade": "JpnII", "course": "川崎", "distance": "ダ2100m" }
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "関東オークス",
+        "grade": "JpnII",
+        "course": "川崎",
+        "distance": "ダ2100m"
+      }
     ],
     "strengths": [
       "ダートでの持続力が高く直線での差し脚が武器",
@@ -1589,11 +1667,27 @@
     "breeder": "岡田スタッド",
     "owner": "タマモ株式会社",
     "trainer": "大橋勇樹",
-    "main_jockeys": ["田口貫太"],
+    "main_jockeys": [
+      "田口貫太"
+    ],
     "record": "ダート3歳牝馬三冠路線の主要馬。JBC2歳優駿(JpnIII)優勝など交流重賞実績あり",
     "major_results": [
-      { "place": 1, "year": "2025", "name": "JBC2歳優駿", "grade": "JpnIII", "course": "門別", "distance": "ダ1800m" },
-      { "place": 2, "year": "2025", "name": "全日本2歳優駿", "grade": "JpnI", "course": "川崎", "distance": "ダ1600m" }
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "JBC2歳優駿",
+        "grade": "JpnIII",
+        "course": "門別",
+        "distance": "ダ1800m"
+      },
+      {
+        "place": 2,
+        "year": "2025",
+        "name": "全日本2歳優駿",
+        "grade": "JpnI",
+        "course": "川崎",
+        "distance": "ダ1600m"
+      }
     ],
     "strengths": [
       "ダート牝馬路線での底力と持続力",
@@ -1612,13 +1706,44 @@
     "breeder": "白井牧場",
     "owner": "サトミホースカンパニー",
     "trainer": "堀宣行",
-    "main_jockeys": ["ジョアン・モレイラ", "クリストフ・ルメール"],
+    "main_jockeys": [
+      "ジョアン・モレイラ",
+      "クリストフ・ルメール"
+    ],
     "record": "19戦9勝（国内13戦9勝、海外6戦0勝）",
     "major_results": [
-      { "place": 1, "year": "2026", "name": "高松宮記念", "grade": "G1", "course": "中京", "distance": "芝1200m" },
-      { "place": 2, "year": "2026", "name": "クイーンエリザベス2世ジュビリーS", "grade": "G1", "course": "アスコット", "distance": "芝1200m" },
-      { "place": 1, "year": "2025", "name": "高松宮記念", "grade": "G1", "course": "中京", "distance": "芝1200m" },
-      { "place": 2, "year": "2025", "name": "クイーンエリザベス2世ジュビリーS", "grade": "G1", "course": "アスコット", "distance": "芝1200m" }
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "高松宮記念",
+        "grade": "G1",
+        "course": "中京",
+        "distance": "芝1200m"
+      },
+      {
+        "place": 2,
+        "year": "2026",
+        "name": "クイーンエリザベス2世ジュビリーS",
+        "grade": "G1",
+        "course": "アスコット",
+        "distance": "芝1200m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "高松宮記念",
+        "grade": "G1",
+        "course": "中京",
+        "distance": "芝1200m"
+      },
+      {
+        "place": 2,
+        "year": "2025",
+        "name": "クイーンエリザベス2世ジュビリーS",
+        "grade": "G1",
+        "course": "アスコット",
+        "distance": "芝1200m"
+      }
     ],
     "strengths": [
       "高松宮記念連覇を達成した現役トップスプリンター",
@@ -1637,12 +1762,36 @@
     "breeder": "三嶋牧場",
     "owner": "江馬由将",
     "trainer": "杉山晴紀",
-    "main_jockeys": ["西村淳也", "鮫島克駿"],
+    "main_jockeys": [
+      "西村淳也",
+      "鮫島克駿"
+    ],
     "record": "21戦5勝（中央18戦5勝、海外3戦0勝）",
     "major_results": [
-      { "place": 1, "year": "2024", "name": "スプリンターズステークス", "grade": "G1", "course": "中山", "distance": "芝1200m" },
-      { "place": 1, "year": "2025", "name": "阪神カップ", "grade": "G2", "course": "阪神", "distance": "芝1400m" },
-      { "place": 1, "year": "2024", "name": "シルクロードステークス", "grade": "G3", "course": "中京", "distance": "芝1200m" }
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "スプリンターズステークス",
+        "grade": "G1",
+        "course": "中山",
+        "distance": "芝1200m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "阪神カップ",
+        "grade": "G2",
+        "course": "阪神",
+        "distance": "芝1400m"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "シルクロードステークス",
+        "grade": "G3",
+        "course": "中京",
+        "distance": "芝1200m"
+      }
     ],
     "strengths": [
       "スプリント戦での鋭い末脚",
@@ -1661,13 +1810,43 @@
     "breeder": "J.ハンリー",
     "owner": "ゴドルフィン",
     "trainer": "J&Tゴスデン",
-    "main_jockeys": ["ウィリアム・ビュイック"],
+    "main_jockeys": [
+      "ウィリアム・ビュイック"
+    ],
     "record": "12戦9勝",
     "major_results": [
-      { "place": 1, "year": "2026", "name": "プリンスオブウェールズS", "grade": "G1", "course": "アスコット", "distance": "芝1990m" },
-      { "place": 1, "year": "2026", "name": "ドバイターフ", "grade": "G1", "course": "メイダン", "distance": "芝1800m" },
-      { "place": 1, "year": "2025", "name": "プリンスオブウェールズS", "grade": "G1", "course": "アスコット", "distance": "芝1990m" },
-      { "place": 1, "year": "2025", "name": "インターナショナルS", "grade": "G1", "course": "ヨーク", "distance": "芝2072m" }
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "プリンスオブウェールズS",
+        "grade": "G1",
+        "course": "アスコット",
+        "distance": "芝1990m"
+      },
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "ドバイターフ",
+        "grade": "G1",
+        "course": "メイダン",
+        "distance": "芝1800m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "プリンスオブウェールズS",
+        "grade": "G1",
+        "course": "アスコット",
+        "distance": "芝1990m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "インターナショナルS",
+        "grade": "G1",
+        "course": "ヨーク",
+        "distance": "芝2072m"
+      }
     ],
     "strengths": [
       "大外一気の圧倒的な瞬発力",
@@ -1686,11 +1865,27 @@
     "breeder": "アガ・カーン・スタッドSC",
     "owner": "アガ・カーン・スタッドSC",
     "trainer": "フランシスアンリ・グラファール",
-    "main_jockeys": ["ミカエル・バルザローナ"],
+    "main_jockeys": [
+      "ミカエル・バルザローナ"
+    ],
     "record": "9戦7勝",
     "major_results": [
-      { "place": 1, "year": "2025", "name": "凱旋門賞", "grade": "G1", "course": "パリロンシャン", "distance": "芝2400m" },
-      { "place": 1, "year": "2026", "name": "ガネー賞", "grade": "G1", "course": "パリロンシャン", "distance": "芝2100m" }
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "凱旋門賞",
+        "grade": "G1",
+        "course": "パリロンシャン",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "ガネー賞",
+        "grade": "G1",
+        "course": "パリロンシャン",
+        "distance": "芝2100m"
+      }
     ],
     "strengths": [
       "パリロンシャンでの適性が抜群（英国では2連敗中）",
@@ -1709,7 +1904,10 @@
     "breeder": "サンバマウンテンファーム",
     "owner": "幅田昌伸",
     "trainer": "庄野靖志",
-    "main_jockeys": ["幸英明", "川田将雅"],
+    "main_jockeys": [
+      "幸英明",
+      "川田将雅"
+    ],
     "record": "24戦6勝 / 獲得賞金1億6122万5000円",
     "major_results": [
       {
@@ -1729,7 +1927,10 @@
         "distance": "芝1200m"
       }
     ],
-    "strengths": ["スプリント〜マイル距離（1200〜1600m）に対応するスピード", "鋭い追い込み脚が武器だが展開に依存するムラっ気もある"],
+    "strengths": [
+      "スプリント〜マイル距離（1200〜1600m）に対応するスピード",
+      "鋭い追い込み脚が武器だが展開に依存するムラっ気もある"
+    ],
     "story": "2歳でデビュー後、条件戦をこなして5歳で重賞初制覇。2025年の阪急杯・セントウルSで重賞2勝を挙げ厩舎に勢いをもたらした。特徴的な流星を持ち競馬ファンに親しまれたが、2026年6月に右前浅屈腱炎を発症し6歳で引退。",
     "source_url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%B3%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8%E3%83%A5%E3%83%B3%E3%82%AC_(%E7%AB%B6%E8%B5%B0%E9%A6%AC)"
   },
@@ -1743,13 +1944,43 @@
     "breeder": "BVサングスター",
     "owner": "デリック・スミス／ミセス・J・マグニア／M・テイバー",
     "trainer": "エイダン・オブライエン",
-    "main_jockeys": ["ライアン・ムーア"],
+    "main_jockeys": [
+      "ライアン・ムーア"
+    ],
     "record": "9戦6勝",
     "major_results": [
-      { "place": 1, "year": "2025", "name": "オークス", "grade": "G1", "course": "エプソム", "distance": "芝2410m" },
-      { "place": 1, "year": "2025", "name": "アイリッシュオークス", "grade": "G1", "course": "カラ", "distance": "芝2400m" },
-      { "place": 1, "year": "2025", "name": "ヨークシャーオークス", "grade": "G1", "course": "ヨーク", "distance": "芝2370m" },
-      { "place": 2, "year": "2026", "name": "プリンスオブウェールズS", "grade": "G1", "course": "アスコット", "distance": "芝1990m" }
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "オークス",
+        "grade": "G1",
+        "course": "エプソム",
+        "distance": "芝2410m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "アイリッシュオークス",
+        "grade": "G1",
+        "course": "カラ",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "ヨークシャーオークス",
+        "grade": "G1",
+        "course": "ヨーク",
+        "distance": "芝2370m"
+      },
+      {
+        "place": 2,
+        "year": "2026",
+        "name": "プリンスオブウェールズS",
+        "grade": "G1",
+        "course": "アスコット",
+        "distance": "芝1990m"
+      }
     ],
     "strengths": [
       "距離の融通性が高く、中距離から長距離まで対応",
@@ -1767,10 +1998,15 @@
     "breeder": null,
     "owner": null,
     "trainer": "須貝尚介",
-    "main_jockeys": ["佐々木大輔"],
+    "main_jockeys": [
+      "佐々木大輔"
+    ],
     "record": "デビュー前（2026年6月20日、函館5R・2歳新馬で初陣）",
     "major_results": [],
-    "strengths": ["白毛馬（祖母シラユキヒメを祖とする白毛一族の3世代目）", "ソダシ・ママコチャの半妹"],
+    "strengths": [
+      "白毛馬（祖母シラユキヒメを祖とする白毛一族の3世代目）",
+      "ソダシ・ママコチャの半妹"
+    ],
     "story": "2021年桜花賞など3勝のソダシ、2023年スプリンターズS覇者ママコチャの半妹。白毛一族として3代続く競走馬として注目を集め、2026年6月に函館でデビュー。須貝調教師は姉たちとは性格が異なり慎重な気性と語る。",
     "source_url": null
   },
@@ -1786,10 +2022,156 @@
     "main_jockeys": [],
     "record": "デビュー2連勝で2023年若駒S制覇。以降骨折が連続し2025年1月の迎春Sで復帰するも再発し引退（2026年6月）",
     "major_results": [
-      { "place": 1, "year": "2023", "name": "若駒ステークス", "grade": "OP", "course": "中京", "distance": "芝2000m" }
+      {
+        "place": 1,
+        "year": "2023",
+        "name": "若駒ステークス",
+        "grade": "OP",
+        "course": "中京",
+        "distance": "芝2000m"
+      }
     ],
-    "strengths": ["デビュー2連勝", "ゴールドシップ産駒らしい中距離適性"],
+    "strengths": [
+      "デビュー2連勝",
+      "ゴールドシップ産駒らしい中距離適性"
+    ],
     "story": "2023年若駒Sをデビュー2連勝で制した素質馬。しかし同年12月のオリオンSで骨折、2年以上の長期休養を余儀なくされた。2025年1月に復帰したが左後肢の繋の骨に亀裂が見つかり再度手術。全治1年以上の見込みが出たことで6歳で引退を決断。",
     "source_url": null
+  },
+  "フォーエバーヤング": {
+    "born": "2021-02-24",
+    "sex": "牡",
+    "coat": "鹿毛",
+    "sire": "リアルスティール",
+    "dam": "フォエヴァーダーリング",
+    "damsire": "Congrats",
+    "breeder": "ノーザンファーム",
+    "owner": "藤田晋",
+    "trainer": "矢作芳人",
+    "main_jockeys": [
+      "坂井瑠星"
+    ],
+    "record": "15戦11勝（中央：1戦1勝、地方：5戦5勝、海外：9戦5勝）",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2023",
+        "name": "JBC2歳優駿",
+        "grade": "JpnIII",
+        "course": "門別",
+        "distance": "ダ1800m"
+      },
+      {
+        "place": 1,
+        "year": "2023",
+        "name": "全日本2歳優駿",
+        "grade": "JpnI",
+        "course": "川崎",
+        "distance": "ダ1600m"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "サウジダービー",
+        "grade": "G3",
+        "course": "KAA",
+        "distance": "ダ1600m"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "UAEダービー",
+        "grade": "G2",
+        "course": "メイダン",
+        "distance": "ダ1900m"
+      },
+      {
+        "place": 3,
+        "year": "2024",
+        "name": "ケンタッキーダービー",
+        "grade": "G1",
+        "course": "チャーチルダウンズ",
+        "distance": "ダ10F"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "ジャパンダートクラシック",
+        "grade": "JpnI",
+        "course": "大井",
+        "distance": "ダ2000m"
+      },
+      {
+        "place": 3,
+        "year": "2024",
+        "name": "BCクラシック",
+        "grade": "G1",
+        "course": "デルマー",
+        "distance": "ダ10F"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "東京大賞典",
+        "grade": "G1",
+        "course": "大井",
+        "distance": "ダ2000m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "サウジカップ",
+        "grade": "G1",
+        "course": "KAA",
+        "distance": "ダ1800m"
+      },
+      {
+        "place": 3,
+        "year": "2025",
+        "name": "ドバイワールドカップ",
+        "grade": "G1",
+        "course": "メイダン",
+        "distance": "ダ2000m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "日本テレビ盃",
+        "grade": "JpnII",
+        "course": "船橋",
+        "distance": "ダ1800m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "BCクラシック",
+        "grade": "G1",
+        "course": "デルマー",
+        "distance": "ダ10F"
+      },
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "サウジカップ",
+        "grade": "G1",
+        "course": "KAA",
+        "distance": "ダ1800m"
+      },
+      {
+        "place": 2,
+        "year": "2026",
+        "name": "ドバイワールドカップ",
+        "grade": "G1",
+        "course": "メイダン",
+        "distance": "ダ2000m"
+      }
+    ],
+    "strengths": [
+      "ダート路線に特化した現役最強ダートホース",
+      "2025年BCクラシック覇者(日本調教馬初)・年度代表馬",
+      "地方ダート・海外G1を渡り歩く豊富な国際経験と勝負強さ"
+    ],
+    "story": "リアルスティール産駒の2021年生まれの牡馬。デビューから地方・海外ダートを主戦場に、2025年BCクラシックを制覇し日本調教馬初の快挙。ダート馬として初の年度代表馬にも選出。2026年秋もBCクラシック連覇を目標に米国転戦路線を歩む。馬主は藤田晋、馬名はAK-69の楽曲「Forever Young feat. UVERworld」から命名。愛称は「ヤン子」。",
+    "source_url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A9%E3%83%BC%E3%82%A8%E3%83%90%E3%83%BC%E3%83%A4%E3%83%B3%E3%82%B0_(%E7%AB%B6%E8%B5%B0%E9%A6%AC)"
   }
 }
