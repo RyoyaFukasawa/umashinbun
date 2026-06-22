@@ -1,8 +1,8 @@
 ---
 kind: jockeys
 name: C.ルメール
-related_horses: 35
-related_articles: 117
+related_horses: 37
+related_articles: 121
 ---
 
 # 🏇 C.ルメール
@@ -10,8 +10,9 @@ related_articles: 117
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (35頭)
+## 🐎 関連する馬 (37頭)
 
+- [イモージェン](../horses/イモージェン.md)
 - [エンブロイダリー](../horses/エンブロイダリー.md)
 - [オオセイケイ](../horses/オオセイケイ.md)
 - [カネラフィーナ](../horses/カネラフィーナ.md)
@@ -38,6 +39,7 @@ related_articles: 117
 - [ファミリータイム](../horses/ファミリータイム.md)
 - [マイネルエンペラー](../horses/マイネルエンペラー.md)
 - [マイユニバース](../horses/マイユニバース.md)
+- [マスカレードボール](../horses/マスカレードボール.md)
 - [ミクニインスパイア](../horses/ミクニインスパイア.md)
 - [ミステリーウェイ](../horses/ミステリーウェイ.md)
 - [ミュージアムマイル](../horses/ミュージアムマイル.md)
@@ -48,10 +50,13 @@ related_articles: 117
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (117件)
+## 📰 関連記事 (121件)
 
+- **2026-06-22** — [タクティシアン(父サリオス)が東京2歳新馬を快勝、新種牡馬サリオスが2日連続産駒デビュー勝ち](https://news.yahoo.co.jp/articles/a9768d2ac49e031ae75dbe28bf302ad8e595579b) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-22** — [日本馬が7月25日キングジョージVI&QE2Sに挑戦、マスカレードボールとヴュルテンベルクが参戦予定](https://www.bloodhorse.com/horse-racing/articles/292649/japan-aims-to-cure-ascot-woes-in-julys-king-george) *(出典: BloodHorse)*
 - **2026-06-21** — [【新馬/東京4R】サリオス産駒・タクティシアンが完勝デビューV 20日のイモージェンに続き産駒2頭目JRA勝利](https://news.yahoo.co.jp/articles/4ab13945a16cf97f88b83718f10385041eca7d91?source=rss) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*
 - **2026-06-21** — [【東京6R】4億円ホース・ダノンアスコルティが待望の初勝利 キタサンブラック産駒がデビュー4戦目で白星](https://news.yahoo.co.jp/articles/0e1837ca61eb408bac175f92c1c292444ae889c0?source=rss) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-20** — [【新馬/函館5R】サリオス産駒JRA初勝利！イモージェンが鮮やかデビューV](https://news.yahoo.co.jp/articles/a3f8d22398e94f5b9464a65348dea8c8b9d83c1a?source=rss) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*
 - **2026-06-20** — [【町田特別】クロワデュノールの全弟・チャリングクロスが1勝クラスから連勝で3勝目](https://news.yahoo.co.jp/articles/6ca96ff8d28ede65478585fde26a9c725fb45c6d?source=rss) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*
 - **2026-06-16** — [ジュウリョクピエロが凱旋門賞を回避 秋は国内路線に専念・秋華賞→エリザベス女王杯へ](https://news.yahoo.co.jp/articles/6bed2bfd060f8a9ce78ebf510520c890018d712d?source=rss) *(出典: Yahoo!ニュース（競馬）)*
 - **2026-06-14** — [マイユニバース急性心不全で競走中止・死亡 直線コースで倒れる悲報](https://news.yahoo.co.jp/articles/c9c4262a83603cc8b7cb048dfc4c393a73d1d1b2?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
@@ -119,6 +124,7 @@ related_articles: 117
 - **2026-06-10** — [リスグラシューと初コンビで宝塚記念Vに導いたダミアン・レーン「もっともっと勝てる」予言は現実に](https://news.yahoo.co.jp/articles/760bd4eb21c5121ec0d069eda24d67486aede82e?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-10** — [【宝塚記念・調教採点】春3冠へ！クロワデュノールの状態をジャッジ 栗東坂路GⅠ馬超えの1頭は？](https://news.yahoo.co.jp/articles/626829aeaaa83554c817d6e16f46a0c2e880f245?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-10** — [【宝塚記念】「馬場は悪い方がいい」丹内祐次の経験で才能開花 上昇気流に乗るミクニインスパイアが頂点へ](https://news.yahoo.co.jp/articles/1300afa2a0e075c0b14189a4ea3d5d048f29020d) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-09** — [日本Cリマッチ、7月アスコットで実現——カランダガン対マスカレードボール](https://www.bloodhorse.com/horse-racing/articles/292374/japan-cup-rematch-set-for-ascot-in-july) *(出典: BloodHorse All News)*
 - **2026-06-09** — [【宝塚記念】今年初戦のミュージアムマイル 休み明けがポイント](https://news.netkeiba.com/?pid=news_view&no=333768) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-09** — [【宝塚記念】シェイクユアハート 初G1も期待感、舞台に合う](https://news.netkeiba.com/?pid=news_view&no=333767) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-09** — [【宝塚記念】林徹師 ミクニインスパイアとたどりついた大舞台](https://news.netkeiba.com/?pid=news_view&no=333766) *(出典: netkeiba ニュース＆コラム)*

@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 98 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 97 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-21** [【新馬/東京4R】サリオス産駒・タクティシアンが完勝デビューV 20日のイモージェンに続き産駒2頭目JRA勝利](https://news.yahoo.co.jp/articles/4ab13945a16cf97f88b83718f10385041eca7d91?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-21** [【東京6R】4億円ホース・ダノンアスコルティが待望の初勝利 キタサンブラック産駒がデビュー4戦目で白星](https://news.yahoo.co.jp/articles/0e1837ca61eb408bac175f92c1c292444ae889c0?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-21** [【英・QE2世ジュビリーS】サトノレーヴ 2年連続2着惜敗 名手ムーア絶妙リードも鼻差届かず](https://news.netkeiba.com/?pid=news_view&no=334993) *(netkeiba ニュース＆コラム)*
-- **2026-06-21** [岩田望来騎手が開催6日間の騎乗停止 6月21日の阪神1Rで斜行・落馬事故を引き起こす](https://news.yahoo.co.jp/articles/e773649f5ebf0321b3790020b5ff5aab31c29474?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-21** [フォーエバーヤングが今秋米国を転戦しBCクラシック連覇を目指す 矢作厩舎が公式SNSで発表 凱旋門賞には向かわず](https://news.netkeiba.com/?pid=news_view&no=334974) *(netkeiba ニュース＆コラム)*
+- **2026-06-22** [タクティシアン(父サリオス)が東京2歳新馬を快勝、新種牡馬サリオスが2日連続産駒デビュー勝ち](https://news.yahoo.co.jp/articles/a9768d2ac49e031ae75dbe28bf302ad8e595579b) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-22** [フォーエバーヤング、9月ジョッキークラブGC→10月BCクラシック連覇挑戦の米国2戦計画を正式発表](https://www.bloodhorse.com/horse-racing/articles/292650/jockey-club-gold-cup-bc-classic-next-for-forever-young) *(BloodHorse)*
+- **2026-06-22** [日本馬が7月25日キングジョージVI&QE2Sに挑戦、マスカレードボールとヴュルテンベルクが参戦予定](https://www.bloodhorse.com/horse-racing/articles/292649/japan-aims-to-cure-ascot-woes-in-julys-king-george) *(BloodHorse)*
+- **2026-06-22** [社台スタリオンの種牡馬マインドユアビスケッツが急死（享年13歳）、産駒総獲得賞金2500万ドル超](https://www.bloodhorse.com/horse-racing/articles/292399/stallion-mind-your-biscuits-dies-in-japan-at-13) *(BloodHorse)*
+- **2026-06-22** [バーレーンインターナショナルトロフィーが国際G1に昇格、賞金150万ドルに増額・札幌記念勝ち馬に自動招待枠](https://news.yahoo.co.jp/articles/1e4a7c0f2ce35e44a8e8eef3b174db0a39aa02ea) *(東スポ競馬 (Yahoo!ニュース経由))*
 
 ## 仕組み
 
