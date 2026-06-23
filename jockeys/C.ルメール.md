@@ -2,7 +2,7 @@
 kind: jockeys
 name: C.ルメール
 related_horses: 37
-related_articles: 121
+related_articles: 122
 ---
 
 # 🏇 C.ルメール
@@ -50,8 +50,9 @@ related_articles: 121
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (121件)
+## 📰 関連記事 (122件)
 
+- **2026-06-23** — [POGマニア: 新種牡馬サリオス産駒が先週初勝利 2年目インディチャンプ産駒も複数勝利](https://news.yahoo.co.jp/articles/38b8ab6b6375930ffb011a15323f5a422ef5b1f3) *(出典: 馬トク報知)*
 - **2026-06-22** — [タクティシアン(父サリオス)が東京2歳新馬を快勝、新種牡馬サリオスが2日連続産駒デビュー勝ち](https://news.yahoo.co.jp/articles/a9768d2ac49e031ae75dbe28bf302ad8e595579b) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-22** — [日本馬が7月25日キングジョージVI&QE2Sに挑戦、マスカレードボールとヴュルテンベルクが参戦予定](https://www.bloodhorse.com/horse-racing/articles/292649/japan-aims-to-cure-ascot-woes-in-julys-king-george) *(出典: BloodHorse)*
 - **2026-06-21** — [【新馬/東京4R】サリオス産駒・タクティシアンが完勝デビューV 20日のイモージェンに続き産駒2頭目JRA勝利](https://news.yahoo.co.jp/articles/4ab13945a16cf97f88b83718f10385041eca7d91?source=rss) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*

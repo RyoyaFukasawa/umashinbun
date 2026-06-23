@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 97 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 96 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-22** [タクティシアン(父サリオス)が東京2歳新馬を快勝、新種牡馬サリオスが2日連続産駒デビュー勝ち](https://news.yahoo.co.jp/articles/a9768d2ac49e031ae75dbe28bf302ad8e595579b) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-06-22** [フォーエバーヤング、9月ジョッキークラブGC→10月BCクラシック連覇挑戦の米国2戦計画を正式発表](https://www.bloodhorse.com/horse-racing/articles/292650/jockey-club-gold-cup-bc-classic-next-for-forever-young) *(BloodHorse)*
-- **2026-06-22** [日本馬が7月25日キングジョージVI&QE2Sに挑戦、マスカレードボールとヴュルテンベルクが参戦予定](https://www.bloodhorse.com/horse-racing/articles/292649/japan-aims-to-cure-ascot-woes-in-julys-king-george) *(BloodHorse)*
-- **2026-06-22** [社台スタリオンの種牡馬マインドユアビスケッツが急死（享年13歳）、産駒総獲得賞金2500万ドル超](https://www.bloodhorse.com/horse-racing/articles/292399/stallion-mind-your-biscuits-dies-in-japan-at-13) *(BloodHorse)*
-- **2026-06-22** [バーレーンインターナショナルトロフィーが国際G1に昇格、賞金150万ドルに増額・札幌記念勝ち馬に自動招待枠](https://news.yahoo.co.jp/articles/1e4a7c0f2ce35e44a8e8eef3b174db0a39aa02ea) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-06-23** [G1・4勝ラッキーライラックの子ラッキースパークルが28日福島でデビュー 松永幹「瞬発力が母に似ている」](https://news.yahoo.co.jp/articles/cc2f3335aba72f94739d84805f704de0863b5161) *(馬トク報知)*
+- **2026-06-23** [POGマニア: 新種牡馬サリオス産駒が先週初勝利 2年目インディチャンプ産駒も複数勝利](https://news.yahoo.co.jp/articles/38b8ab6b6375930ffb011a15323f5a422ef5b1f3) *(馬トク報知)*
+- **2026-06-23** [凱旋門賞、2027年からせん馬の出走解禁へ フランス・ギャロが歴史的決議](https://www.bloodhorse.com/horse-racing/articles/292680/prix-de-larc-de-triomphe-to-allow-geldings-next-year) *(BloodHorse)*
+- **2026-06-23** [NZ年度代表種牡馬10度のサヴァビール、24歳で死亡 放牧中の事故で肩骨折](https://www.bloodhorse.com/horse-racing/articles/292590/new-zealand-champion-sire-savabeel-dies) *(BloodHorse)*
+- **2026-06-23** [フォーエバーヤング、秋の米国遠征プラン確定 BCクラシック連覇へ坂井瑠星「当然勝つつもりで行く」](https://news.yahoo.co.jp/articles/088d60769e58c774dd0cbea85c878ee1ef3bb12a) *(東スポ競馬)*
 
 ## 仕組み
 
