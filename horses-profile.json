@@ -2300,17 +2300,424 @@
     "breeder": "ノーザンファーム",
     "owner": "サンデーレーシング",
     "trainer": "松永幹夫",
-    "main_jockeys": ["石橋脩", "スミヨン"],
+    "main_jockeys": [
+      "石橋脩",
+      "スミヨン"
+    ],
     "record": "19戦7勝（中央18戦7勝、海外1戦0勝）/ 獲得賞金7億9920万円",
     "major_results": [
-      { "place": 1, "year": "2017", "name": "阪神ジュベナイルフィリーズ", "grade": "G1", "course": "阪神", "distance": "芝1600m" },
-      { "place": 2, "year": "2018", "name": "桜花賞", "grade": "G1", "course": "阪神", "distance": "芝1600m" },
-      { "place": 1, "year": "2019", "name": "エリザベス女王杯", "grade": "G1", "course": "京都", "distance": "芝2200m" },
-      { "place": 1, "year": "2020", "name": "大阪杯", "grade": "G1", "course": "阪神", "distance": "芝2000m" },
-      { "place": 1, "year": "2020", "name": "エリザベス女王杯", "grade": "G1", "course": "阪神", "distance": "芝2200m" }
+      {
+        "place": 1,
+        "year": "2017",
+        "name": "阪神ジュベナイルフィリーズ",
+        "grade": "G1",
+        "course": "阪神",
+        "distance": "芝1600m"
+      },
+      {
+        "place": 2,
+        "year": "2018",
+        "name": "桜花賞",
+        "grade": "G1",
+        "course": "阪神",
+        "distance": "芝1600m"
+      },
+      {
+        "place": 1,
+        "year": "2019",
+        "name": "エリザベス女王杯",
+        "grade": "G1",
+        "course": "京都",
+        "distance": "芝2200m"
+      },
+      {
+        "place": 1,
+        "year": "2020",
+        "name": "大阪杯",
+        "grade": "G1",
+        "course": "阪神",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 1,
+        "year": "2020",
+        "name": "エリザベス女王杯",
+        "grade": "G1",
+        "course": "阪神",
+        "distance": "芝2200m"
+      }
     ],
     "strengths": "牝馬ながら大阪杯制覇（G1昇格後初）。エリザベス女王杯史上4頭目の連覇達成。オルフェーヴル産駒初のG1馬。",
     "story": "2歳時に無敗の3連勝でJRA最優秀2歳牝馬を満票受賞。同世代のアーモンドアイに桜花賞・秋華賞で阻まれ続けたが、古馬になって大阪杯・エリザベス女王杯連覇と飛躍。スミヨン騎手は「アーモンドアイさえいなければもっとG1を勝っていた」と評価。2021年1月引退、繁殖牝馬に。",
     "source_url": "https://ja.wikipedia.org/wiki/ラッキーライラック"
+  },
+  "ロードフォンス": {
+    "born": "2020-04-27",
+    "sex": "牡",
+    "sire": "ロードカナロア",
+    "dam": "オーシュペール",
+    "damsire": "ダイワメジャー",
+    "breeder": "ケイアイファーム",
+    "owner": "(株)ロードホースクラブ",
+    "trainer": "安田翔伍",
+    "main_jockeys": [
+      "横山和生",
+      "西村淳也"
+    ],
+    "record": "22戦8勝（中央17戦6勝、地方5戦2勝）/ 獲得賞金2億9657万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "さきたま杯",
+        "grade": "JpnI",
+        "course": "浦和",
+        "distance": "ダ1400m"
+      },
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "根岸ステークス",
+        "grade": "G3",
+        "course": "東京",
+        "distance": "ダ1400m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "かきつばた記念",
+        "grade": "JpnIII",
+        "course": "名古屋",
+        "distance": "ダ1500m"
+      },
+      {
+        "place": 2,
+        "year": "2025",
+        "name": "根岸ステークス",
+        "grade": "G3",
+        "course": "東京",
+        "distance": "ダ1400m"
+      },
+      {
+        "place": 3,
+        "year": "2026",
+        "name": "かしわ記念",
+        "grade": "JpnI",
+        "course": "船橋",
+        "distance": "ダ1600m"
+      }
+    ],
+    "strengths": [
+      "ダート短距離(1400〜1600m)に高い適性",
+      "差し脚が持ち味で小回りダートでも結果を出す"
+    ],
+    "story": "ロードカナロア産駒のダートスプリンター。安田翔伍調教師が調教助手時代から関わった思い入れの深い馬。ドバイゴールデンシャヒーン出走予定も中東情勢悪化で取消となった後、国内ダート路線で実績を積み上げ2026年さきたま杯でJpnI初制覇。秋のBC遠征も視野に入れる。",
+    "source_url": "https://ja.wikipedia.org/wiki/ロードフォンス"
+  },
+  "ウィルソンテソーロ": {
+    "born": "2019-02-25",
+    "sex": "牡",
+    "sire": "キタサンブラック",
+    "dam": "チェストケローズ",
+    "damsire": "Uncle Mo",
+    "breeder": "リョーケンファーム(株)",
+    "owner": "了徳寺健二ホールディングス(株)",
+    "trainer": "高木登",
+    "main_jockeys": [
+      "川田将雅",
+      "原優介"
+    ],
+    "record": "29戦10勝（中央14戦4勝、地方11戦6勝、海外4戦0勝）/ 獲得賞金10億8200万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "JBCクラシック",
+        "grade": "JpnI",
+        "course": "大井",
+        "distance": "ダ2000m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "MCS南部杯",
+        "grade": "JpnI",
+        "course": "盛岡",
+        "distance": "ダ1600m"
+      },
+      {
+        "place": 1,
+        "year": "2026",
+        "name": "かしわ記念",
+        "grade": "JpnI",
+        "course": "船橋",
+        "distance": "ダ1600m"
+      },
+      {
+        "place": 1,
+        "year": "2023",
+        "name": "マーキュリーカップ",
+        "grade": "JpnIII",
+        "course": "盛岡",
+        "distance": "ダ2000m"
+      },
+      {
+        "place": 1,
+        "year": "2023",
+        "name": "白山大賞典",
+        "grade": "JpnIII",
+        "course": "金沢",
+        "distance": "ダ2100m"
+      },
+      {
+        "place": 2,
+        "year": "2023",
+        "name": "チャンピオンズカップ",
+        "grade": "G1",
+        "course": "中京",
+        "distance": "ダ1800m"
+      }
+    ],
+    "strengths": [
+      "ダート中距離から長距離まで幅広くこなすスタミナ型",
+      "父キタサンブラック初のダートGI級勝利をもたらした代表産駒"
+    ],
+    "story": "母が出産後に蹄葉炎で死亡し、ウィルソンテソーロは「唯一の産駒」として誕生。骨折を乗り越えてダート路線転向後に開花し、JBCクラシック等JpnI3勝を挙げる一方、チャンピオンズカップで同一G1を3年連続2着というユニークな記録も持つ。",
+    "source_url": "https://ja.wikipedia.org/wiki/ウィルソンテソーロ"
+  },
+  "ママコチャ": {
+    "born": "2019-04-05",
+    "sex": "牝",
+    "sire": "クロフネ",
+    "dam": "ブチコ",
+    "damsire": "キングカメハメハ",
+    "breeder": "ノーザンファーム",
+    "owner": "金子真人ホールディングス(株)",
+    "trainer": "池江泰寿",
+    "main_jockeys": [
+      "川田将雅",
+      "鮫島克駿"
+    ],
+    "record": "27戦7勝（中央25戦7勝、地方3戦0勝）/ 獲得賞金5億2386万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2023",
+        "name": "スプリンターズステークス",
+        "grade": "G1",
+        "course": "中山",
+        "distance": "芝1200m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "オーシャンステークス",
+        "grade": "G3",
+        "course": "中山",
+        "distance": "芝1200m"
+      },
+      {
+        "place": 2,
+        "year": "2023",
+        "name": "北九州記念",
+        "grade": "G3",
+        "course": "小倉",
+        "distance": "芝1200m"
+      }
+    ],
+    "strengths": [
+      "芝スプリント戦の俊足",
+      "直線での鋭い末脚が持ち味",
+      "2023年JRA賞最優秀スプリンター受賞"
+    ],
+    "story": "全姉はソダシ（桜花賞・ヴィクトリアマイル）という超良血。インカ神話の海の女神から命名された芝スプリントの女王。2023年スプリンターズSを制し最優秀スプリンターに。さきたま杯ではダート挑戦も、武豊騎手が「ベストは千二では」と述べた通り5着に終わった。",
+    "source_url": "https://ja.wikipedia.org/wiki/ママコチャ_(競走馬)"
+  },
+  "ネオユニヴァース": {
+    "born": "2000-05-21",
+    "sex": "牡",
+    "sire": "サンデーサイレンス",
+    "dam": "ポインテッドパス",
+    "damsire": "Kris",
+    "breeder": "社台ファーム",
+    "owner": "(有)社台レースホース",
+    "trainer": "瀬戸口勉",
+    "main_jockeys": [
+      "ミルコ・デムーロ"
+    ],
+    "record": "13戦7勝 / 獲得賞金6億1337万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2003",
+        "name": "皐月賞",
+        "grade": "G1",
+        "course": "中山",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 1,
+        "year": "2003",
+        "name": "東京優駿",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 1,
+        "year": "2004",
+        "name": "産経大阪杯",
+        "grade": "G2",
+        "course": "阪神",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 3,
+        "year": "2003",
+        "name": "菊花賞",
+        "grade": "G1",
+        "course": "京都",
+        "distance": "芝3000m"
+      }
+    ],
+    "strengths": [
+      "瞬発力とスタミナを兼備した二冠馬",
+      "外国人騎手による日本ダービー初制覇(M.デムーロ)"
+    ],
+    "story": "2003年皐月賞・東京優駿の二冠達成。種牡馬として有馬記念馬ヴィクトワールピサを輩出するなど成功。2021年3月、種付け中の事故で安楽死。西谷誠元騎手も騎乗経験を持つ名馬。",
+    "source_url": "https://ja.wikipedia.org/wiki/ネオユニヴァース"
+  },
+  "メイショウサムソン": {
+    "born": "2003-03-07",
+    "sex": "牡",
+    "sire": "オペラハウス",
+    "dam": "マイヴィヴィアン",
+    "damsire": "ダンシングブレーヴ",
+    "breeder": "林孝輝牧場",
+    "owner": "松本好雄",
+    "trainer": "高橋成忠",
+    "main_jockeys": [
+      "石橋守",
+      "武豊"
+    ],
+    "record": "27戦9勝（中央26戦9勝、海外1戦0勝）/ 獲得賞金10億6594万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2006",
+        "name": "皐月賞",
+        "grade": "G1",
+        "course": "中山",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 1,
+        "year": "2006",
+        "name": "東京優駿",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 1,
+        "year": "2007",
+        "name": "天皇賞（春）",
+        "grade": "G1",
+        "course": "京都",
+        "distance": "芝3200m"
+      },
+      {
+        "place": 1,
+        "year": "2007",
+        "name": "天皇賞（秋）",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 2,
+        "year": "2006",
+        "name": "神戸新聞杯",
+        "grade": "G2",
+        "course": "中京",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 2,
+        "year": "2007",
+        "name": "宝塚記念",
+        "grade": "G1",
+        "course": "阪神",
+        "distance": "芝2200m"
+      },
+      {
+        "place": 3,
+        "year": "2007",
+        "name": "ジャパンカップ",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      }
+    ],
+    "strengths": [
+      "春のクラシック二冠＋天皇賞春秋連覇（史上4頭目）",
+      "粘り強い精神力で複数G1を制覇"
+    ],
+    "story": "中小牧場・定年間近の調教師・GI未勝利騎手という非主流陣営でクラシック制覇。石橋守騎手のデビュー21年目・42度目の挑戦での初G1制覇を演出。天皇賞春秋連覇は史上4頭目の快挙。凱旋門賞にも参戦（2007年頓挫後2008年に出走・10着）。2024年11月26日、21歳で死亡。",
+    "source_url": "https://ja.wikipedia.org/wiki/メイショウサムソン"
+  },
+  "シャマル": {
+    "born": "2018-02-23",
+    "sex": "牡",
+    "sire": "スマートファルコン",
+    "dam": "ネイティヴコード",
+    "damsire": "アグネスデジタル",
+    "breeder": "岡田スタッド",
+    "owner": "金山敏也",
+    "trainer": "松下武士",
+    "main_jockeys": [
+      "川須栄彦"
+    ],
+    "record": "34戦13勝（中央9戦4勝、地方25戦9勝）/ 獲得賞金5億5000万円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "かしわ記念",
+        "grade": "JpnI",
+        "course": "船橋",
+        "distance": "ダ1600m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "かしわ記念",
+        "grade": "JpnI",
+        "course": "船橋",
+        "distance": "ダ1600m"
+      },
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "さきたま杯",
+        "grade": "JpnI",
+        "course": "浦和",
+        "distance": "ダ1400m"
+      },
+      {
+        "place": 1,
+        "year": "2022",
+        "name": "テレ玉杯オーバルスプリント",
+        "grade": "JpnIII",
+        "course": "浦和",
+        "distance": "ダ1400m"
+      }
+    ],
+    "strengths": [
+      "ダートスプリント〜マイルの多才性",
+      "先行・逃げから末脚を使える柔軟な競馬運び"
+    ],
+    "story": "父スマートファルコン産駒初のGI級制覇（2024年かしわ記念）。かしわ記念連覇後、さきたま杯も制し2025年JpnI2勝。2026年さきたま杯ではロードフォンスの前で粘ったが9着に終わった。",
+    "source_url": "https://ja.wikipedia.org/wiki/シャマル_(競走馬)"
   }
 }

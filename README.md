@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 96 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 95 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-23** [G1・4勝ラッキーライラックの子ラッキースパークルが28日福島でデビュー 松永幹「瞬発力が母に似ている」](https://news.yahoo.co.jp/articles/cc2f3335aba72f94739d84805f704de0863b5161) *(馬トク報知)*
-- **2026-06-23** [POGマニア: 新種牡馬サリオス産駒が先週初勝利 2年目インディチャンプ産駒も複数勝利](https://news.yahoo.co.jp/articles/38b8ab6b6375930ffb011a15323f5a422ef5b1f3) *(馬トク報知)*
-- **2026-06-23** [凱旋門賞、2027年からせん馬の出走解禁へ フランス・ギャロが歴史的決議](https://www.bloodhorse.com/horse-racing/articles/292680/prix-de-larc-de-triomphe-to-allow-geldings-next-year) *(BloodHorse)*
-- **2026-06-23** [NZ年度代表種牡馬10度のサヴァビール、24歳で死亡 放牧中の事故で肩骨折](https://www.bloodhorse.com/horse-racing/articles/292590/new-zealand-champion-sire-savabeel-dies) *(BloodHorse)*
-- **2026-06-23** [フォーエバーヤング、秋の米国遠征プラン確定 BCクラシック連覇へ坂井瑠星「当然勝つつもりで行く」](https://news.yahoo.co.jp/articles/088d60769e58c774dd0cbea85c878ee1ef3bb12a) *(東スポ競馬)*
+- **2026-06-24** [武豊とコンビを組む新馬が続々決定！億超え高額馬に新種牡馬産駒の良血、好時計を叩き出した〝大物候補〟も](https://news.yahoo.co.jp/articles/9b46db33a0e9bcbc2c7c95f31ba4eea41516a49f?source=rss) *(東スポ競馬)*
+- **2026-06-24** [スカンジナビアのゴールドC制覇が示すジャスティファイ産駒の急成長](https://www.bloodhorse.com/horse-racing/articles/292693/scandinavia-highlights-hot-streak-for-justify-runners) *(BloodHorse All News)*
+- **2026-06-24** [ゴドルフィンとクールモアの叩き合い！ロイヤルアスコット開催の〝個人的〟ハイライト](https://news.yahoo.co.jp/articles/fa70d155fb0d969f1e08d065b78aa3758ddd3699?source=rss) *(東スポ競馬)*
+- **2026-06-24** [【障害名手・西谷誠、四位厩舎で第二章へ】「天才的。言い換えれば、ぶっ飛んでる」四位洋文師が語る、唯一無二の技術と受け継がれる馬乗りの魂](https://news.netkeiba.com/?pid=column_view&cid=59104) *(netkeiba コラム)*
+- **2026-06-24** [【さきたま杯】ロードフォンスがJpnI初制覇 横山和生「この馬と一緒に勝てたのが本当にうれしい」](https://news.yahoo.co.jp/articles/22b757b7209b18138ed0c6f275d0110ca13b3f87?source=rss) *(東スポ競馬)*
 
 ## 仕組み
 
