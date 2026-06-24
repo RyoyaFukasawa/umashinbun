@@ -229,6 +229,15 @@ npm run --silent today-mode
    - 業界ニュース (JRA/NAR制度変更、引退・人事、訃報、薬物処分など)
    - 海外G1の話題 (category=overseas で重要なもの)
    - 重賞以外の特別戦で目立った好走・新星
+
+   **業界ニュース優先採用（news 再分類）:** news カテゴリのフィードソースが未設置のため、
+   `g1` / `horse` / `pog` いずれのカテゴリで取得した記事であっても、タイトル・説明文に
+   以下のキーワードのいずれかを含む場合は **最大1件** を `"category": "news"` として優先採用する。
+   5件の上限に含めてカウントする。
+   対象キーワード: `引退`, `騎乗停止`, `出走取消`, `訃報`, `制裁`, `調教師変更`, `処分`, `骨折`, `死亡`
+   採用した場合は `digest-input.json` に `"category": "news"` で登録し、
+   ops-log の「カテゴリ別採用状況」に `news: 1（元カテゴリ: horse/pog/g1）` と記録する。
+
 2. 普段の要約と同じく `race_id` / `horses` / `sires` / `jockeys` / `trainers` を抽出。
    ただし重賞絡みの記事は「重賞週モードの担当」なので軽く扱うか、無理に拾わない。
 3. `digest-input.json` → `npm run ingest && npm run build`。
