@@ -1,8 +1,8 @@
 ---
 kind: jockeys
 name: C.ルメール
-related_horses: 37
-related_articles: 122
+related_horses: 38
+related_articles: 123
 ---
 
 # 🏇 C.ルメール
@@ -10,7 +10,7 @@ related_articles: 122
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (37頭)
+## 🐎 関連する馬 (38頭)
 
 - [イモージェン](../horses/イモージェン.md)
 - [エンブロイダリー](../horses/エンブロイダリー.md)
@@ -35,6 +35,7 @@ related_articles: 122
 - [チャリングクロス](../horses/チャリングクロス.md)
 - [トロヴァトーレ](../horses/トロヴァトーレ.md)
 - [パンジャタワー](../horses/パンジャタワー.md)
+- [パントルナイーフ](../horses/パントルナイーフ.md)
 - [ビザンチンドリーム](../horses/ビザンチンドリーム.md)
 - [ファミリータイム](../horses/ファミリータイム.md)
 - [マイネルエンペラー](../horses/マイネルエンペラー.md)
@@ -50,8 +51,9 @@ related_articles: 122
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (122件)
+## 📰 関連記事 (123件)
 
+- **2026-06-26** — [日本ダービー2着パントルナイーフ、右前膝骨折で全治1年以上 ノーザンファーム天栄に放牧](https://news.yahoo.co.jp/articles/b7fc22f206b1a7ab531342ddfe6ec6a4b85a2b47?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-23** — [POGマニア: 新種牡馬サリオス産駒が先週初勝利 2年目インディチャンプ産駒も複数勝利](https://news.yahoo.co.jp/articles/38b8ab6b6375930ffb011a15323f5a422ef5b1f3) *(出典: 馬トク報知)*
 - **2026-06-22** — [タクティシアン(父サリオス)が東京2歳新馬を快勝、新種牡馬サリオスが2日連続産駒デビュー勝ち](https://news.yahoo.co.jp/articles/a9768d2ac49e031ae75dbe28bf302ad8e595579b) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-22** — [日本馬が7月25日キングジョージVI&QE2Sに挑戦、マスカレードボールとヴュルテンベルクが参戦予定](https://www.bloodhorse.com/horse-racing/articles/292649/japan-aims-to-cure-ascot-woes-in-julys-king-george) *(出典: BloodHorse)*
