@@ -2,7 +2,7 @@
 kind: jockeys
 name: D.レーン
 related_horses: 30
-related_articles: 114
+related_articles: 115
 ---
 
 # 🏇 D.レーン
@@ -43,8 +43,9 @@ related_articles: 114
 - [ロデオドライブ](../horses/ロデオドライブ.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (114件)
+## 📰 関連記事 (115件)
 
+- **2026-06-27** — [シンエンペラーが米国遠征を構想 フォーエバーヤングと同時に秋の北米遠征も](https://news.netkeiba.com/?pid=news_view&no=335436) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-14** — [マイユニバース急性心不全で競走中止・死亡 直線コースで倒れる悲報](https://news.yahoo.co.jp/articles/c9c4262a83603cc8b7cb048dfc4c393a73d1d1b2?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-14** — [「完璧じゃないですかね」石橋守調教師がメイショウタバルと武豊を絶賛](https://news.yahoo.co.jp/articles/70433671f8ec64ded737fbff758bb64f8475c9fb?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-14** — [宝塚記念 6万1857人のユタカコール 開門前倒し 1週間前から徹夜組のフィーバー コロナ禍以降最多](https://news.yahoo.co.jp/articles/43f8c300ba5e5980ff026bac695fb3e1185bff88?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*

@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 93 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 92 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-26** [武豊騎手、通算4994勝が確定——5000勝まであと6 函館記念ではケイアイセナに騎乗予定](https://news.yahoo.co.jp/articles/f63e6523a02baced80906d72f2b8442a6d287c31?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-26** [アメリカンファラオ、2027年も日本の静内種馬ステーションへの残留が決定](https://www.bloodhorse.com/horse-racing/articles/292754/american-pharoah-to-remain-at-stud-in-japan-in-2027) *(BloodHorse)*
-- **2026-06-26** [アイリッシュ・ダービーG1（6/28）でベンヴェヌートチェリーニとクリスマスデイが再戦——エプソムの因縁に決着](https://www.bloodhorse.com/horse-racing/articles/292753/benvenuto-cellini-christmas-day-rematch-in-irish-derby) *(BloodHorse)*
-- **2026-06-26** [JRAがオーストラリア騎手ジェイソン・コレットに短期免許を交付（6/27〜8/26）](https://news.yahoo.co.jp/articles/72c547a64b732be4d5cf60766321317cfac6c497?source=rss) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-26** [日本ダービー2着パントルナイーフ、右前膝骨折で全治1年以上 ノーザンファーム天栄に放牧](https://news.yahoo.co.jp/articles/b7fc22f206b1a7ab531342ddfe6ec6a4b85a2b47?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-06-27** [エフフォーリア産駒アゴルディーノがデビューV 産駒早くも4頭目の勝ち上がり](https://news.yahoo.co.jp/articles/58272655e0c7db3b27297b24ce1188f170b2fdea) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-27** [新種牡馬ステルヴィオ産駒ピリナカピリナがJRA初勝利に挑む 伯父はナカヤマフェスタ](https://news.netkeiba.com/?pid=news_view&no=335201) *(netkeiba ニュース＆コラム)*
+- **2026-06-27** [アメリカンファラオが日本で2シーズン目の供用へ クールモア×JBBA協定を延長](https://www.thoroughbreddailynews.com/american-pharoah-to-stand-second-breeding-season-in-japan/) *(Thoroughbred Daily News)*
+- **2026-06-27** [マリアイリダータがバーデンバーデンCでコースレコード5馬身差圧勝 3連勝でオープン入り](https://news.yahoo.co.jp/articles/bdc453cd2056cf0880373de429582c983e6f582b) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-27** [シンエンペラーが米国遠征を構想 フォーエバーヤングと同時に秋の北米遠征も](https://news.netkeiba.com/?pid=news_view&no=335436) *(netkeiba ニュース＆コラム)*
 
 ## 仕組み
 
