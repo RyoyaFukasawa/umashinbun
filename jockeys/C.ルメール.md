@@ -2,7 +2,7 @@
 kind: jockeys
 name: C.ルメール
 related_horses: 38
-related_articles: 124
+related_articles: 126
 ---
 
 # 🏇 C.ルメール
@@ -51,8 +51,10 @@ related_articles: 124
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (124件)
+## 📰 関連記事 (126件)
 
+- **2026-06-28** — [安田記念Vのシックスペンス 武豊騎手とのコンビ継続で仏G1ジャックルマロワ賞へ](https://news.yahoo.co.jp/articles/3b8a54b825e26dd56f7ce037b19b15147c6d3b3b) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-28** — [キズナ・キタサンブラック・ロードカナロアが上半期種牡馬リーディングを三つ巴で争う](https://www.bloodhorse.com/horse-racing/articles/292817/kizuna-kitasan-black-and-lord-kanaloa-fight-for-title) *(出典: BloodHorse)*
 - **2026-06-27** — [シンエンペラーが米国遠征を構想 フォーエバーヤングと同時に秋の北米遠征も](https://news.netkeiba.com/?pid=news_view&no=335436) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-26** — [日本ダービー2着パントルナイーフ、右前膝骨折で全治1年以上 ノーザンファーム天栄に放牧](https://news.yahoo.co.jp/articles/b7fc22f206b1a7ab531342ddfe6ec6a4b85a2b47?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-23** — [POGマニア: 新種牡馬サリオス産駒が先週初勝利 2年目インディチャンプ産駒も複数勝利](https://news.yahoo.co.jp/articles/38b8ab6b6375930ffb011a15323f5a422ef5b1f3) *(出典: 馬トク報知)*

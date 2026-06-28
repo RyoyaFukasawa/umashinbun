@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 92 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 91 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-27** [エフフォーリア産駒アゴルディーノがデビューV 産駒早くも4頭目の勝ち上がり](https://news.yahoo.co.jp/articles/58272655e0c7db3b27297b24ce1188f170b2fdea) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-27** [新種牡馬ステルヴィオ産駒ピリナカピリナがJRA初勝利に挑む 伯父はナカヤマフェスタ](https://news.netkeiba.com/?pid=news_view&no=335201) *(netkeiba ニュース＆コラム)*
-- **2026-06-27** [アメリカンファラオが日本で2シーズン目の供用へ クールモア×JBBA協定を延長](https://www.thoroughbreddailynews.com/american-pharoah-to-stand-second-breeding-season-in-japan/) *(Thoroughbred Daily News)*
-- **2026-06-27** [マリアイリダータがバーデンバーデンCでコースレコード5馬身差圧勝 3連勝でオープン入り](https://news.yahoo.co.jp/articles/bdc453cd2056cf0880373de429582c983e6f582b) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-06-27** [シンエンペラーが米国遠征を構想 フォーエバーヤングと同時に秋の北米遠征も](https://news.netkeiba.com/?pid=news_view&no=335436) *(netkeiba ニュース＆コラム)*
+- **2026-06-28** [【新馬/函館5R】武豊、通算5000勝まであと4！シグレで断然人気に応える快勝](https://news.yahoo.co.jp/articles/eea87ea30586506affee6a89cccafa55fba4559c) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-28** [安田記念Vのシックスペンス 武豊騎手とのコンビ継続で仏G1ジャックルマロワ賞へ](https://news.yahoo.co.jp/articles/3b8a54b825e26dd56f7ce037b19b15147c6d3b3b) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-06-28** [【愛ダービー】ベンヴェヌートチェッリーニがO'Brien師18勝目 英ダービー馬クリスマスデーを1.75馬身差で降す](https://www.thoroughbreddailynews.com/benvenuto-cellini-leads-obrien-1-2-3-for-irish-derby-number-18/) *(Thoroughbred Daily News)*
+- **2026-06-28** [キズナ・キタサンブラック・ロードカナロアが上半期種牡馬リーディングを三つ巴で争う](https://www.bloodhorse.com/horse-racing/articles/292817/kizuna-kitasan-black-and-lord-kanaloa-fight-for-title) *(BloodHorse)*
+- **2026-06-28** [【函館記念】21歳・小林美駒が10番人気で重賞初制覇！ファウストラーゼンで大接戦を制す](https://news.yahoo.co.jp/articles/b234a556d7551c7736b1abd33a94694e847b3125) *(競馬のおはなし (Yahoo!ニュース経由))*
 
 ## 仕組み
 

@@ -2,7 +2,7 @@
 kind: owners
 name: KRジャパン
 related_horses: 1
-related_articles: 8
+related_articles: 9
 ---
 
 # 👤 KRジャパン
@@ -14,8 +14,9 @@ related_articles: 8
 
 - [ガイアフォース](../horses/ガイアフォース.md)
 
-## 📰 関連記事 (8件)
+## 📰 関連記事 (9件)
 
+- **2026-06-28** — [キズナ・キタサンブラック・ロードカナロアが上半期種牡馬リーディングを三つ巴で争う](https://www.bloodhorse.com/horse-racing/articles/292817/kizuna-kitasan-black-and-lord-kanaloa-fight-for-title) *(出典: BloodHorse)*
 - **2026-06-07** — [【安田記念】GⅠ馬相手に実力示すガイアフォースが本命 穴ではシックスペンス、セイウンハーデスを警戒](https://news.yahoo.co.jp/articles/c0c8e6fa3f7e10b2c5f0b8e5b8d3e9e3b1f8c7d2?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
 - **2026-06-07** — [【安田記念】ガイアフォース1番人気・4度目のG1で2着同着に 横山武史「前が止まらなかった割に…」](https://news.yahoo.co.jp/articles/5e6563858a9f769e3511cda043c9100e6200b869?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
 - **2026-06-07** — [安田記念速報：シックスペンスがクビ差制す、2着はワールズエンドとガイアフォース](https://news.yahoo.co.jp/articles/507874ee12b256d7586f0515ac801e1053c2e044?source=rss) *(出典: SPAIA競馬 (Yahoo!ニュース経由))*
