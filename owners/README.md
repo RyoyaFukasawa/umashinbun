@@ -1,6 +1,6 @@
 # 👤 馬主 索引
 
-全 44 件 ・ 関連馬の多い順
+全 46 件 ・ 関連馬の多い順
 
 - **3頭** [キャロットファーム](キャロットファーム.md)
 - **3頭** [シルクレーシング](シルクレーシング.md)
@@ -13,6 +13,7 @@
 - **1頭** [Exors Of The Late Sheikh Mohammed Obaid](Exors_Of_The_Late_Sheikh_Mohammed_Obaid.md)
 - **1頭** [J Stables / Head Of Plains Partners LLC / 社台ファーム(50%)](J_Stables___Head_Of_Plains_Partners_LLC___社台ファーム(50%).md)
 - **1頭** [KRジャパン](KRジャパン.md)
+- **1頭** [Tabor/Magnier/Smith/Westerberg](Tabor_Magnier_Smith_Westerberg.md)
 - **1頭** [アガ・カーン・スタッドSC](アガ・カーン・スタッドSC.md)
 - **1頭** [エキュリー・デ・モンソー](エキュリー・デ・モンソー.md)
 - **1頭** [エムズレーシング](エムズレーシング.md)
@@ -33,6 +34,7 @@
 - **1頭** [吉田勝己](吉田勝己.md)
 - **1頭** [吉田千津](吉田千津.md)
 - **1頭** [吉田和美](吉田和美.md)
+- **1頭** [大森勝廣](大森勝廣.md)
 - **1頭** [宮崎俊也](宮崎俊也.md)
 - **1頭** [寺田寿男](寺田寿男.md)
 - **1頭** [幅田昌伸](幅田昌伸.md)
