@@ -2983,5 +2983,167 @@
     ],
     "story": "2010年生まれのばんえい競馬の傑出馬。ばんえい記念3勝（2017・2018・2020年）の独自路線の名馬として地方競馬史に名を刻む。重賞通算25勝はばんえい競馬の記録。長年の管理調教師・槻舘重人師とともにNARグランプリを3度受賞。2022年7月19日に疝痛とヘルニアにより12歳で死亡。",
     "source_url": "https://ja.wikipedia.org/wiki/オレノココロ"
+  },
+  "メジャーエンブレム": {
+    "born": "2013-03-26",
+    "sex": "牝",
+    "sire": "ダイワメジャー",
+    "dam": "キャッチータイトル",
+    "damsire": "オペラハウス",
+    "breeder": "ノーザンファーム",
+    "owner": "サンデーレーシング",
+    "trainer": "田村康仁",
+    "main_jockeys": [
+      "ルメール"
+    ],
+    "record": "7戦5勝",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2015",
+        "name": "阪神ジュベナイルフィリーズ",
+        "grade": "G1",
+        "course": "阪神",
+        "distance": "芝1600m"
+      },
+      {
+        "place": 1,
+        "year": "2016",
+        "name": "NHKマイルカップ",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝1600m"
+      },
+      {
+        "place": 1,
+        "year": "2016",
+        "name": "クイーンカップ",
+        "grade": "G3",
+        "course": "東京",
+        "distance": "芝1600m"
+      }
+    ],
+    "strengths": "先行・好位からスピードで押し切るマイル型。デビューから無敗でG1を制した",
+    "story": "2015年JRA賞最優秀2歳牝馬を満票受賞。NHKマイルCまで無敗でG1を2勝したが桜花賞は4着。2017年1月引退し繁殖牝馬となった",
+    "source_url": "https://ja.wikipedia.org/wiki/メジャーエンブレム"
+  },
+  "アスクビクターモア": {
+    "born": "2019-04-01",
+    "sex": "牡",
+    "sire": "ディープインパクト",
+    "dam": "カルティカ",
+    "damsire": "Rainbow Quest",
+    "breeder": "社台ファーム",
+    "owner": "廣崎利洋HD",
+    "trainer": "田村康仁",
+    "main_jockeys": [
+      "田辺裕信"
+    ],
+    "record": "12戦4勝 / 獲得賞金3億4527万5000円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2022",
+        "name": "菊花賞",
+        "grade": "G1",
+        "course": "阪神",
+        "distance": "芝3000m"
+      },
+      {
+        "place": 1,
+        "year": "2022",
+        "name": "弥生賞ディープインパクト記念",
+        "grade": "G2",
+        "course": "中山",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 2,
+        "year": "2022",
+        "name": "セントライト記念",
+        "grade": "G2",
+        "course": "中山",
+        "distance": "芝2200m"
+      },
+      {
+        "place": 3,
+        "year": "2022",
+        "name": "東京優駿",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      }
+    ],
+    "strengths": "長距離・スタミナ型。菊花賞ではコースレコードを樹立した強靭な末脚",
+    "story": "ディープインパクト産駒として「最後のクラシック勝ち馬（平成生まれ）」。2023年8月、放牧中に熱中症による多臓器不全で死亡という悲劇に見舞われた",
+    "source_url": "https://ja.wikipedia.org/wiki/アスクビクターモア"
+  },
+  "ジャスティンミラノ": {
+    "born": "2021-04-09",
+    "sex": "牡",
+    "sire": "キズナ",
+    "dam": "マーゴットディド",
+    "damsire": "Exceed And Excel",
+    "breeder": "ノーザンファーム",
+    "owner": "三木正浩",
+    "trainer": "友道康夫",
+    "main_jockeys": [
+      "戸崎圭太"
+    ],
+    "record": "4戦3勝 / 獲得賞金4億306万9000円",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "皐月賞",
+        "grade": "G1",
+        "course": "中山",
+        "distance": "芝2000m"
+      },
+      {
+        "place": 2,
+        "year": "2024",
+        "name": "東京優駿",
+        "grade": "G1",
+        "course": "東京",
+        "distance": "芝2400m"
+      },
+      {
+        "place": 1,
+        "year": "2024",
+        "name": "共同通信杯",
+        "grade": "G3",
+        "course": "東京",
+        "distance": "芝1800m"
+      }
+    ],
+    "strengths": "皐月賞でレースレコードを樹立した中距離クラシックホース。キズナ産駒初のG1制覇馬",
+    "story": "2024年皐月賞でキズナ産駒初のクラシック制覇。日本ダービーは2着で二冠ならず。その後右前浅屈腱炎で2024年11月に現役引退、種牡馬として供用予定",
+    "source_url": "https://ja.wikipedia.org/wiki/ジャスティンミラノ"
+  },
+  "エコロアルバ": {
+    "born": "2023-04-30",
+    "sex": "牡",
+    "sire": "モズアスコット",
+    "dam": "スターアクトレス",
+    "damsire": "フレンチデピュティ",
+    "breeder": "藤原牧場",
+    "owner": "原村正紀",
+    "trainer": "中舘英二",
+    "main_jockeys": [],
+    "record": "5戦2勝 / 獲得賞金6187万9000円（2026年6月21日現在）",
+    "major_results": [
+      {
+        "place": 1,
+        "year": "2025",
+        "name": "サウジアラビアロイヤルカップ",
+        "grade": "G3",
+        "course": "東京",
+        "distance": "芝1600m"
+      }
+    ],
+    "strengths": "マイル前後の中距離向き。直線で馬場の中央を突き抜ける末脚",
+    "story": "デビュー戦から頭角を現し重賞初挑戦のサウジアラビアロイヤルカップを制覇。管理した田村康仁師の急逝（2026年6月29日）により中舘英二厩舎へ転厩",
+    "source_url": "https://ja.wikipedia.org/wiki/エコロアルバ"
   }
 }
