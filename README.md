@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 89 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 88 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-06-30** [【注目2歳馬】シスキン産駒ジーティーマイカ 好位追走からスピードの違いで7馬身差完勝](https://news.yahoo.co.jp/articles/c268027ad4262a88e1a219e586cc133711302401?source=rss) *(SPAIA競馬)*
-- **2026-06-30** [【POG】藤田晋オーナーの2.9億円馬ジャンゴッドはポテンシャル十分 半兄は皐月賞馬ジャスティンミラノ](https://news.yahoo.co.jp/articles/30b220b310cbd64d2151f59f5b4a870f69a9bdbb?source=rss) *(馬トク報知)*
-- **2026-06-30** [メリットシステムとは？ 2026年からのJRA馬房制度変更](https://news.yahoo.co.jp/articles/8f895093c4e436a173d1a188659adda2d3edf19a?source=rss) *(馬トク報知)*
-- **2026-06-30** [田村康仁調教師が死去…メジャーエンブレム・アスクビクターモアなど活躍馬を管理](https://news.yahoo.co.jp/articles/2f02bc75675cb4ff699ae62573afc0639a8876c7?source=rss) *(競馬のおはなし)*
-- **2026-06-29** [ばんえい競馬・槻舘重人調教師が通算1700勝 ばんえい記念4連覇など重賞70勝](https://news.yahoo.co.jp/articles/9462eb0b3f1d79dff46b9727d85750086060cd79?source=rss) *(馬トク報知)*
+- **2026-07-01** [【POG】3.1億円馬ダノンダックスが初時計 リバティアイランドの弟 7月26日新潟デビュー予定](https://news.yahoo.co.jp/articles/c8209cefaab9ab63b126a1a7a02fc22d97e24721?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-01** [武豊5000勝まであと4 7/5函館新馬でエフフォーリア産駒スーパーユタカと「ユタカ対決」](https://news.yahoo.co.jp/articles/82204fff0ca83c124b65daad07f07cf5d0299b7a?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-01** [【種牡馬】Into Mischiefが黒タイプ勝利馬200頭達成 史上8頭目の歴史的偉業](https://www.bloodhorse.com/horse-racing/articles/292840/into-mischiefs-latest-milestone-adds-to-his-greatness) *(BloodHorse Thoroughbred Racing)*
+- **2026-07-01** [ジャンタルマンタル電撃引退 国内マイルG1・4勝 香港遠征後に馬体回復進まず](https://news.yahoo.co.jp/articles/41472fbf325307db501e2f80bde752c795e6b10a?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-01** [交流重賞9勝シャマルがJRA登録抹消 地方移籍へ かしわ記念連覇の8歳](https://news.yahoo.co.jp/articles/3a733f4c48bdaca8c93dbb7caba5eb0ab288dbe3?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
 
 ## 仕組み
 
