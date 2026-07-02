@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 88 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 87 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-07-01** [【POG】3.1億円馬ダノンダックスが初時計 リバティアイランドの弟 7月26日新潟デビュー予定](https://news.yahoo.co.jp/articles/c8209cefaab9ab63b126a1a7a02fc22d97e24721?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-01** [武豊5000勝まであと4 7/5函館新馬でエフフォーリア産駒スーパーユタカと「ユタカ対決」](https://news.yahoo.co.jp/articles/82204fff0ca83c124b65daad07f07cf5d0299b7a?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-01** [【種牡馬】Into Mischiefが黒タイプ勝利馬200頭達成 史上8頭目の歴史的偉業](https://www.bloodhorse.com/horse-racing/articles/292840/into-mischiefs-latest-milestone-adds-to-his-greatness) *(BloodHorse Thoroughbred Racing)*
-- **2026-07-01** [ジャンタルマンタル電撃引退 国内マイルG1・4勝 香港遠征後に馬体回復進まず](https://news.yahoo.co.jp/articles/41472fbf325307db501e2f80bde752c795e6b10a?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-01** [交流重賞9勝シャマルがJRA登録抹消 地方移籍へ かしわ記念連覇の8歳](https://news.yahoo.co.jp/articles/3a733f4c48bdaca8c93dbb7caba5eb0ab288dbe3?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-07-02** [皐月賞馬ジャスティンミラノの半弟ジャンゴッドが7月5日小倉でデビュー 2.9億円の注目馬](https://news.yahoo.co.jp/articles/63b5463c2cb9f7d7b5967919b920f6cd0b4b2339?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-02** [フライトライン産駒ショウナンガレオンが7月5日函館でデビュー 2.1億円の世界注目産駒](https://news.yahoo.co.jp/articles/4249ae96c3b166ef6140d331154cf36811367500?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-02** [田村康仁調教師（享年63）が死去 所属の五十嵐雄祐・江田勇亮がフリーへ](https://news.yahoo.co.jp/articles/ff456ca53a4b9b11535f501931af408f68934022?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-07-02** [武豊騎手が通算5000勝まであと4勝 今週の函館で16鞍「できれば今週達成したい」](https://news.yahoo.co.jp/articles/a1ba1460e5728ae68e3aebffa672ffa78e26a875?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-02** [ソンシが引退・NZで種牡馬入りへ 阪急杯レコードVがラストランに](https://news.yahoo.co.jp/articles/4a552a0812adfb996d4e272d07df3d47c8285d9d?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
 
 ## 仕組み
 

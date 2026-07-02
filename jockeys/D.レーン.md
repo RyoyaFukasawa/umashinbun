@@ -2,7 +2,7 @@
 kind: jockeys
 name: D.レーン
 related_horses: 30
-related_articles: 116
+related_articles: 118
 ---
 
 # 🏇 D.レーン
@@ -43,8 +43,10 @@ related_articles: 116
 - [ロデオドライブ](../horses/ロデオドライブ.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (116件)
+## 📰 関連記事 (118件)
 
+- **2026-07-02** — [フライトライン産駒ショウナンガレオンが7月5日函館でデビュー 2.1億円の世界注目産駒](https://news.yahoo.co.jp/articles/4249ae96c3b166ef6140d331154cf36811367500?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-02** — [武豊騎手が通算5000勝まであと4勝 今週の函館で16鞍「できれば今週達成したい」](https://news.yahoo.co.jp/articles/a1ba1460e5728ae68e3aebffa672ffa78e26a875?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-28** — [キズナ・キタサンブラック・ロードカナロアが上半期種牡馬リーディングを三つ巴で争う](https://www.bloodhorse.com/horse-racing/articles/292817/kizuna-kitasan-black-and-lord-kanaloa-fight-for-title) *(出典: BloodHorse)*
 - **2026-06-27** — [シンエンペラーが米国遠征を構想 フォーエバーヤングと同時に秋の北米遠征も](https://news.netkeiba.com/?pid=news_view&no=335436) *(出典: netkeiba ニュース＆コラム)*
 - **2026-06-14** — [マイユニバース急性心不全で競走中止・死亡 直線コースで倒れる悲報](https://news.yahoo.co.jp/articles/c9c4262a83603cc8b7cb048dfc4c393a73d1d1b2?source=rss) *(出典: 東スポ競馬 (Yahoo!ニュース経由))*
