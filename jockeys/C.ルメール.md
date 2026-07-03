@@ -2,7 +2,7 @@
 kind: jockeys
 name: C.ルメール
 related_horses: 38
-related_articles: 128
+related_articles: 129
 ---
 
 # 🏇 C.ルメール
@@ -51,8 +51,9 @@ related_articles: 128
 - [レーベンスティール](../horses/レーベンスティール.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (128件)
+## 📰 関連記事 (129件)
 
+- **2026-07-03** — [昨年の凱旋門賞馬ダリズが夏季休養入り——前走プリンスオブウェールズS3着の敗因は体調不良、秋の連覇へ態勢立て直し](https://news.yahoo.co.jp/articles/0a1f99564c5b167ddc2053c638a9c3fba3eae4f7?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-07-02** — [武豊騎手が通算5000勝まであと4勝 今週の函館で16鞍「できれば今週達成したい」](https://news.yahoo.co.jp/articles/a1ba1460e5728ae68e3aebffa672ffa78e26a875?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-28** — [安田記念V・シックスペンス、武豊騎手と仏G1ジャックルマロワ賞へ](https://news.yahoo.co.jp/articles/3b8a54b825e26dd56f7ce037b19b15147c6d3b3b?source=rss) *(出典: 競馬のおはなし)*
 - **2026-06-28** — [安田記念Vのシックスペンス 武豊騎手とのコンビ継続で仏G1ジャックルマロワ賞へ](https://news.yahoo.co.jp/articles/3b8a54b825e26dd56f7ce037b19b15147c6d3b3b) *(出典: 競馬のおはなし (Yahoo!ニュース経由))*

@@ -2,7 +2,7 @@
 kind: jockeys
 name: T.マーカンド
 related_horses: 4
-related_articles: 7
+related_articles: 8
 ---
 
 # 🏇 T.マーカンド
@@ -17,8 +17,9 @@ related_articles: 7
 - [ジョリースター](../horses/ジョリースター.md)
 - [ルガル](../horses/ルガル.md)
 
-## 📰 関連記事 (7件)
+## 📰 関連記事 (8件)
 
+- **2026-07-03** — [鮫島克駿騎手に7日間の騎乗停止——英G1アスコットでのムチ使用違反をJRAが国内にも適用](https://news.yahoo.co.jp/articles/ff54c994eef951ef9fdde8713c9ae055debd4c9c?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-24** — [ゴドルフィンとクールモアの叩き合い！ロイヤルアスコット開催の〝個人的〟ハイライト](https://news.yahoo.co.jp/articles/fa70d155fb0d969f1e08d065b78aa3758ddd3699?source=rss) *(出典: 東スポ競馬)*
 - **2026-06-22** — [日本馬が7月25日キングジョージVI&QE2Sに挑戦、マスカレードボールとヴュルテンベルクが参戦予定](https://www.bloodhorse.com/horse-racing/articles/292649/japan-aims-to-cure-ascot-woes-in-julys-king-george) *(出典: BloodHorse)*
 - **2026-06-21** — [【英・QE2世ジュビリーS】サトノレーヴ 2年連続2着惜敗 名手ムーア絶妙リードも鼻差届かず](https://news.netkeiba.com/?pid=news_view&no=334993) *(出典: netkeiba ニュース＆コラム)*

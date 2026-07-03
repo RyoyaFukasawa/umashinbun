@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 87 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 86 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-07-02** [皐月賞馬ジャスティンミラノの半弟ジャンゴッドが7月5日小倉でデビュー 2.9億円の注目馬](https://news.yahoo.co.jp/articles/63b5463c2cb9f7d7b5967919b920f6cd0b4b2339?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-02** [フライトライン産駒ショウナンガレオンが7月5日函館でデビュー 2.1億円の世界注目産駒](https://news.yahoo.co.jp/articles/4249ae96c3b166ef6140d331154cf36811367500?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-02** [田村康仁調教師（享年63）が死去 所属の五十嵐雄祐・江田勇亮がフリーへ](https://news.yahoo.co.jp/articles/ff456ca53a4b9b11535f501931af408f68934022?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
-- **2026-07-02** [武豊騎手が通算5000勝まであと4勝 今週の函館で16鞍「できれば今週達成したい」](https://news.yahoo.co.jp/articles/a1ba1460e5728ae68e3aebffa672ffa78e26a875?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-02** [ソンシが引退・NZで種牡馬入りへ 阪急杯レコードVがラストランに](https://news.yahoo.co.jp/articles/4a552a0812adfb996d4e272d07df3d47c8285d9d?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-07-03** [フライトライン産駒ショウナンガレオン、7/5函館でデビュー——2億1000万円の高額良血が芝1800mで始動](https://www.thoroughbreddailynews.com/seven-figure-flightline-foal-debuts-long-on-the-grass-at-hakodate/) *(Thoroughbred Daily News)*
+- **2026-07-03** [昨年の凱旋門賞馬ダリズが夏季休養入り——前走プリンスオブウェールズS3着の敗因は体調不良、秋の連覇へ態勢立て直し](https://news.yahoo.co.jp/articles/0a1f99564c5b167ddc2053c638a9c3fba3eae4f7?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-03** [鮫島克駿騎手に7日間の騎乗停止——英G1アスコットでのムチ使用違反をJRAが国内にも適用](https://news.yahoo.co.jp/articles/ff54c994eef951ef9fdde8713c9ae055debd4c9c?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-03** [デットーリ元騎手が交通事故で入院——肋骨数本と親指骨折、英ニューマーケットで横転事故](https://news.yahoo.co.jp/articles/a763fcaedc6ef9033457dbf46b966a8ed7dae905?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-07-03** [ジャスティンミラノの半弟・ジャンゴッドが7/5小倉でデビュー——2.9億円の良血キタサンブラック産駒が始動](https://news.yahoo.co.jp/articles/3bf3ce91c73c48b38f75710a40db4ae4df5a07fe?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
 
 ## 仕組み
 
