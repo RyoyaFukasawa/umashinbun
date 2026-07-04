@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 86 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 85 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-07-03** [フライトライン産駒ショウナンガレオン、7/5函館でデビュー——2億1000万円の高額良血が芝1800mで始動](https://www.thoroughbreddailynews.com/seven-figure-flightline-foal-debuts-long-on-the-grass-at-hakodate/) *(Thoroughbred Daily News)*
-- **2026-07-03** [昨年の凱旋門賞馬ダリズが夏季休養入り——前走プリンスオブウェールズS3着の敗因は体調不良、秋の連覇へ態勢立て直し](https://news.yahoo.co.jp/articles/0a1f99564c5b167ddc2053c638a9c3fba3eae4f7?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-03** [鮫島克駿騎手に7日間の騎乗停止——英G1アスコットでのムチ使用違反をJRAが国内にも適用](https://news.yahoo.co.jp/articles/ff54c994eef951ef9fdde8713c9ae055debd4c9c?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-03** [デットーリ元騎手が交通事故で入院——肋骨数本と親指骨折、英ニューマーケットで横転事故](https://news.yahoo.co.jp/articles/a763fcaedc6ef9033457dbf46b966a8ed7dae905?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
-- **2026-07-03** [ジャスティンミラノの半弟・ジャンゴッドが7/5小倉でデビュー——2.9億円の良血キタサンブラック産駒が始動](https://news.yahoo.co.jp/articles/3bf3ce91c73c48b38f75710a40db4ae4df5a07fe?source=rss) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-04** [母はGI2勝のメジャーエンブレム セレクト1億1500万円のスターバーナーが2歳新馬デビュー](https://news.netkeiba.com/?pid=news_view&no=335803) *(netkeiba ニュース＆コラム)*
+- **2026-07-04** [コンスティテューション・リバーがエクリプスSG1制覇 オブライエン師4年連続・通算10度目の快挙](https://www.bloodhorse.com/horse-racing/articles/292915/constitution-river-shines-in-eclipse-victory) *(BloodHorse)*
+- **2026-07-04** [エプソムダービー馬モチベーター享年24歳で死亡 凱旋門賞2連覇トレーヴの父](https://www.bloodhorse.com/horse-racing/articles/292914/epsom-derby-winner-motivator-sire-of-treve-dies-at-24) *(BloodHorse)*
+- **2026-07-04** [鮫島克駿騎手に7日間の騎乗停止 英G1アスコットでのムチ使用違反が対象](https://news.yahoo.co.jp/articles/0ace4c49ffce87264d30709fd98aea5b03827f76) *(競馬のおはなし)*
+- **2026-07-04** [武豊、国内外通算5000勝まであと3 函館最終でシーズザスローンを快勝](https://news.netkeiba.com/?pid=news_view&no=336046) *(netkeiba ニュース＆コラム)*
 
 ## 仕組み
 
