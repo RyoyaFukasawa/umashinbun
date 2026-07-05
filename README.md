@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 85 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 84 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-07-04** [母はGI2勝のメジャーエンブレム セレクト1億1500万円のスターバーナーが2歳新馬デビュー](https://news.netkeiba.com/?pid=news_view&no=335803) *(netkeiba ニュース＆コラム)*
-- **2026-07-04** [コンスティテューション・リバーがエクリプスSG1制覇 オブライエン師4年連続・通算10度目の快挙](https://www.bloodhorse.com/horse-racing/articles/292915/constitution-river-shines-in-eclipse-victory) *(BloodHorse)*
-- **2026-07-04** [エプソムダービー馬モチベーター享年24歳で死亡 凱旋門賞2連覇トレーヴの父](https://www.bloodhorse.com/horse-racing/articles/292914/epsom-derby-winner-motivator-sire-of-treve-dies-at-24) *(BloodHorse)*
-- **2026-07-04** [鮫島克駿騎手に7日間の騎乗停止 英G1アスコットでのムチ使用違反が対象](https://news.yahoo.co.jp/articles/0ace4c49ffce87264d30709fd98aea5b03827f76) *(競馬のおはなし)*
-- **2026-07-04** [武豊、国内外通算5000勝まであと3 函館最終でシーズザスローンを快勝](https://news.netkeiba.com/?pid=news_view&no=336046) *(netkeiba ニュース＆コラム)*
+- **2026-07-06** [カランダガン グランプリ・ド・サンクルー連覇——2002年以来の2勝目、次走キングジョージへ](https://www.bloodhorse.com/horse-racing/articles/292936/calandagan-repeats-in-thrilling-saint-cloud) *(BloodHorse)*
+- **2026-07-05** [フライトライン産駒ショウナンガレオンが函館2歳新馬でコースレコード勝ち「スターになれる素材」](https://news.yahoo.co.jp/articles/e6125cb20a7c676cbef37708979ab7c0894181e4?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-07-05** [欧州最高マイラー フィールド・オブ・ゴールドが現役引退——細菌性肺感染症で2026年復帰叶わず、2027年よりジャドモンテで種牡馬入り](https://www.thoroughbreddailynews.com/champion-miler-field-of-gold-retired-from-racing-joins-juddmonte-roster-for-2027/) *(Thoroughbred Daily News)*
+- **2026-07-05** [武豊が通算4998勝達成、5000勝まであと2勝——キタサンブラックの半弟アルマデオロで快勝](https://news.yahoo.co.jp/articles/1ebe7e01aa081b1d252dfb8c4c1f03c5107ecdb0?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-07-05** [「格言」を打ち破る規格外の強さ！フリッカージャブが北九州記念制覇、次なるターゲットは？](https://news.yahoo.co.jp/articles/a5f4f07a6cd5d0a4c1c51a88be0d07a41c97a404?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
 
 ## 仕組み
 

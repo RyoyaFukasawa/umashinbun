@@ -1,6 +1,6 @@
 # 🏡 生産者・牧場 索引
 
-全 32 件 ・ 関連馬の多い順
+全 34 件 ・ 関連馬の多い順
 
 - **16頭** [ノーザンファーム](ノーザンファーム.md)
 - **6頭** [社台ファーム](社台ファーム.md)
@@ -9,6 +9,7 @@
 - **2頭** [岡田スタッド](岡田スタッド.md)
 - **1頭** [BVサングスター](BVサングスター.md)
 - **1頭** [Coolmore & White Birch Farm](Coolmore_&_White_Birch_Farm.md)
+- **1頭** [Haras De Son Altesse L'Aga Khan Scea](Haras_De_Son_Altesse_L'Aga_Khan_Scea.md)
 - **1頭** [J.ハンリー](J.ハンリー.md)
 - **1頭** [Sheikh Mohammed Obaid Al Maktoum](Sheikh_Mohammed_Obaid_Al_Maktoum.md)
 - **1頭** [アガ・カーン・スタッドSC](アガ・カーン・スタッドSC.md)
@@ -26,6 +27,7 @@
 - **1頭** [六車實子](六車實子.md)
 - **1頭** [友田牧場](友田牧場.md)
 - **1頭** [坂東牧場](坂東牧場.md)
+- **1頭** [宝寄山拓樹](宝寄山拓樹.md)
 - **1頭** [広富牧場](広富牧場.md)
 - **1頭** [新冠タガノファーム](新冠タガノファーム.md)
 - **1頭** [新萱橋牧場](新萱橋牧場.md)

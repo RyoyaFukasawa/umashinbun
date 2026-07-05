@@ -3248,5 +3248,48 @@
     "strengths": "短距離芝（1200〜1400m）の末脚型。阪急杯でコースレコードを更新する圧勝を見せた快速馬。",
     "story": "アイルランド産のナイトオブサンダー産駒。2025年シルクロードSで馬場入場後に骨折・競走除外となり約1年の休養を強いられた。復帰戦の2026年阪急杯（G3）をコースレコードで3馬身半差の圧勝。高松宮記念の優先出走権を辞退し、同レースをラストランとして7月2日付で登録抹消。今後はニュージーランドで種牡馬入りする予定。",
     "source_url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%B3%E3%82%B7_(%E7%AB%B6%E8%B5%B0%E9%A6%AC)"
+  },
+  "フリッカージャブ": {
+    "born": "2022-05-07",
+    "sex": "牡",
+    "sire": "サートゥルナーリア",
+    "dam": "ナイキトリック",
+    "damsire": "サクラバクシンオー",
+    "breeder": "宝寄山拓樹",
+    "owner": "ウエスト.フォレスト.ステイブル（株）",
+    "trainer": "西園翔太",
+    "main_jockeys": ["松山弘平"],
+    "record": "11戦6勝",
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "北九州記念", "grade": "G3", "course": "小倉", "distance": "芝1200m" }
+    ],
+    "strengths": ["芝1200mのスプリント戦で小倉3戦全勝", "高いスタートセンスと加速力。歴代最高ハンデ57.5kgで重賞初制覇"],
+    "story": "馬名はボクシングの技「フリッカージャブ」に由来。2024年10月デビュー後、鞍馬Sで1分06秒4のコースレコードを記録してオープン昇格。2026年北九州記念でハンデ57.5kgを背負いながらも重賞初制覇を飾った。",
+    "source_url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AA%E3%83%83%E3%82%AB%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%96_(%E7%AB%B6%E8%B5%B0%E9%A6%AC)"
+  },
+  "カランダガン": {
+    "born": "2021-01-27",
+    "sex": "騸",
+    "sire": "Gleneagles",
+    "dam": "Calayana",
+    "damsire": "Sinndar",
+    "breeder": "Haras De Son Altesse L'Aga Khan Scea",
+    "owner": "Aga Khan Studs SCEA",
+    "trainer": "フランシス=アンリ・グラファール",
+    "main_jockeys": ["ミカエル・バルザローナ"],
+    "record": "17戦10勝",
+    "major_results": [
+      { "place": 1, "year": "2026", "name": "グランプリ・ド・サンクルー", "grade": "G1", "course": "サンクルー", "distance": "芝2400m" },
+      { "place": 1, "year": "2026", "name": "ドバイシーマクラシック", "grade": "G1", "course": "メイダン", "distance": "芝2410m" },
+      { "place": 1, "year": "2025", "name": "ジャパンカップ", "grade": "G1", "course": "東京", "distance": "芝2400m" },
+      { "place": 1, "year": "2025", "name": "チャンピオンステークス", "grade": "G1", "course": "アスコット", "distance": "芝2000m" },
+      { "place": 1, "year": "2025", "name": "キングジョージ6世&クイーンエリザベスS", "grade": "G1", "course": "アスコット", "distance": "芝2400m" },
+      { "place": 1, "year": "2025", "name": "グランプリ・ド・サンクルー", "grade": "G1", "course": "サンクルー", "distance": "芝2400m" },
+      { "place": 2, "year": "2026", "name": "コロネーションカップ", "grade": "G1", "course": "エプソム", "distance": "芝2400m" },
+      { "place": 2, "year": "2025", "name": "ドバイシーマクラシック", "grade": "G1", "course": "メイダン", "distance": "芝2410m" }
+    ],
+    "strengths": ["後方からの驚異的な末脚一閃（最後3ハロン32秒台）", "芝2000m〜2400mの万能性。2025年世界年度代表馬"],
+    "story": "2歳時に騸馬に。徐々に力をつけ2025年にキングジョージ・チャンピオンS・ジャパンC（外国馬として20年ぶり）を制覇し世界年度代表馬に輝いた。2026年グランプリ・ド・サンクルーを連覇し次走キングジョージを視野に入れる。",
+    "source_url": "https://en.wikipedia.org/wiki/Calandagan"
   }
 }
