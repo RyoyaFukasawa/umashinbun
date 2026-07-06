@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 84 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 83 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
+- **2026-07-06** [新馬戦総括 ショウナンガレオン衝撃レコードV——フライトライン産駒がクラシック主役候補に](https://news.netkeiba.com/?pid=news_view&no=336279) *(netkeiba ニュース＆コラム)*
 - **2026-07-06** [カランダガン グランプリ・ド・サンクルー連覇——2002年以来の2勝目、次走キングジョージへ](https://www.bloodhorse.com/horse-racing/articles/292936/calandagan-repeats-in-thrilling-saint-cloud) *(BloodHorse)*
-- **2026-07-05** [フライトライン産駒ショウナンガレオンが函館2歳新馬でコースレコード勝ち「スターになれる素材」](https://news.yahoo.co.jp/articles/e6125cb20a7c676cbef37708979ab7c0894181e4?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
-- **2026-07-05** [欧州最高マイラー フィールド・オブ・ゴールドが現役引退——細菌性肺感染症で2026年復帰叶わず、2027年よりジャドモンテで種牡馬入り](https://www.thoroughbreddailynews.com/champion-miler-field-of-gold-retired-from-racing-joins-juddmonte-roster-for-2027/) *(Thoroughbred Daily News)*
-- **2026-07-05** [武豊が通算4998勝達成、5000勝まであと2勝——キタサンブラックの半弟アルマデオロで快勝](https://news.yahoo.co.jp/articles/1ebe7e01aa081b1d252dfb8c4c1f03c5107ecdb0?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
-- **2026-07-05** [「格言」を打ち破る規格外の強さ！フリッカージャブが北九州記念制覇、次なるターゲットは？](https://news.yahoo.co.jp/articles/a5f4f07a6cd5d0a4c1c51a88be0d07a41c97a404?source=rss) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-07-06** [英エクリプスS コンスティテューションリバーが圧巻V——オブライエン師は史上初4連覇・最多10勝](https://news.yahoo.co.jp/articles/58274f5b17164a1332b41c8f04fe7476459f9c18) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-07-06** [サトノレーヴ ルメールと再コンビで英ジュライC参戦——英国滞在継続で7月11日ニューマーケット直線決戦へ](https://news.netkeiba.com/?pid=news_view&no=336259) *(netkeiba ニュース＆コラム)*
+- **2026-07-06** [英ダービー馬モティヴェイター、24歳で死去——タイトルホルダー外祖父、凱旋門賞連覇トレヴの父](https://news.yahoo.co.jp/articles/778d86cd95ef5f549c95c57d3f4a113df9227654) *(馬トク報知 (Yahoo!ニュース経由))*
 
 ## 仕組み
 
