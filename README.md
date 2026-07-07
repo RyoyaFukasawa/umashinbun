@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 83 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 82 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-07-06** [新馬戦総括 ショウナンガレオン衝撃レコードV——フライトライン産駒がクラシック主役候補に](https://news.netkeiba.com/?pid=news_view&no=336279) *(netkeiba ニュース＆コラム)*
-- **2026-07-06** [カランダガン グランプリ・ド・サンクルー連覇——2002年以来の2勝目、次走キングジョージへ](https://www.bloodhorse.com/horse-racing/articles/292936/calandagan-repeats-in-thrilling-saint-cloud) *(BloodHorse)*
-- **2026-07-06** [英エクリプスS コンスティテューションリバーが圧巻V——オブライエン師は史上初4連覇・最多10勝](https://news.yahoo.co.jp/articles/58274f5b17164a1332b41c8f04fe7476459f9c18) *(競馬のおはなし (Yahoo!ニュース経由))*
-- **2026-07-06** [サトノレーヴ ルメールと再コンビで英ジュライC参戦——英国滞在継続で7月11日ニューマーケット直線決戦へ](https://news.netkeiba.com/?pid=news_view&no=336259) *(netkeiba ニュース＆コラム)*
-- **2026-07-06** [英ダービー馬モティヴェイター、24歳で死去——タイトルホルダー外祖父、凱旋門賞連覇トレヴの父](https://news.yahoo.co.jp/articles/778d86cd95ef5f549c95c57d3f4a113df9227654) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-07** [エフフォーリア産駒イッペイが武豊とデビュー——12日函館2歳新馬(芝1800m)](https://news.yahoo.co.jp/articles/541612be6c79247b670273cb12f2f038b70186d6) *(馬トク報知)*
+- **2026-07-07** [バイエルン(2014 BCクラシック優勝馬)が15歳で死去——韓国グレートヒルファームでの繁殖中にヘルニア手術後の合併症](https://www.bloodhorse.com/horse-racing/articles/292975/bayern-breeders-cup-classic-winner-dies-at-15) *(BloodHorse)*
+- **2026-07-07** [藤原英昭調教師の不服申し立て棄却——函館記念の裁決取り消し求めるも裁定委員会で否決](https://news.yahoo.co.jp/articles/c3508151f903869651e0b809ebed659827e8b021) *(馬トク報知)*
+- **2026-07-07** [デアリングタクト×イクイノックスの当歳牡馬、セレクトセール2026に上場——岡田牧雄代表「3億でも買う」](https://news.yahoo.co.jp/articles/871ffce1e24b1b59b3e54701ce3e9e28f6b00a26) *(馬トク報知)*
+- **2026-07-07** [アロヒアリイ、1年3か月ぶり国内復帰——11日函館・五稜郭Sで再出発](https://news.netkeiba.com/?pid=news_view&no=336329) *(netkeiba ニュース＆コラム)*
 
 ## 仕組み
 

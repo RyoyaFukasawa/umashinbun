@@ -1,19 +1,18 @@
 ---
-kind: jockeys
-name: 小林美駒
-related_horses: 2
+kind: breeders
+name: ASK STUD
+related_horses: 1
 related_articles: 2
 ---
 
-# 🏇 小林美駒
-*騎手*
+# 🏡 ASK STUD
+*生産者・牧場*
 
 [索引へ](README.md)
 
-## 🐎 関連する馬 (2頭)
+## 🐎 関連する馬 (1頭)
 
 - [ケリフレッドアスク](../horses/ケリフレッドアスク.md)
-- [ファウストラーゼン](../horses/ファウストラーゼン.md)
 
 ## 📰 関連記事 (2件)
 
