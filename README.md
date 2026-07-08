@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 82 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 81 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-07-07** [エフフォーリア産駒イッペイが武豊とデビュー——12日函館2歳新馬(芝1800m)](https://news.yahoo.co.jp/articles/541612be6c79247b670273cb12f2f038b70186d6) *(馬トク報知)*
-- **2026-07-07** [バイエルン(2014 BCクラシック優勝馬)が15歳で死去——韓国グレートヒルファームでの繁殖中にヘルニア手術後の合併症](https://www.bloodhorse.com/horse-racing/articles/292975/bayern-breeders-cup-classic-winner-dies-at-15) *(BloodHorse)*
-- **2026-07-07** [藤原英昭調教師の不服申し立て棄却——函館記念の裁決取り消し求めるも裁定委員会で否決](https://news.yahoo.co.jp/articles/c3508151f903869651e0b809ebed659827e8b021) *(馬トク報知)*
-- **2026-07-07** [デアリングタクト×イクイノックスの当歳牡馬、セレクトセール2026に上場——岡田牧雄代表「3億でも買う」](https://news.yahoo.co.jp/articles/871ffce1e24b1b59b3e54701ce3e9e28f6b00a26) *(馬トク報知)*
-- **2026-07-07** [アロヒアリイ、1年3か月ぶり国内復帰——11日函館・五稜郭Sで再出発](https://news.netkeiba.com/?pid=news_view&no=336329) *(netkeiba ニュース＆コラム)*
+- **2026-07-08** [フロリダの小規模スタリオン・バハミアンスコール（ゴーンウェスト産駒）が17歳で逝去](https://www.bloodhorse.com/horse-racing/articles/292758/double-diamond-homebred-sire-bahamian-squall-dies-at-17) *(BloodHorse)*
+- **2026-07-08** [英国馬タイトルロールが米独立記念日にベルモントダービーG1制覇——欧州馬がサラトガ芝G1を独占](https://news.yahoo.co.jp/articles/6caae70e039839ca0cd088b7b6972cda5433b650) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-08** [JRA、「重大な非行」の橋木太希騎手への第1回裁定委員会を開催——最終処分は第2回終了後](https://news.yahoo.co.jp/articles/2480bd98d8f661295a26cbc473bf7816a7487275) *(東スポ競馬 (Yahoo!ニュース経由))*
+- **2026-07-08** [仏G2制覇・凱旋門賞出走のアロヒアリイ、賞金制度の壁で3勝クラス・函館五稜郭Sへ——世界53位(119)が国内復帰](https://news.yahoo.co.jp/articles/39135bd951ed6afdf52f43f8ea245fd20fd0ea0d) *(馬トク報知 (Yahoo!ニュース経由))*
+- **2026-07-08** [タガノミストがスパーキングレディーカップ（JpnIII）初制覇——松山「乗るたびに成長」](https://news.yahoo.co.jp/articles/8dca9b6a86d203b8e2b356832db7835e5a573343) *(競馬のおはなし (Yahoo!ニュース経由))*
 
 ## 仕組み
 
