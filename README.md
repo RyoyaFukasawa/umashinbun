@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 81 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 80 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-07-08** [フロリダの小規模スタリオン・バハミアンスコール（ゴーンウェスト産駒）が17歳で逝去](https://www.bloodhorse.com/horse-racing/articles/292758/double-diamond-homebred-sire-bahamian-squall-dies-at-17) *(BloodHorse)*
-- **2026-07-08** [英国馬タイトルロールが米独立記念日にベルモントダービーG1制覇——欧州馬がサラトガ芝G1を独占](https://news.yahoo.co.jp/articles/6caae70e039839ca0cd088b7b6972cda5433b650) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-08** [JRA、「重大な非行」の橋木太希騎手への第1回裁定委員会を開催——最終処分は第2回終了後](https://news.yahoo.co.jp/articles/2480bd98d8f661295a26cbc473bf7816a7487275) *(東スポ競馬 (Yahoo!ニュース経由))*
-- **2026-07-08** [仏G2制覇・凱旋門賞出走のアロヒアリイ、賞金制度の壁で3勝クラス・函館五稜郭Sへ——世界53位(119)が国内復帰](https://news.yahoo.co.jp/articles/39135bd951ed6afdf52f43f8ea245fd20fd0ea0d) *(馬トク報知 (Yahoo!ニュース経由))*
-- **2026-07-08** [タガノミストがスパーキングレディーカップ（JpnIII）初制覇——松山「乗るたびに成長」](https://news.yahoo.co.jp/articles/8dca9b6a86d203b8e2b356832db7835e5a573343) *(競馬のおはなし (Yahoo!ニュース経由))*
+- **2026-07-09** [【POG】新種牡馬オジュウチョウサン産駒のタクミオジュウは動きも柔らかく走りも素軽い スター候補誕生に陣営期待](https://news.netkeiba.com/?pid=news_view&no=336517) *(netkeiba ニュース＆コラム)*
+- **2026-07-09** [【福島新馬戦】リサナウト評判上々 黒岩師「気も動きもいい」](https://news.netkeiba.com/?pid=news_view&no=336507) *(netkeiba ニュース＆コラム)*
+- **2026-07-09** [レベルズロマンス、プリンセスオブウェールズS(G2)を貫録の快勝・秋BCタ−フ3連覇も視野](https://www.bloodhorse.com/horse-racing/articles/293005/rebels-romance-digs-deep-in-princess-of-waless-stakes) *(BloodHorse All News)*
+- **2026-07-09** [フィールドオブゴールド引退・2027年よりジャドモントで父キングマンと同厩種牡馬入り](https://www.bloodhorse.com/horse-racing/articles/292935/field-of-gold-retired-to-stand-at-juddmonte-in-2027) *(BloodHorse Thoroughbred Breeding)*
+- **2026-07-09** [マスカレードボールとヴェルテンベルクが7/25キングジョージVI&QE2S(G1)へ美浦で最終追い切り完了](https://news.netkeiba.com/?pid=news_view&no=336514) *(netkeiba ニュース＆コラム)*
 
 ## 仕組み
 
