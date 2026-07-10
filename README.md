@@ -1,4 +1,4 @@
-> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 80 日
+> 🏆 次のG1: **スプリンターズステークス** (G1) — 2026-09-27 (日) ・ 中山 ・ 芝1200m ・ あと 79 日
 
 # umashinbun 馬新聞
 
@@ -37,11 +37,11 @@
 
 ## 最新の記事5件
 
-- **2026-07-09** [【POG】新種牡馬オジュウチョウサン産駒のタクミオジュウは動きも柔らかく走りも素軽い スター候補誕生に陣営期待](https://news.netkeiba.com/?pid=news_view&no=336517) *(netkeiba ニュース＆コラム)*
-- **2026-07-09** [【福島新馬戦】リサナウト評判上々 黒岩師「気も動きもいい」](https://news.netkeiba.com/?pid=news_view&no=336507) *(netkeiba ニュース＆コラム)*
-- **2026-07-09** [レベルズロマンス、プリンセスオブウェールズS(G2)を貫録の快勝・秋BCタ−フ3連覇も視野](https://www.bloodhorse.com/horse-racing/articles/293005/rebels-romance-digs-deep-in-princess-of-waless-stakes) *(BloodHorse All News)*
-- **2026-07-09** [フィールドオブゴールド引退・2027年よりジャドモントで父キングマンと同厩種牡馬入り](https://www.bloodhorse.com/horse-racing/articles/292935/field-of-gold-retired-to-stand-at-juddmonte-in-2027) *(BloodHorse Thoroughbred Breeding)*
-- **2026-07-09** [マスカレードボールとヴェルテンベルクが7/25キングジョージVI&QE2S(G1)へ美浦で最終追い切り完了](https://news.netkeiba.com/?pid=news_view&no=336514) *(netkeiba ニュース＆コラム)*
+- **2026-07-10** [セレクトセール2026注目馬 イクイノックス・ドウデュース・キタサンブラック産駒が今年も高騰必至](https://news.yahoo.co.jp/articles/6923c8da986297784b546a92bf59db29d1fe4649) *(馬トク報知)*
+- **2026-07-10** [豪州の高額賞金レース・ゴールデンイーグルがG1に格付け 23年にオオバンブルマイが優勝](https://news.yahoo.co.jp/articles/a2c117311ad82df769b2587d4a3dd9aea19efce0) *(馬トク報知)*
+- **2026-07-10** [サトノレーヴが英G1ジュライカップ8番ゲートから海外G1初V狙う 堀師「しっかりと能力を発揮させたい」](https://news.yahoo.co.jp/articles/1737d53e316d02a7c3bbfbfffaae5cf2fb6f1a13) *(馬トク報知)*
+- **2026-07-10** [カタリテが安楽死 まだ3歳…早すぎる別れ ノルマンディーOCが発表](https://news.yahoo.co.jp/articles/edb772eb00ab8baf54b8601cab6c84f6e4aa9a98) *(馬トク報知)*
+- **2026-07-10** [5000勝にM2 ファンの期待背負う武豊騎手は函館で騎乗 土曜5鞍、日曜7鞍の騎乗馬一覧](https://news.netkeiba.com/?pid=news_view&no=336573) *(netkeiba ニュース＆コラム)*
 
 ## 仕組み
 

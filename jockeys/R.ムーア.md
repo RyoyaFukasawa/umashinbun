@@ -2,7 +2,7 @@
 kind: jockeys
 name: R.ムーア
 related_horses: 4
-related_articles: 9
+related_articles: 10
 ---
 
 # 🏇 R.ムーア
@@ -17,8 +17,9 @@ related_articles: 9
 - [ジョリースター](../horses/ジョリースター.md)
 - [ルガル](../horses/ルガル.md)
 
-## 📰 関連記事 (9件)
+## 📰 関連記事 (10件)
 
+- **2026-07-10** — [サトノレーヴが英G1ジュライカップ8番ゲートから海外G1初V狙う 堀師「しっかりと能力を発揮させたい」](https://news.yahoo.co.jp/articles/1737d53e316d02a7c3bbfbfffaae5cf2fb6f1a13) *(出典: 馬トク報知)*
 - **2026-07-06** — [サトノレーヴ ルメールと再コンビで英ジュライC参戦——英国滞在継続で7月11日ニューマーケット直線決戦へ](https://news.netkeiba.com/?pid=news_view&no=336259) *(出典: netkeiba ニュース＆コラム)*
 - **2026-07-03** — [鮫島克駿騎手に7日間の騎乗停止——英G1アスコットでのムチ使用違反をJRAが国内にも適用](https://news.yahoo.co.jp/articles/ff54c994eef951ef9fdde8713c9ae055debd4c9c?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-06-24** — [ゴドルフィンとクールモアの叩き合い！ロイヤルアスコット開催の〝個人的〟ハイライト](https://news.yahoo.co.jp/articles/fa70d155fb0d969f1e08d065b78aa3758ddd3699?source=rss) *(出典: 東スポ競馬)*

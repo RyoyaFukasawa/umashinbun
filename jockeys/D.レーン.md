@@ -2,7 +2,7 @@
 kind: jockeys
 name: D.レーン
 related_horses: 30
-related_articles: 120
+related_articles: 121
 ---
 
 # 🏇 D.レーン
@@ -43,8 +43,9 @@ related_articles: 120
 - [ロデオドライブ](../horses/ロデオドライブ.md)
 - [ワールズエンド](../horses/ワールズエンド.md)
 
-## 📰 関連記事 (120件)
+## 📰 関連記事 (121件)
 
+- **2026-07-10** — [豪州の高額賞金レース・ゴールデンイーグルがG1に格付け 23年にオオバンブルマイが優勝](https://news.yahoo.co.jp/articles/a2c117311ad82df769b2587d4a3dd9aea19efce0) *(出典: 馬トク報知)*
 - **2026-07-06** — [新馬戦総括 ショウナンガレオン衝撃レコードV——フライトライン産駒がクラシック主役候補に](https://news.netkeiba.com/?pid=news_view&no=336279) *(出典: netkeiba ニュース＆コラム)*
 - **2026-07-03** — [昨年の凱旋門賞馬ダリズが夏季休養入り——前走プリンスオブウェールズS3着の敗因は体調不良、秋の連覇へ態勢立て直し](https://news.yahoo.co.jp/articles/0a1f99564c5b167ddc2053c638a9c3fba3eae4f7?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
 - **2026-07-02** — [フライトライン産駒ショウナンガレオンが7月5日函館でデビュー 2.1億円の世界注目産駒](https://news.yahoo.co.jp/articles/4249ae96c3b166ef6140d331154cf36811367500?source=rss) *(出典: 馬トク報知 (Yahoo!ニュース経由))*
