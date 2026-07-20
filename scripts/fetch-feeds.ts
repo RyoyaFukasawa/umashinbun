@@ -86,9 +86,20 @@ async function main() {
           continue;
         }
         perCategoryUrls.add(url);
+        // 取得時の機械的 news 分類（ROUTINES_PROMPT の選定時文脈判断と役割が異なる）。
+        // 訃報・処分・JRA抹消など業界 news 性の高いキーワードにマッチした場合のみ上書き。
+        const NEWS_KEYWORDS = [
+          "訃報", "死去", "死亡", "永眠",
+          "騎乗停止", "制裁", "懲戒",
+          "転厩", "転籍", "JRA抹消", "登録抹消", "廃業", "廃止",
+        ];
+        const isNewsTitle =
+          NEWS_KEYWORDS.some((k) => item.title.includes(k)) ||
+          /\d{3,4}勝/.test(item.title);
+        const category = isNewsTitle ? "news" : feed.category;
         candidates.push({
           source: feed.name,
-          category: feed.category,
+          category,
           paywalled: !!feed.paywalled,
           unverified: !!feed.unverified,
           title_en: item.title,
