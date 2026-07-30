@@ -41,13 +41,23 @@
   },
   {
     "id": "2026-hakodate-sprint-s",
-    "name": "2026-hakodate-sprint-s",
-    "grade": "未分類",
-    "date": "",
-    "course": "",
-    "distance": "",
+    "name": "函館スプリントステークス",
+    "grade": "G3",
+    "date": "2026-07-13",
+    "course": "函館",
+    "distance": "芝1200m",
     "planned_horses": [],
     "origin": "article"
+  },
+  {
+    "id": "2026-tanabata-sho",
+    "name": "七夕賞",
+    "grade": "G3",
+    "date": "2026-07-12",
+    "course": "福島",
+    "distance": "芝2000m",
+    "planned_horses": [],
+    "origin": "manual"
   },
   {
     "id": "2026-hanshin-juvenile-fillies",
